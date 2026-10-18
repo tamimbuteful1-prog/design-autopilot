@@ -5,7 +5,7 @@ import { chooseIdea } from '../src/lib/ideas.mjs';
 import { renderFrame } from '../src/lib/render.mjs';
 const out = process.argv[2] || 'out/preview';
 const cats = (process.argv[3] || 'mobile,dashboard,website,uiux,product,packaging').split(',');
-const frames = (process.argv[4] || '8,22,36,70,110,140,168,196,250,305').split(',').map(Number);
+const frames = (process.argv[4] || '12,34,50,70,120,154,190,224,260,296,322,342,352,390').split(',').map(Number);
 fs.mkdirSync(out, { recursive: true });
 let entries = [];
 for (let day = 0; day < 12 && cats.length; day++) {

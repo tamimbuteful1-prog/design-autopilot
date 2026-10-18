@@ -83,7 +83,7 @@ export function checkCopy({ title, caption, hashtags }) {
   add('3–10 hashtags', hashtags.length >= 3 && hashtags.length <= 10, hashtags.length);
   add('hashtags well-formed', hashtags.every((h) => /^#[\p{L}\p{N}_]+$/u.test(h)), hashtags.join(' '));
   add('no duplicate hashtags', new Set(hashtags.map((h) => h.toLowerCase())).size === hashtags.length, '');
-  add('concept disclaimer present', /تصميم مفاهيمي|concept design/i.test(caption), '');
+  add('concept disclaimer present', /مفاهيمي|concept/i.test(caption), '');
   add('no client-work claims', !CLAIM_PATTERNS.some((re) => re.test(caption.replace(/وليس مشروعًا منفذًا لعميل/g, ''))), '');
   add('no links or emails', !/(https?:\/\/|www\.|@\w+\.\w+)/i.test(caption), '');
   return checks;

@@ -3,39 +3,16 @@
   "beatFrames": 14,
   "totalFrames": 420,
   "shots": {
-    "hook": [
-      0,
-      42
-    ],
-    "build": [
-      42,
-      98
-    ],
-    "focus1": [
-      98,
-      140
-    ],
-    "focus2": [
-      140,
-      182
-    ],
-    "focus3": [
-      182,
-      224
-    ],
-    "palette": [
-      224,
-      252
-    ],
-    "hero": [
-      252,
-      336
-    ],
-    "cta": [
-      336,
-      420
-    ]
+    "hook": [0, 56],
+    "show": [42, 352],
+    "cta": [350, 420]
   },
-  "dropFrame": 42,
-  "thumbnailFrame": 278
+  "camera": {
+    "enter": [56, 98],
+    "focus": [[98, 140], [168, 210], [238, 280]],
+    "hero": [308, 336],
+    "zoomThrough": [334, 354]
+  },
+  "dropFrame": 56,
+  "thumbnailFrame": 322
 }

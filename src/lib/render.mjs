@@ -18,15 +18,15 @@ export async function prepareBrowser() {
   if (!config.browserExecutable) await ensureBrowser();
 }
 
-export async function getComposition(inputProps) {
+export async function getComposition(inputProps, id = 'DesignReel') {
   const serveUrl = await getBundle();
-  const composition = await selectComposition({ serveUrl, id: 'DesignReel', inputProps, ...browserOpts() });
+  const composition = await selectComposition({ serveUrl, id, inputProps, ...browserOpts() });
   return { serveUrl, composition };
 }
 
 /** Render silent H.264 video. Audio is muxed afterwards (see audio.mjs). */
-export async function renderVideo(inputProps, outFile, onProgress) {
-  const { serveUrl, composition } = await getComposition(inputProps);
+export async function renderVideo(inputProps, outFile, onProgress, id = 'DesignReel') {
+  const { serveUrl, composition } = await getComposition(inputProps, id);
   fs.mkdirSync(path.dirname(outFile), { recursive: true });
   await renderMedia({
     serveUrl,
@@ -45,8 +45,8 @@ export async function renderVideo(inputProps, outFile, onProgress) {
   return { durationInFrames: composition.durationInFrames, fps: composition.fps };
 }
 
-export async function renderFrame(inputProps, frame, outFile) {
-  const { serveUrl, composition } = await getComposition(inputProps);
+export async function renderFrame(inputProps, frame, outFile, id = 'DesignReel') {
+  const { serveUrl, composition } = await getComposition(inputProps, id);
   await renderStill({ serveUrl, composition, inputProps, frame, output: outFile, imageFormat: 'jpeg', jpegQuality: 88, ...browserOpts() });
   return outFile;
 }

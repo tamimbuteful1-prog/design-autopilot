@@ -226,3 +226,38 @@ export function setAutoMode(on, by = 'owner') {
   saveControl({ ...c, autoMode: on, autoModeChangedAt: new Date().toISOString(), autoModeChangedBy: by });
   log(on ? '🤖 automatic mode ON' : '✋ approval mode ON');
 }
+
+/** One-off "what we offer" video covering every service (not part of the daily rotation). */
+export async function servicesVideo() {
+  const { CATEGORIES } = await import('./catalog.mjs');
+  const ideas = [];
+  CATEGORIES.forEach((category, i) => {
+    const entries = ideas.map((idea) => ({ idea, status: 'test' }));
+    let idea;
+    for (let a = 0; a < 40 && (!idea || idea.category !== category); a++) {
+      // walk the rotation until we land on the wanted category
+      idea = chooseIdea({ entries: entries.length ? entries : [], date: `services-${i}-${a}`, seed: `services-${i}-${a}` });
+      if (idea.category !== category) entries.push({ idea, status: 'test' });
+    }
+    ideas.push(idea);
+  });
+  ideas.forEach((idea, i) => { idea.code = `S0${i + 1}`; });
+  const dir = path.join(config.outDir, 'services');
+  fs.mkdirSync(dir, { recursive: true });
+  await prepareBrowser();
+  const props = { ideas, handle: config.brandHandle, cta: config.ctaText };
+  const silent = path.join(dir, 'silent.mp4');
+  log('🎬 rendering services video');
+  await renderVideo(props, silent, undefined, 'ServicesReel');
+  const SERVICES_TIMELINE_NODE = { total: 438, drop: 56, cta: 378 }; // mirrors SERVICES_TIMELINE in src/remotion/ServicesReel.tsx
+  const wav = path.join(dir, 'music.wav');
+  writeWav(wav, synthesize({ seconds: SERVICES_TIMELINE_NODE.total / config.fps, seed: 'services', dropFrame: SERVICES_TIMELINE_NODE.drop, ctaFrame: SERVICES_TIMELINE_NODE.cta }));
+  const final = path.join(dir, 'services.mp4');
+  muxAudio({ video: silent, wav, out: final });
+  fs.rmSync(silent);
+  fs.rmSync(wav);
+  const qa = checkVideo(final, { minSec: 10, maxSec: 15 });
+  qa.forEach((c) => log(`${c.ok ? '✅' : '❌'} ${c.name} — ${c.detail}`));
+  if (qa.some((c) => !c.ok)) process.exitCode = 1;
+  return final;
+}

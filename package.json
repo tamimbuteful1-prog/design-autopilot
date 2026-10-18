@@ -19,6 +19,7 @@
     "sync": "node scripts/run.mjs sync",
     "buffer:discover": "node scripts/run.mjs discover",
     "dashboard": "node scripts/run.mjs dashboard",
+    "services": "node scripts/run.mjs services",
     "studio": "remotion studio src/remotion/index.ts",
     "test": "node --test test/*.test.mjs"
   },

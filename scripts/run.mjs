@@ -22,6 +22,7 @@ const commands = {
   'auto-on': () => P.setAutoMode(true, by),
   'auto-off': () => P.setAutoMode(false, by),
   sync: () => P.sync(),
+  services: () => P.servicesVideo(),
   discover: async () => console.log(JSON.stringify(await discover(), null, 2)),
   dashboard: () => buildDashboardData(),
   status: () => {

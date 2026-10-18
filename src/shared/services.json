@@ -1,0 +1,56 @@
+{
+  "mobile": {
+    "name": { "ar": "تصميم تطبيقات الجوال", "en": "Mobile App Design" },
+    "hook": ["عندك فكرة تطبيق؟", "نصممه لك باحترافية"],
+    "offers": [
+      ["واجهات iOS و Android", "iOS & Android UI"],
+      ["تجربة استخدام سهلة", "Effortless UX"],
+      ["ملفات جاهزة للمبرمج", "Developer-ready files"]
+    ]
+  },
+  "dashboard": {
+    "name": { "ar": "تصميم لوحات التحكم", "en": "Dashboard Design" },
+    "hook": ["بياناتك مبعثرة؟", "نصمم لك لوحة تحكم واضحة"],
+    "offers": [
+      ["مؤشرات واضحة بنظرة", "KPIs at a glance"],
+      ["رسوم بيانية سهلة القراءة", "Readable charts"],
+      ["نظام تصميم قابل للتوسع", "Scalable design system"]
+    ]
+  },
+  "website": {
+    "name": { "ar": "تصميم المواقع وصفحات الهبوط", "en": "Website Design" },
+    "hook": ["تبي موقع يجيب عملاء؟", "نصمم لك موقعك"],
+    "offers": [
+      ["صفحة رئيسية تقنع الزائر", "A homepage that converts"],
+      ["تصميم متجاوب مع الجوال", "Fully responsive"],
+      ["جاهز للتطوير مباشرة", "Ready for development"]
+    ]
+  },
+  "uiux": {
+    "name": { "ar": "تجربة المستخدم UI/UX", "en": "UI/UX Design" },
+    "hook": ["عملاؤك يتوهون في منتجك؟", "نصمم لهم تجربة سهلة"],
+    "offers": [
+      ["دراسة رحلة المستخدم", "User journey mapping"],
+      ["نموذج تفاعلي قبل البرمجة", "Clickable prototype"],
+      ["نظام تصميم متكامل", "Complete design system"]
+    ]
+  },
+  "product": {
+    "name": { "ar": "تصميم المنتجات", "en": "Product Design" },
+    "hook": ["عندك منتج جديد؟", "نصمم شكله من الصفر"],
+    "offers": [
+      ["تصميم شكل المنتج", "Form & concept"],
+      ["مواصفات وخامات مدروسة", "Specs & materials"],
+      ["تشكيلة ألوان متكاملة", "Colourway range"]
+    ]
+  },
+  "packaging": {
+    "name": { "ar": "تصميم التغليف", "en": "Packaging Design" },
+    "hook": ["منتجك ما يلفت النظر؟", "نصمم لك تغليف يبيع"],
+    "offers": [
+      ["ملصق يخطف العين على الرف", "Shelf-stopping label"],
+      ["تشكيلة لكل النكهات", "A full range system"],
+      ["ملفات جاهزة للطباعة", "Print-ready files"]
+    ]
+  }
+}

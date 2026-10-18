@@ -1,0 +1,29 @@
+name: Services video
+
+# Renders the "وش نقدم؟" video covering every service. Download it from the run's Artifacts.
+on:
+  workflow_dispatch:
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      BRAND_HANDLE: ${{ vars.BRAND_HANDLE }}
+      CTA_TEXT: ${{ vars.CTA_TEXT }}
+      DRY_RUN: 'true'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - name: Install ffmpeg
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - run: npm ci
+      - run: node scripts/run.mjs services
+      - uses: actions/upload-artifact@v4
+        with:
+          name: services-video
+          path: out/services/services.mp4
+          retention-days: 30

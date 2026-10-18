@@ -20,7 +20,7 @@ const PENTA = [0, 2, 4, 7, 9];
 const STAB_PATTERNS = ['0010001000100010', '1001001000100100', '0010010010010010'];
 const LEAD_PATTERNS = ['1011010110110101', '1010110110101101', '1101101011011010'];
 
-export function synthesize({ seconds, seed }) {
+export function synthesize({ seconds, seed, dropFrame = TL.dropFrame, ctaFrame = TL.shots.cta[0] }) {
   const rng = makeRng(`audio:${seed}`);
   const n = Math.round(seconds * SR);
   const drums = [new Float32Array(n), new Float32Array(n)];
@@ -28,8 +28,8 @@ export function synthesize({ seconds, seed }) {
   const send = [new Float32Array(n), new Float32Array(n)];
   const beat = TL.beatFrames / TL.fps; // 0.4667 s
   const step = beat / 4;
-  const drop = TL.dropFrame / TL.fps;
-  const ctaAt = TL.shots.cta[0] / TL.fps;
+  const drop = dropFrame / TL.fps;
+  const ctaAt = ctaFrame / TL.fps;
   const end = seconds - 0.35;
   const key = 48 + rng.pick([0, 2, 5, 7, -3]); // C, D, F, G or A as tonic (bass octave)
   const prog = rng.pick(PROGRESSIONS);
