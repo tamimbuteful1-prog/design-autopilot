@@ -1,0 +1,51 @@
+name: Owner commands
+
+# /approve and /reject as comments on an approval issue;
+# /pause, /resume, /auto-on, /auto-off, /retry <code> as the title of a new issue.
+on:
+  issues:
+    types: [opened]
+  issue_comment:
+    types: [created]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: autopilot-state
+  cancel-in-progress: false
+
+jobs:
+  command:
+    if: >-
+      startsWith(github.event.comment.body || github.event.issue.title, '/') &&
+      (github.event.comment.author_association || github.event.issue.author_association) == 'OWNER'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+      BUFFER_TIKTOK_CHANNEL_ID: ${{ secrets.BUFFER_TIKTOK_CHANNEL_ID }}
+      BUFFER_ORGANIZATION_ID: ${{ secrets.BUFFER_ORGANIZATION_ID }}
+      NOTIFY_WEBHOOK_URL: ${{ secrets.NOTIFY_WEBHOOK_URL }}
+      POST_TIME_LOCAL: ${{ vars.POST_TIME_LOCAL || '19:00' }}
+      POST_TIMEZONE: ${{ vars.POST_TIMEZONE || 'Asia/Riyadh' }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci --omit=dev
+      - run: node scripts/command.mjs
+      - name: Save state and dashboard
+        if: always()
+        run: |
+          git config user.name "design-autopilot[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state docs
+          git diff --cached --quiet && exit 0
+          git commit -m "autopilot: owner command on #${{ github.event.issue.number }} [skip ci]"
+          for i in 1 2 3; do git pull --rebase -q && git push -q && exit 0; sleep 5; done
+          exit 1

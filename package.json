@@ -1,0 +1,43 @@
+{
+  "name": "design-autopilot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Daily original design-concept videos for a freelance-design TikTok account, rendered with Remotion and published via Buffer.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "daily": "node scripts/run.mjs daily",
+    "generate": "node scripts/run.mjs generate",
+    "publish-approved": "node scripts/run.mjs publish-approved",
+    "approve": "node scripts/run.mjs approve",
+    "reject": "node scripts/run.mjs reject",
+    "pause": "node scripts/run.mjs pause",
+    "resume": "node scripts/run.mjs resume",
+    "status": "node scripts/run.mjs status",
+    "sync": "node scripts/run.mjs sync",
+    "buffer:discover": "node scripts/run.mjs discover",
+    "dashboard": "node scripts/run.mjs dashboard",
+    "studio": "remotion studio src/remotion/index.ts",
+    "test": "node --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.1152.0",
+    "@fontsource/ibm-plex-sans-arabic": "^5.3.0",
+    "@fontsource/inter": "^5.3.0",
+    "@fontsource/jetbrains-mono": "^5.3.0",
+    "@fontsource/playfair-display": "^5.3.0",
+    "@fontsource/space-grotesk": "^5.3.0",
+    "@remotion/bundler": "4.0.536",
+    "@remotion/cli": "4.0.536",
+    "@remotion/renderer": "4.0.536",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "remotion": "4.0.536"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "typescript": "^5.6.0"
+  }
+}

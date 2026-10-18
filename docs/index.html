@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>لوحة النشر اليومي</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #E9ECEF; --sheet: #F8F9FA; --ink: #14161A; --muted: #5B626C; --line: #D3D8DE;
+    --on: #1F9D57; --wait: #C98A0B; --stop: #D3392A; --act: #2448E8; --act-ink: #FFFFFF;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) { --bg: #121417; --sheet: #1B1E22; --ink: #EEF0F2; --muted: #9AA2AC; --line: #2C3137; --act: #7C95FF; --act-ink: #0E1013; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.6 "IBM Plex Sans Arabic", system-ui, sans-serif; }
+  main { max-width: 1120px; margin: 0 auto; padding: 28px 16px 64px; }
+  a { color: inherit; }
+  :focus-visible { outline: 3px solid var(--act); outline-offset: 2px; border-radius: 6px; }
+
+  .state > *, .wall > *, .meta > * { min-width: 0; }
+  .state { display: grid; grid-template-columns: auto 1fr auto; gap: 18px; align-items: center; background: var(--sheet); border: 1px solid var(--line); border-radius: 20px; padding: 22px; }
+  .tally { width: 22px; height: 22px; border-radius: 50%; background: var(--on); box-shadow: 0 0 0 7px color-mix(in srgb, var(--on) 22%, transparent); }
+  .state[data-s="paused"] .tally { background: var(--stop); box-shadow: 0 0 0 7px color-mix(in srgb, var(--stop) 22%, transparent); }
+  .state h1 { margin: 0; font-size: clamp(22px, 4vw, 30px); line-height: 1.3; }
+  .state p { margin: 2px 0 0; color: var(--muted); }
+  .btn { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 0 22px; border-radius: 12px; font-weight: 600; text-decoration: none; border: 1.5px solid var(--line); background: transparent; white-space: nowrap; }
+  .btn.primary { background: var(--act); color: var(--act-ink); border-color: var(--act); }
+  .btn.danger { background: var(--stop); color: #fff; border-color: var(--stop); }
+
+  .film { margin-top: 18px; background: var(--sheet); border: 1px solid var(--line); border-radius: 20px; padding: 20px 22px; }
+  .film h2, .wall-head h2 { margin: 0; font-size: 18px; }
+  .film p { margin: 4px 0 14px; color: var(--muted); font-size: 15px; }
+  .cells { display: grid; grid-template-columns: repeat(7, minmax(0, 76px)); gap: 10px; padding: 10px 0; border-block: 6px dotted var(--line); }
+  .cell { aspect-ratio: 9/14; border-radius: 8px; border: 1.5px dashed var(--line); display: grid; place-items: center; color: var(--muted); font-weight: 600; font-variant-numeric: tabular-nums; }
+  .cell.done { background: var(--on); border: 0; color: #fff; }
+
+  .wall-head { display: flex; justify-content: space-between; align-items: end; gap: 12px; margin: 34px 0 14px; flex-wrap: wrap; }
+  .filters { display: flex; gap: 6px; flex-wrap: wrap; }
+  .filters button { font: inherit; font-size: 14px; padding: 6px 14px; border-radius: 999px; border: 1px solid var(--line); background: var(--sheet); color: var(--ink); cursor: pointer; }
+  .filters button[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+
+  .wall { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 16px; }
+  .clip { background: var(--sheet); border: 1px solid var(--line); border-radius: 16px; overflow: hidden; display: flex; flex-direction: column; }
+  .frame { aspect-ratio: 9/16; background: var(--line) center/cover no-repeat; position: relative; }
+  .chip { position: absolute; top: 10px; inset-inline-start: 10px; font-size: 13px; font-weight: 600; padding: 3px 10px; border-radius: 999px; background: var(--sheet); color: var(--ink); display: flex; align-items: center; gap: 6px; }
+  .chip i { width: 8px; height: 8px; border-radius: 50%; background: var(--muted); }
+  .chip[data-k="live"] i { background: var(--on); } .chip[data-k="wait"] i { background: var(--wait); } .chip[data-k="bad"] i { background: var(--stop); } .chip[data-k="sched"] i { background: var(--act); }
+  .meta { padding: 12px 14px 14px; display: flex; flex-direction: column; gap: 4px; flex: 1; }
+  .meta strong { font-size: 15px; line-height: 1.45; }
+  .meta small { color: var(--muted); font-size: 13px; }
+  .swatches { display: flex; gap: 4px; margin-top: 4px; } .swatches span { width: 16px; height: 16px; border-radius: 4px; border: 1px solid var(--line); }
+  .links { display: flex; gap: 8px; margin-top: 8px; flex-wrap: wrap; }
+  .links a { font-size: 13px; font-weight: 600; padding: 6px 12px; border-radius: 8px; background: var(--bg); text-decoration: none; }
+  .links a.go { background: var(--act); color: var(--act-ink); }
+  .empty { padding: 40px; text-align: center; color: var(--muted); background: var(--sheet); border-radius: 16px; border: 1px dashed var(--line); }
+  footer { margin-top: 40px; color: var(--muted); font-size: 13px; }
+  @media (max-width: 640px) {
+    .state { grid-template-columns: auto 1fr; } .state .btn { grid-column: 1 / -1; }
+    .wall { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+    .cells { gap: 5px; grid-template-columns: repeat(7, minmax(0, 1fr)); }
+  }
+</style>
+</head>
+<body>
+<main>
+  <section class="state" id="state" data-s="on" aria-live="polite">
+    <span class="tally" aria-hidden="true"></span>
+    <div><h1 id="state-title">جارٍ التحميل…</h1><p id="state-sub"></p></div>
+    <a class="btn danger" id="toggle" href="#">إيقاف النشر مؤقتًا</a>
+  </section>
+
+  <section class="film">
+    <h2 id="film-title">مرحلة الموافقة اليدوية</h2>
+    <p id="film-sub"></p>
+    <div class="cells" id="cells"></div>
+  </section>
+
+  <div class="wall-head">
+    <h2>الفيديوهات</h2>
+    <div class="filters" role="group" aria-label="تصفية">
+      <button data-f="all" aria-pressed="true">الكل</button>
+      <button data-f="wait">بانتظار موافقتك</button>
+      <button data-f="sched">مجدولة</button>
+      <button data-f="live">منشورة</button>
+      <button data-f="bad">تحتاج تدخلًا</button>
+    </div>
+  </div>
+  <section class="wall" id="wall"></section>
+  <footer id="foot"></footer>
+</main>
+<script>
+const KIND = { published: 'live', scheduled: 'sched', publishing: 'sched', awaiting_approval: 'wait', approved: 'wait', failed: 'bad', qa_failed: 'bad', needs_review: 'bad', rejected: 'off', generating: 'off' };
+const LABEL = { published: 'منشور', scheduled: 'مجدول', publishing: 'قيد الإرسال', awaiting_approval: 'بانتظار موافقتك', approved: 'موافَق عليه', failed: 'فشل', qa_failed: 'لم يجتز الفحص', needs_review: 'يحتاج مراجعة', rejected: 'مرفوض', generating: 'قيد الإنشاء' };
+const fmt = (iso, tz) => iso ? new Intl.DateTimeFormat('ar-SA-u-nu-latn-ca-gregory', { timeZone: tz, weekday: 'short', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' }).format(new Date(iso)) : '';
+const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+let DATA, filter = 'all';
+
+function issueLink(repo, title, body) {
+  return repo ? `https://github.com/${repo}/issues/new?title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}` : '#';
+}
+
+function render() {
+  const d = DATA, tz = d.schedule.timezone;
+  const st = document.getElementById('state');
+  st.dataset.s = d.control.paused ? 'paused' : 'on';
+  document.getElementById('state-title').textContent = d.control.paused ? 'النشر الآلي متوقف مؤقتًا' : 'النشر الآلي يعمل';
+  document.getElementById('state-sub').textContent = d.control.paused
+    ? `لن يُنشأ أو يُنشر أي فيديو حتى تستأنف.${d.control.reason ? ' السبب: ' + d.control.reason : ''}`
+    : `فيديو جديد كل يوم الساعة ${d.schedule.time} بتوقيت ${tz === 'Asia/Riyadh' ? 'الرياض' : tz}.`;
+  const t = document.getElementById('toggle');
+  t.textContent = d.control.paused ? 'استئناف النشر' : 'إيقاف النشر مؤقتًا';
+  t.className = 'btn ' + (d.control.paused ? 'primary' : 'danger');
+  t.href = issueLink(d.repo, d.control.paused ? '/resume' : '/pause', d.control.paused ? 'استئناف النشر الآلي.' : 'إيقاف النشر الآلي مؤقتًا. اكتب السبب هنا (اختياري).');
+
+  const { required, done } = d.approvals;
+  const cells = document.getElementById('cells');
+  cells.innerHTML = Array.from({ length: required }, (_, i) => `<div class="cell ${i < done ? 'done' : ''}" aria-label="فيديو ${i + 1}${i < done ? ' تمت الموافقة' : ''}">${i + 1}</div>`).join('');
+  document.getElementById('film-title').textContent = d.control.autoMode ? 'الوضع التلقائي مفعّل' : 'مرحلة الموافقة اليدوية';
+  document.getElementById('film-sub').innerHTML = d.control.autoMode
+    ? 'تُنشر الفيديوهات بعد اجتياز الفحص الآلي دون انتظار موافقتك.'
+    : done < required
+      ? `وافقت على ${done} من ${required}. كل فيديو ينتظر موافقتك قبل النشر.`
+      : `اكتملت الموافقات. يمكنك <a href="${issueLink(d.repo, '/auto-on', 'تفعيل الوضع التلقائي للنشر.')}">تفعيل الوضع التلقائي</a> متى شئت.`;
+
+  const list = d.entries.filter((e) => filter === 'all' || KIND[e.status] === filter);
+  const wall = document.getElementById('wall');
+  wall.innerHTML = list.length ? list.map((e) => {
+    const k = KIND[e.status] || 'off';
+    const when = e.status === 'published' ? 'نُشر' : e.buffer?.dueAt ? 'موعد النشر' : 'الموعد المخطط';
+    const links = [
+      e.status === 'awaiting_approval' && e.issue ? `<a class="go" href="https://github.com/${d.repo}/issues/${e.issue}">راجع ووافق</a>` : '',
+      e.videoUrl ? `<a href="${esc(e.videoUrl)}" target="_blank" rel="noopener">شاهد الفيديو</a>` : '',
+      k === 'bad' && d.repo ? `<a href="https://github.com/${d.repo}/issues?q=is%3Aissue+label%3Aautopilot-failure">التفاصيل</a>` : '',
+    ].join('');
+    return `<article class="clip">
+      <div class="frame" style="background-image:url('${esc(e.thumb || '')}')"><span class="chip" data-k="${k}"><i></i>${LABEL[e.status] || esc(e.status)}${e.buffer?.dryRun ? ' (تجريبي)' : ''}</span></div>
+      <div class="meta">
+        <strong>${esc(e.subject?.ar)}</strong>
+        <small>${esc(e.code)} · ${esc(e.category?.ar)} · ${esc(e.style)}</small>
+        <small>${when}: ${fmt(e.buffer?.dueAt || e.plannedAt, tz) || '—'}</small>
+        ${e.palette ? `<div class="swatches" aria-label="ألوان ${esc(e.palette.name)}">${e.palette.colors.map((c) => `<span style="background:${esc(c)}"></span>`).join('')}</div>` : ''}
+        ${e.qa && e.qa.failed.length ? `<small>لم يجتز: ${esc(e.qa.failed.join('، '))}</small>` : ''}
+        <div class="links">${links}</div>
+      </div></article>`;
+  }).join('') : `<div class="empty">لا توجد فيديوهات في هذا التصنيف بعد. يُنشأ أول فيديو تلقائيًا في الموعد اليومي.</div>`;
+  document.getElementById('foot').textContent = `آخر تحديث: ${fmt(d.generatedAt, tz)} · البيانات من سجل المستودع`;
+}
+
+document.querySelectorAll('.filters button').forEach((b) => b.addEventListener('click', () => {
+  filter = b.dataset.f;
+  document.querySelectorAll('.filters button').forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+  render();
+}));
+
+fetch('data.json', { cache: 'no-store' }).then((r) => r.json()).then((d) => { DATA = d; render(); }).catch(() => {
+  document.getElementById('state-title').textContent = 'تعذر تحميل البيانات';
+  document.getElementById('state-sub').textContent = 'لم يُعثر على data.json. شغّل سير العمل اليومي مرة واحدة لإنشائه.';
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+name: Discover Buffer channel
+
+# Prints your Buffer organisation and channel IDs (no secrets are printed).
+on:
+  workflow_dispatch:
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    env:
+      BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci --omit=dev
+      - run: node scripts/run.mjs discover | tee -a "$GITHUB_STEP_SUMMARY"

@@ -1,0 +1,117 @@
+{
+  "idea": {
+    "category": "mobile",
+    "subjectKey": "fitness",
+    "styleKey": "minimal",
+    "paletteKey": "sand-navy",
+    "fingerprint": "d40f477fcb6b429e",
+    "conceptNo": 1,
+    "code": "C001",
+    "date": "2026-10-19",
+    "brand": "Reps",
+    "subject": {
+      "ar": "تطبيق تمارين منزلية",
+      "en": "Home workouts"
+    },
+    "categoryMeta": {
+      "ar": "تطبيق جوال",
+      "en": "Mobile App"
+    },
+    "icon": "bolt",
+    "shape": null,
+    "palette": {
+      "key": "sand-navy",
+      "name": "Sand & Navy",
+      "mode": "light",
+      "bg": "#EFE9DF",
+      "surface": "#FBF8F3",
+      "surface2": "#E8E0D2",
+      "ink": "#14213D",
+      "muted": "#5F6578",
+      "line": "#DDD3C3",
+      "accent": "#14213D",
+      "accent2": "#D98E04",
+      "accentInk": "#FBF8F3"
+    },
+    "style": {
+      "key": "minimal",
+      "name": "Swiss Minimal",
+      "radius": 14,
+      "border": 1,
+      "shadow": "0 1px 0 rgba(0,0,0,.04)",
+      "heading": "Space Grotesk",
+      "weight": 600,
+      "tracking": -1.2
+    },
+    "content": {
+      "greeting": "Ready, Faisal?",
+      "heroTitle": "Today's session",
+      "heroValue": "26 min HIIT",
+      "heroSub": "441 kcal · No equipment",
+      "chips": [
+        "Strength",
+        "Cardio",
+        "Mobility",
+        "Yoga"
+      ],
+      "list": [
+        {
+          "title": "Core Burner",
+          "sub": "12 min · Beginner",
+          "meta": "4.9",
+          "icon": "bolt"
+        },
+        {
+          "title": "Lower Body Power",
+          "sub": "25 min · Medium",
+          "meta": "4.8",
+          "icon": "heart"
+        },
+        {
+          "title": "Evening Stretch",
+          "sub": "10 min · Easy",
+          "meta": "4.9",
+          "icon": "moon"
+        }
+      ],
+      "detail": {
+        "title": "Core Burner",
+        "subtitle": "8 exercises · 12 min",
+        "stats": [
+          [
+            "Level",
+            "Easy"
+          ],
+          [
+            "Kcal",
+            "142"
+          ],
+          [
+            "Sets",
+            "3"
+          ]
+        ],
+        "progress": 64,
+        "cta": "Start workout"
+      },
+      "stats": {
+        "title": "Weekly activity",
+        "value": "5 / 7 days",
+        "bars": [
+          34,
+          47,
+          92,
+          41,
+          72,
+          78,
+          84
+        ],
+        "label": "Active minutes"
+      }
+    },
+    "seed": "2026-10-19#0"
+  },
+  "handle": "@your.design.studio",
+  "cta": "تحتاج تصميمًا مثل هذا؟ راسلني",
+  "seconds": 24
+}
