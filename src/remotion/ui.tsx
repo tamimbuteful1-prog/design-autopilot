@@ -17,19 +17,26 @@ export const useTheme = () => useContext(ThemeCtx);
 // Frame offset so canvas elements can animate relative to when the showcase starts.
 const OffsetCtx = createContext(0);
 export const OffsetProvider = OffsetCtx.Provider;
+// Playback speed for canvas build-in animations (ad cuts compress the reveals).
+const SpeedCtx = createContext(1);
+export const SpeedProvider = SpeedCtx.Provider;
+function useLocalFrame() {
+  const frame = useCurrentFrame();
+  const offset = useContext(OffsetCtx);
+  const speed = useContext(SpeedCtx);
+  return (frame - offset) * speed;
+}
 
 /** Staggered entrance: returns style for opacity + rise, `delay` in frames after section start. */
 export function useReveal(delay = 0, distance = 40) {
-  const frame = useCurrentFrame();
-  const offset = useContext(OffsetCtx);
+  const local = useLocalFrame();
   const { fps } = useVideoConfig();
-  const p = spring({ frame: frame - offset - delay, fps, config: { damping: 200, mass: 0.8 } });
+  const p = spring({ frame: local - delay, fps, config: { damping: 200, mass: 0.8 } });
   return { opacity: p, transform: `translateY(${(1 - p) * distance}px)` } as React.CSSProperties;
 }
 export function useProgress(delay: number, duration: number) {
-  const frame = useCurrentFrame();
-  const offset = useContext(OffsetCtx);
-  return interpolate(frame - offset - delay, [0, duration], [0, 1], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: Easing.bezier(0.22, 1, 0.36, 1) });
+  const local = useLocalFrame();
+  return interpolate(local - delay, [0, duration], [0, 1], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: Easing.bezier(0.22, 1, 0.36, 1) });
 }
 
 export const Reveal: React.FC<{ delay?: number; distance?: number; style?: React.CSSProperties; children: React.ReactNode }> = ({ delay = 0, distance = 40, style, children }) => {

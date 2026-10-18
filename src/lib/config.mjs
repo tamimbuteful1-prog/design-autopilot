@@ -24,7 +24,7 @@ export const config = {
   // Brand shown on the call-to-action card and caption
   brandHandle: env('BRAND_HANDLE', '@your.design.studio'),
   brandName: env('BRAND_NAME', 'Freelance Design Studio'),
-  ctaText: env('CTA_TEXT', 'تحتاج تصميمًا مثل هذا؟ راسلني'),
+  ctaText: env('CTA_TEXT', 'تواصل معانا على الخاص'),
   captionLanguage: env('CAPTION_LANGUAGE', 'ar'), // 'ar' | 'en'
   discloseAI: bool('DISCLOSE_AI', true),
 
@@ -37,7 +37,7 @@ export const config = {
   fps: 30,
   width: 1080,
   height: 1920,
-  durationSec: Number(env('VIDEO_SECONDS', '24')),
+  durationSec: 12, // fixed by src/shared/timeline.json (beat-synced cut)
   browserExecutable: env('BROWSER_EXECUTABLE'),
 
   // Buffer (GraphQL API) — https://developers.buffer.com

@@ -11,7 +11,9 @@ import * as buffer from './buffer.mjs';
 import { STATUS, loadLedger, loadControl, saveControl, updateEntry, findEntry, approvedPublishedCount } from './ledger.mjs';
 import { reportFailure, requestApproval, closeIssue } from './notify.mjs';
 import { localDate, zonedToUtc } from './time.mjs';
-import { timelineCues } from './timeline.mjs';
+import { runUrl } from './github.mjs';
+import fsTL from 'node:fs';
+const TL = JSON.parse(fsTL.readFileSync(new URL('../shared/timeline.json', import.meta.url)));
 
 const log = (...a) => console.log(new Date().toISOString(), ...a);
 
@@ -31,7 +33,7 @@ export async function daily({ date = localDate(config.timezone), force = false }
     return { skipped: 'paused' };
   }
   const ledger = loadLedger();
-  const existing = ledger.entries.find((e) => e.date === date && ![STATUS.FAILED, STATUS.QA_FAILED, STATUS.REJECTED].includes(e.status));
+  const existing = ledger.entries.find((e) => e.date === date && ![STATUS.FAILED, STATUS.QA_FAILED, STATUS.REJECTED].includes(e.status) && (config.dryRun || e.status !== STATUS.TEST));
   if (existing) {
     log(`A video for ${date} already exists (${existing.idea.code}, ${existing.status}) — skipping to avoid duplicates.`);
     if (existing.status === STATUS.APPROVED) return publish(existing.id);
@@ -42,6 +44,10 @@ export async function daily({ date = localDate(config.timezone), force = false }
     log('QA failed — trying once more with a different idea.');
     entry = await generate({ date, ledger });
     if (entry.status !== STATUS.QA_FAILED) process.exitCode = 0;
+  }
+  if (entry.status === STATUS.TEST) {
+    log(`🧪 ${entry.idea.code} rendered in TEST mode — not uploaded, not posted. Download it from the workflow run artifacts.`);
+    return { entry };
   }
   if (entry.status !== STATUS.AWAITING_APPROVAL && entry.status !== STATUS.APPROVED) return { entry };
 
@@ -76,16 +82,16 @@ export async function generate({ date, ledger = loadLedger() }) {
     let last = 0;
     await renderVideo(props, silent, (p) => { if (p - last >= 0.25) { last = p; log(`   ${Math.round(p * 100)}%`); } });
     const wav = path.join(dir, 'music.wav');
-    writeWav(wav, synthesize({ seconds: config.durationSec, seed: idea.fingerprint, cues: timelineCues(config.durationSec * config.fps, config.fps) }));
+    writeWav(wav, synthesize({ seconds: config.durationSec, seed: idea.fingerprint }));
     const final = path.join(dir, `${id}.mp4`);
     muxAudio({ video: silent, wav, out: final });
     fs.rmSync(silent);
     fs.rmSync(wav);
-    const thumb = await renderFrame(props, Math.round(config.fps * 6), path.join(dir, 'thumb.jpg'));
+    const thumb = await renderFrame(props, TL.thumbnailFrame, path.join(dir, 'thumb.jpg'));
     const copy = writeCopy(idea);
     updateEntry(ledger, entry, { copy, video: { file: path.relative(config.root, final), sha256: fileHash(final), bytes: fs.statSync(final).size, thumb: path.relative(config.root, thumb) } }, 'rendered');
 
-    const qa = [...checkVideo(final, { minSec: 15, maxSec: 30 }), ...checkCopy(copy), ...checkUniqueness({ entry, entries: ledger.entries })];
+    const qa = [...checkVideo(final, { minSec: 10, maxSec: 15 }), ...checkCopy(copy), ...checkUniqueness({ entry, entries: ledger.entries })];
     const failed = qa.filter((c) => !c.ok);
     updateEntry(ledger, entry, { qa }, `QA ${qa.length - failed.length}/${qa.length} passed`);
     if (failed.length) {
@@ -95,6 +101,10 @@ export async function generate({ date, ledger = loadLedger() }) {
       return entry;
     }
 
+    if (config.dryRun) {
+      updateEntry(ledger, entry, { status: STATUS.TEST, plannedAt: plannedSlot(date), runUrl: runUrl() }, 'TEST mode: QA passed; upload and publishing skipped');
+      return entry;
+    }
     const up = await uploadVideo(final, `${id}.mp4`);
     updateEntry(ledger, entry, { video: { ...entry.video, url: up.url, storage: up.driver, key: up.key }, plannedAt: plannedSlot(date), status: STATUS.AWAITING_APPROVAL }, `uploaded (${up.driver})`);
     return entry;

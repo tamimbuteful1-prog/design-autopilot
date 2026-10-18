@@ -24,6 +24,7 @@
   .state > *, .wall > *, .meta > * { min-width: 0; }
   .state { display: grid; grid-template-columns: auto 1fr auto; gap: 18px; align-items: center; background: var(--sheet); border: 1px solid var(--line); border-radius: 20px; padding: 22px; }
   .tally { width: 22px; height: 22px; border-radius: 50%; background: var(--on); box-shadow: 0 0 0 7px color-mix(in srgb, var(--on) 22%, transparent); }
+  .state[data-s="test"] .tally { background: #8A63D2; box-shadow: 0 0 0 7px color-mix(in srgb, #8A63D2 22%, transparent); }
   .state[data-s="paused"] .tally { background: var(--stop); box-shadow: 0 0 0 7px color-mix(in srgb, var(--stop) 22%, transparent); }
   .state h1 { margin: 0; font-size: clamp(22px, 4vw, 30px); line-height: 1.3; }
   .state p { margin: 2px 0 0; color: var(--muted); }
@@ -48,7 +49,7 @@
   .frame { aspect-ratio: 9/16; background: var(--line) center/cover no-repeat; position: relative; }
   .chip { position: absolute; top: 10px; inset-inline-start: 10px; font-size: 13px; font-weight: 600; padding: 3px 10px; border-radius: 999px; background: var(--sheet); color: var(--ink); display: flex; align-items: center; gap: 6px; }
   .chip i { width: 8px; height: 8px; border-radius: 50%; background: var(--muted); }
-  .chip[data-k="live"] i { background: var(--on); } .chip[data-k="wait"] i { background: var(--wait); } .chip[data-k="bad"] i { background: var(--stop); } .chip[data-k="sched"] i { background: var(--act); }
+  .chip[data-k="live"] i { background: var(--on); } .chip[data-k="wait"] i { background: var(--wait); } .chip[data-k="bad"] i { background: var(--stop); } .chip[data-k="sched"] i { background: var(--act); } .chip[data-k="test"] i { background: #8A63D2; }
   .meta { padding: 12px 14px 14px; display: flex; flex-direction: column; gap: 4px; flex: 1; }
   .meta strong { font-size: 15px; line-height: 1.45; }
   .meta small { color: var(--muted); font-size: 13px; }
@@ -87,14 +88,15 @@
       <button data-f="sched">مجدولة</button>
       <button data-f="live">منشورة</button>
       <button data-f="bad">تحتاج تدخلًا</button>
+      <button data-f="test">تجريبية</button>
     </div>
   </div>
   <section class="wall" id="wall"></section>
   <footer id="foot"></footer>
 </main>
 <script>
-const KIND = { published: 'live', scheduled: 'sched', publishing: 'sched', awaiting_approval: 'wait', approved: 'wait', failed: 'bad', qa_failed: 'bad', needs_review: 'bad', rejected: 'off', generating: 'off' };
-const LABEL = { published: 'منشور', scheduled: 'مجدول', publishing: 'قيد الإرسال', awaiting_approval: 'بانتظار موافقتك', approved: 'موافَق عليه', failed: 'فشل', qa_failed: 'لم يجتز الفحص', needs_review: 'يحتاج مراجعة', rejected: 'مرفوض', generating: 'قيد الإنشاء' };
+const KIND = { published: 'live', scheduled: 'sched', publishing: 'sched', awaiting_approval: 'wait', approved: 'wait', failed: 'bad', qa_failed: 'bad', needs_review: 'bad', rejected: 'off', generating: 'off', test: 'test' };
+const LABEL = { published: 'منشور', scheduled: 'مجدول', publishing: 'قيد الإرسال', awaiting_approval: 'بانتظار موافقتك', approved: 'موافَق عليه', failed: 'فشل', qa_failed: 'لم يجتز الفحص', needs_review: 'يحتاج مراجعة', rejected: 'مرفوض', generating: 'قيد الإنشاء', test: 'فيديو تجريبي' };
 const fmt = (iso, tz) => iso ? new Intl.DateTimeFormat('ar-SA-u-nu-latn-ca-gregory', { timeZone: tz, weekday: 'short', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' }).format(new Date(iso)) : '';
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 let DATA, filter = 'all';
@@ -106,11 +108,13 @@ function issueLink(repo, title, body) {
 function render() {
   const d = DATA, tz = d.schedule.timezone;
   const st = document.getElementById('state');
-  st.dataset.s = d.control.paused ? 'paused' : 'on';
-  document.getElementById('state-title').textContent = d.control.paused ? 'النشر الآلي متوقف مؤقتًا' : 'النشر الآلي يعمل';
+  st.dataset.s = d.control.paused ? 'paused' : d.publishing && !d.publishing.enabled ? 'test' : 'on';
+  document.getElementById('state-title').textContent = d.control.paused ? 'النشر الآلي متوقف مؤقتًا' : d.publishing && !d.publishing.enabled ? 'وضع الاختبار: لا يُنشر شيء' : 'النشر الآلي يعمل';
   document.getElementById('state-sub').textContent = d.control.paused
     ? `لن يُنشأ أو يُنشر أي فيديو حتى تستأنف.${d.control.reason ? ' السبب: ' + d.control.reason : ''}`
-    : `فيديو جديد كل يوم الساعة ${d.schedule.time} بتوقيت ${tz === 'Asia/Riyadh' ? 'الرياض' : tz}.`;
+    : d.publishing && !d.publishing.enabled
+      ? 'يُنشأ فيديو تجريبي يوميًا ويُفحص فقط، دون رفع أو إرسال إلى TikTok. فعّل النشر بالمتغير PUBLISH_ENABLED بعد مراجعة الجودة.'
+      : `فيديو جديد كل يوم الساعة ${d.schedule.time} بتوقيت ${tz === 'Asia/Riyadh' ? 'الرياض' : tz}.`;
   const t = document.getElementById('toggle');
   t.textContent = d.control.paused ? 'استئناف النشر' : 'إيقاف النشر مؤقتًا';
   t.className = 'btn ' + (d.control.paused ? 'primary' : 'danger');
@@ -133,7 +137,7 @@ function render() {
     const when = e.status === 'published' ? 'نُشر' : e.buffer?.dueAt ? 'موعد النشر' : 'الموعد المخطط';
     const links = [
       e.status === 'awaiting_approval' && e.issue ? `<a class="go" href="https://github.com/${d.repo}/issues/${e.issue}">راجع ووافق</a>` : '',
-      e.videoUrl ? `<a href="${esc(e.videoUrl)}" target="_blank" rel="noopener">شاهد الفيديو</a>` : '',
+      e.videoUrl ? `<a href="${esc(e.videoUrl)}" target="_blank" rel="noopener">شاهد الفيديو</a>` : e.runUrl ? `<a href="${esc(e.runUrl)}" target="_blank" rel="noopener">حمّل الفيديو</a>` : '',
       k === 'bad' && d.repo ? `<a href="https://github.com/${d.repo}/issues?q=is%3Aissue+label%3Aautopilot-failure">التفاصيل</a>` : '',
     ].join('');
     return `<article class="clip">

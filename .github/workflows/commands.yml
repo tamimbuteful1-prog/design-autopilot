@@ -31,6 +31,7 @@ jobs:
       POST_TIME_LOCAL: ${{ vars.POST_TIME_LOCAL || '19:00' }}
       POST_TIMEZONE: ${{ vars.POST_TIMEZONE || 'Asia/Riyadh' }}
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      DRY_RUN: ${{ vars.PUBLISH_ENABLED != 'true' && 'true' || 'false' }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4

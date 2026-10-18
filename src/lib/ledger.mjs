@@ -26,6 +26,7 @@ export const STATUS = {
   REJECTED: 'rejected',
   FAILED: 'failed',
   NEEDS_REVIEW: 'needs_review',
+  TEST: 'test', // rendered + QA-checked in test mode; never uploaded or posted
 };
 
 export function loadLedger() {
@@ -54,6 +55,6 @@ export function updateEntry(ledger, entry, patch, logMsg) {
 
 /** Count of videos that went live (or are queued in Buffer) after manual approval. */
 export const approvedPublishedCount = (ledger) =>
-  ledger.entries.filter((e) => [STATUS.SCHEDULED, STATUS.PUBLISHED].includes(e.status)).length;
+  ledger.entries.filter((e) => [STATUS.SCHEDULED, STATUS.PUBLISHED].includes(e.status) && !e.buffer?.dryRun).length;
 
 export const approvalRequired = (ledger) => approvedPublishedCount(ledger) < config.approvalRequiredCount;

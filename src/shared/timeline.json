@@ -1,0 +1,17 @@
+{
+  "fps": 30,
+  "beatFrames": 14,
+  "totalFrames": 360,
+  "shots": {
+    "hook": [0, 42],
+    "build": [42, 98],
+    "focus1": [98, 126],
+    "focus2": [126, 154],
+    "focus3": [154, 182],
+    "palette": [182, 210],
+    "hero": [210, 280],
+    "cta": [280, 360]
+  },
+  "dropFrame": 42,
+  "thumbnailFrame": 236
+}

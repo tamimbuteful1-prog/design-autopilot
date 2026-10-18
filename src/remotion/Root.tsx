@@ -12,8 +12,8 @@ export const RemotionRoot: React.FC = () => (
     width={1080}
     height={1920}
     fps={FPS}
-    durationInFrames={24 * FPS}
+    durationInFrames={12 * FPS}
     defaultProps={sample as unknown as ReelProps & { seconds?: number }}
-    calculateMetadata={({ props }) => ({ durationInFrames: Math.round(((props as any).seconds ?? 24) * FPS) })}
+    calculateMetadata={({ props }) => ({ durationInFrames: Math.round(((props as any).seconds ?? 12) * FPS) })}
   />
 );

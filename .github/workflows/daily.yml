@@ -10,7 +10,7 @@ on:
         description: 'Post date YYYY-MM-DD (empty = today in POST_TIMEZONE)'
         required: false
       dry_run:
-        description: 'Dry run (render + QA only, nothing uploaded or posted)'
+        description: 'Test only (render + QA, nothing uploaded or posted) — always on while PUBLISH_ENABLED is not true'
         type: boolean
         default: false
 
@@ -42,7 +42,8 @@ jobs:
       POST_TIME_LOCAL: ${{ vars.POST_TIME_LOCAL || '19:00' }}
       POST_TIMEZONE: ${{ vars.POST_TIMEZONE || 'Asia/Riyadh' }}
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      DRY_RUN: ${{ inputs.dry_run && 'true' || 'false' }}
+      # Publishing lock: nothing is uploaded or posted until the repository variable PUBLISH_ENABLED is 'true'.
+      DRY_RUN: ${{ (inputs.dry_run || vars.PUBLISH_ENABLED != 'true') && 'true' || 'false' }}
       ACTOR: ${{ github.actor }}
     steps:
       - uses: actions/checkout@v4
@@ -74,7 +75,7 @@ jobs:
           retention-days: 14
           if-no-files-found: ignore
       - name: Save state and dashboard
-        if: always() && inputs.dry_run != true
+        if: always()
         run: |
           git config user.name "design-autopilot[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

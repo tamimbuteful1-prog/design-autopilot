@@ -5,7 +5,7 @@ import { chooseIdea } from '../src/lib/ideas.mjs';
 import { renderFrame } from '../src/lib/render.mjs';
 const out = process.argv[2] || 'out/preview';
 const cats = (process.argv[3] || 'mobile,dashboard,website,uiux,product,packaging').split(',');
-const frames = (process.argv[4] || '30,150,206,316,426,560').split(',').map(Number);
+const frames = (process.argv[4] || '8,22,36,70,110,140,168,196,250,305').split(',').map(Number);
 fs.mkdirSync(out, { recursive: true });
 let entries = [];
 for (let day = 0; day < 12 && cats.length; day++) {
@@ -13,7 +13,7 @@ for (let day = 0; day < 12 && cats.length; day++) {
   entries.push({ idea, status: 'published' });
   if (!cats.includes(idea.category)) continue;
   cats.splice(cats.indexOf(idea.category), 1);
-  const props = { idea, handle: '@your.design.studio', cta: 'تحتاج تصميمًا مثل هذا؟ راسلني', seconds: 24 };
+  const props = { idea, handle: '@your.design.studio', cta: 'تواصل معانا على الخاص', seconds: 12 };
   const files = [];
   for (const f of frames) files.push(await renderFrame(props, f, `${out}/${idea.category}-${f}.jpg`));
   execFileSync('ffmpeg', ['-y', '-loglevel', 'error', ...files.flatMap((x) => ['-i', x]), '-filter_complex', `${files.map((_, i) => `[${i}]`).join('')}hstack=${files.length},scale=2400:-1`, `${out}/sheet-${idea.category}.jpg`]);

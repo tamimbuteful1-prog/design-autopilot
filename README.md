@@ -1,14 +1,16 @@
 # Design Autopilot — فيديو تصميم يومي لـ TikTok
 
-نظام ينتج كل يوم فيديو عموديًا (1080×1920، 24 ثانية) لتصميم أصلي، يفحصه آليًا، ثم يرسله إلى حساب TikTok عبر Buffer.
+نظام ينتج كل يوم إعلانًا عموديًا سريعًا (1080×1920، 12 ثانية، قطعات على إيقاع 128 BPM وموسيقى صيفية أصلية) لتصميم أصلي، يفحصه آليًا، ثم يرسله إلى حساب TikTok عبر Buffer.
+
+> 🔒 **وضع الاختبار مفعّل افتراضيًا.** لا يُرفع ولا يُنشر أي فيديو حتى تضيف متغيّر المستودع `PUBLISH_ENABLED = true`. قبل ذلك يُنشأ فيديو تجريبي يوميًا ويُفحص، وتجده في صفحة تشغيل الـ workflow تحت **Artifacts**.
 
 ```
 GitHub Actions (يوميًا 15:47 الرياض)
   │
   ├─ اختيار فكرة ─────── تناوب: تطبيق جوال → لوحة تحكم → موقع → UI/UX → منتج → تغليف
   │                       منع التكرار: بصمة (الفئة+الموضوع+الأسلوب+الألوان) لا تتكرر أبدًا
-  ├─ Remotion ─────────── تصميم أصلي لعلامة خيالية + حركة كاميرا سينمائية + بطاقات شرح
-  ├─ موسيقى أصلية ──────── مولّدة برمجيًا (لا حقوق طرف ثالث) ثم ضبط الصوت إلى −14 LUFS
+  ├─ Remotion ─────────── إعلان 12 ث: نص حركي → تصميم يُبنى → 3 لقطات زوم سريعة → الألوان → البطل → «تواصل معانا على الخاص»
+  ├─ موسيقى أصلية ──────── صيفية حماسية مولّدة برمجيًا ومتزامنة مع القطعات (لا حقوق طرف ثالث)، −12 LUFS
   ├─ فحص الجودة (24) ───── المقاس، المدة، fps، الترميز، الصوت، إطارات سوداء/متجمدة، النصوص، التكرار
   ├─ رفع MP4 ──────────── Cloudflare R2 / S3 (أو GitHub Releases) + التحقق من أن الرابط عام
   ├─ موافقة؟ ──────────── أول 7 فيديوهات: Issue في GitHub → تعليق /approve أو /reject
@@ -45,15 +47,20 @@ GitHub Actions (يوميًا 15:47 الرياض)
 | `S3_ENDPOINT`, `S3_BUCKET`, `S3_ACCESS_KEY_ID`, `S3_SECRET_ACCESS_KEY`, `S3_PUBLIC_BASE_URL` | Cloudflare R2 |
 | `NOTIFY_WEBHOOK_URL` (اختياري) | Slack/Discord/ntfy |
 
+ومتغير التحكم بالنشر: `PUBLISH_ENABLED` (اتركه غير موجود أثناء الاختبار).
+
 ومتغيرات عادية (Variables): `BRAND_HANDLE`، `CTA_TEXT`، `POST_TIME_LOCAL`، `POST_TIMEZONE`، `STORAGE_DRIVER`.
 
 ### 4) اللوحة
 **Settings → Pages → Deploy from a branch → `main` / `/docs`**. ستظهر على `https://<user>.github.io/design-autopilot/`.
 
-### 5) تجربة
-1. **Actions → Discover Buffer channel → Run** — يطبع معرّف قناة TikTok.
-2. **Actions → Daily video → Run workflow** مع `dry_run` = ✓ — يرسم الفيديو ويفحصه دون رفع أو نشر. الفيديو يظهر في Artifacts.
-3. شغّله مرة دون `dry_run` → يظهر Issue «🟡 Approve video C001» برابط المعاينة → علّق `/approve`.
+### 5) تجربة (وضع الاختبار)
+1. **Actions → Daily video → Run workflow** — يرسم الفيديو ويفحصه فقط. حمّله من **Artifacts** أسفل صفحة التشغيل.
+2. **Actions → Discover Buffer channel → Run** — يطبع معرّف قناة TikTok.
+
+### 6) تفعيل النشر الحقيقي (بعد رضاك عن الجودة)
+**Settings → Secrets and variables → Actions → Variables → New variable**: `PUBLISH_ENABLED` = `true`.
+بعدها كل فيديو جديد يُرفع ويفتح Issue «🟡 Approve video …» → علّق `/approve` لينشر. لإيقاف النشر الحقيقي فورًا احذف المتغير أو غيّره إلى `false`.
 
 ## التحكم اليومي
 

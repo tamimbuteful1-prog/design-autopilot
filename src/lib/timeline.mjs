@@ -1,7 +1,6 @@
-// Mirrors timeline() in src/remotion/Reel.tsx so the soundtrack's whooshes land on scene changes.
-export function timelineCues(total, fps) {
-  const hookEnd = 78 - 18;
-  const ctaFrom = total - 96;
-  const systemFrom = ctaFrom - 120;
-  return [hookEnd, systemFrom, ctaFrom].map((f) => f / fps);
+// Scene-change times (seconds) shared with the Remotion cut, so the music hits land on the cuts.
+import fs from 'node:fs';
+export const TL = JSON.parse(fs.readFileSync(new URL('../shared/timeline.json', import.meta.url)));
+export function timelineCues() {
+  return Object.values(TL.shots).map(([from]) => from / TL.fps).filter((t) => t > 0);
 }

@@ -12,7 +12,7 @@ function ffmpegStderr(args) {
 
 export const fileHash = (file) => crypto.createHash('sha256').update(fs.readFileSync(file)).digest('hex');
 
-export function checkVideo(file, { minSec = 15, maxSec = 30 } = {}) {
+export function checkVideo(file, { minSec = 10, maxSec = 15 } = {}) {
   const checks = [];
   const add = (name, ok, detail) => checks.push({ name, ok: Boolean(ok), detail: String(detail) });
   if (!fs.existsSync(file)) {
@@ -47,9 +47,9 @@ export function checkVideo(file, { minSec = 15, maxSec = 30 } = {}) {
   const black = [...bd.matchAll(/black_duration:([\d.]+)/g)].reduce((s, m) => s + Number(m[1]), 0);
   add('no black frames', black < 0.3, `${black.toFixed(2)}s black`);
 
-  const fz = ffmpegStderr(['-i', file, '-vf', 'freezedetect=n=0.0005:d=2.5', '-an']);
+  const fz = ffmpegStderr(['-i', file, '-vf', 'freezedetect=n=0.0005:d=1.5', '-an']);
   const freezes = [...fz.matchAll(/freeze_duration: ([\d.]+)/g)].map((m) => Number(m[1]));
-  add('no frozen segments > 2.5s', freezes.length === 0, freezes.length ? `${freezes.join(', ')}s` : 'motion throughout');
+  add('no frozen segments > 1.5s', freezes.length === 0, freezes.length ? `${freezes.join(', ')}s` : 'motion throughout');
   return checks;
 }
 
@@ -90,7 +90,7 @@ export function checkCopy({ title, caption, hashtags }) {
 }
 
 export function checkUniqueness({ entry, entries }) {
-  const others = entries.filter((e) => e.id !== entry.id && !['failed', 'rejected', 'qa_failed'].includes(e.status));
+  const others = entries.filter((e) => e.id !== entry.id && !['failed', 'rejected', 'qa_failed', 'test'].includes(e.status));
   return [
     { name: 'idea not used before', ok: !others.some((e) => e.idea?.fingerprint === entry.idea.fingerprint), detail: entry.idea.fingerprint },
     { name: 'video file is unique', ok: !others.some((e) => e.video?.sha256 && e.video.sha256 === entry.video.sha256), detail: entry.video.sha256.slice(0, 12) },
