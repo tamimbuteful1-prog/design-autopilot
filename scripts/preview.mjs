@@ -13,7 +13,7 @@ for (let day = 0; day < 12 && cats.length; day++) {
   entries.push({ idea, status: 'published' });
   if (!cats.includes(idea.category)) continue;
   cats.splice(cats.indexOf(idea.category), 1);
-  const props = { idea, handle: '@your.design.studio', cta: 'تواصل معانا على الخاص', seconds: 12 };
+  const props = { idea, handle: '@your.design.studio', cta: 'تواصل معانا على الخاص', seconds: 14 };
   const files = [];
   for (const f of frames) files.push(await renderFrame(props, f, `${out}/${idea.category}-${f}.jpg`));
   execFileSync('ffmpeg', ['-y', '-loglevel', 'error', ...files.flatMap((x) => ['-i', x]), '-filter_complex', `${files.map((_, i) => `[${i}]`).join('')}hstack=${files.length},scale=2400:-1`, `${out}/sheet-${idea.category}.jpg`]);

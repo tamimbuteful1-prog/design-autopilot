@@ -37,7 +37,7 @@ export const config = {
   fps: 30,
   width: 1080,
   height: 1920,
-  durationSec: 12, // fixed by src/shared/timeline.json (beat-synced cut)
+  durationSec: 14, // fixed by src/shared/timeline.json (beat-synced cut)
   browserExecutable: env('BROWSER_EXECUTABLE'),
 
   // Buffer (GraphQL API) — https://developers.buffer.com

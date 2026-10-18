@@ -1,4 +1,4 @@
-// Fast, beat-synced 12-second ad cut (128 BPM: one beat = 14 frames at 30 fps).
+// Fast, beat-synced 14-second ad cut (detail shots and CTA hold 3+ beats) (128 BPM: one beat = 14 frames at 30 fps).
 // Hook (kinetic type) → drop: design builds in → three snap-zoom detail shots → colour flash → hero reveal → CTA.
 import React from 'react';
 import { AbsoluteFill, Easing, Sequence, interpolate, spring, useCurrentFrame, useVideoConfig } from 'remotion';

@@ -226,7 +226,7 @@ export function muxAudio({ video, wav, out }) {
   execFileSync('ffmpeg', [
     '-y', '-loglevel', 'error',
     '-i', video, '-i', wav,
-    '-filter:a', 'acompressor=threshold=-14dB:ratio=3:attack=5:release=80,loudnorm=I=-12:TP=-2:LRA=9,alimiter=limit=0.75:level=false',
+    '-filter:a', 'acompressor=threshold=-14dB:ratio=3:attack=5:release=80,loudnorm=I=-12.5:TP=-2.5:LRA=9,aresample=44100,alimiter=limit=0.6:level=false:asc=1',
     '-map', '0:v:0', '-map', '1:a:0',
     // Final encode: broadcast-range yuv420p H.264 High@4.2 with BT.709 tags — the safest profile for TikTok ingest.
     '-c:v', 'libx264', '-preset', 'slow', '-crf', '19', '-maxrate', '12M', '-bufsize', '24M',

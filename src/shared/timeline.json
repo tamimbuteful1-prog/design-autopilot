@@ -1,17 +1,41 @@
 {
   "fps": 30,
   "beatFrames": 14,
-  "totalFrames": 360,
+  "totalFrames": 420,
   "shots": {
-    "hook": [0, 42],
-    "build": [42, 98],
-    "focus1": [98, 126],
-    "focus2": [126, 154],
-    "focus3": [154, 182],
-    "palette": [182, 210],
-    "hero": [210, 280],
-    "cta": [280, 360]
+    "hook": [
+      0,
+      42
+    ],
+    "build": [
+      42,
+      98
+    ],
+    "focus1": [
+      98,
+      140
+    ],
+    "focus2": [
+      140,
+      182
+    ],
+    "focus3": [
+      182,
+      224
+    ],
+    "palette": [
+      224,
+      252
+    ],
+    "hero": [
+      252,
+      336
+    ],
+    "cta": [
+      336,
+      420
+    ]
   },
   "dropFrame": 42,
-  "thumbnailFrame": 236
+  "thumbnailFrame": 278
 }
