@@ -280,6 +280,326 @@
       ],
       "plannedAt": "2026-10-19T16:00:00.000Z",
       "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/39305928036"
+    },
+    {
+      "id": "2026-10-20-C002",
+      "date": "2026-10-20",
+      "status": "test",
+      "idea": {
+        "category": "dashboard",
+        "subjectKey": "saas-revenue",
+        "styleKey": "glass",
+        "paletteKey": "midnight-violet",
+        "fingerprint": "6f983db1fe4b832c",
+        "conceptNo": 2,
+        "code": "C002",
+        "date": "2026-10-20",
+        "brand": "Orbit",
+        "subject": {
+          "ar": "لوحة تحكم لإيرادات شركة SaaS",
+          "en": "SaaS revenue analytics"
+        },
+        "categoryMeta": {
+          "ar": "لوحة تحكم",
+          "en": "Dashboard"
+        },
+        "icon": "chart",
+        "shape": null,
+        "palette": {
+          "key": "midnight-violet",
+          "name": "Midnight Violet",
+          "mode": "dark",
+          "bg": "#0D0B1A",
+          "surface": "#17142B",
+          "surface2": "#211D3A",
+          "ink": "#F2F0FF",
+          "muted": "#A39FC2",
+          "line": "#2E2950",
+          "accent": "#8B7CFF",
+          "accent2": "#3FE0C5",
+          "accentInk": "#0D0B1A"
+        },
+        "style": {
+          "key": "glass",
+          "name": "Glassmorphism",
+          "radius": 32,
+          "border": 1,
+          "shadow": "0 40px 80px -30px rgba(0,0,0,.45)",
+          "heading": "Inter",
+          "weight": 600,
+          "tracking": -1.2,
+          "glass": true
+        },
+        "content": {
+          "title": "Revenue overview",
+          "nav": [
+            "Overview",
+            "Customers",
+            "Billing",
+            "Reports",
+            "Settings"
+          ],
+          "kpis": [
+            {
+              "label": "MRR",
+              "value": "$216k",
+              "delta": "+9%"
+            },
+            {
+              "label": "Active users",
+              "value": "21,833",
+              "delta": "+6%"
+            },
+            {
+              "label": "Churn",
+              "value": "2.9%",
+              "delta": "-0.2%"
+            },
+            {
+              "label": "ARPU",
+              "value": "$45",
+              "delta": "+6%"
+            }
+          ],
+          "series": [
+            39,
+            37,
+            46,
+            45,
+            53,
+            58,
+            63,
+            62,
+            68,
+            76,
+            76,
+            83
+          ],
+          "series2": [
+            28,
+            34,
+            40,
+            43,
+            44,
+            47,
+            53,
+            56,
+            59,
+            62,
+            62,
+            68
+          ],
+          "bars": [
+            {
+              "label": "Starter",
+              "value": 44
+            },
+            {
+              "label": "Pro",
+              "value": 77
+            },
+            {
+              "label": "Team",
+              "value": 56
+            },
+            {
+              "label": "Enterprise",
+              "value": 26
+            }
+          ],
+          "table": [
+            [
+              "Acme Labs",
+              "Enterprise",
+              "$7,393",
+              "Paid"
+            ],
+            [
+              "Nova Studio",
+              "Team",
+              "$747",
+              "Paid"
+            ],
+            [
+              "Brightpath",
+              "Pro",
+              "$280",
+              "Pending"
+            ],
+            [
+              "Kite & Co",
+              "Pro",
+              "$397",
+              "Paid"
+            ]
+          ]
+        },
+        "seed": "2026-10-20:1#0"
+      },
+      "createdAt": "2026-10-20T17:33:08.352Z",
+      "log": [
+        {
+          "at": "2026-10-20T17:33:08.352Z",
+          "msg": "idea chosen: dashboard / saas-revenue / glass / midnight-violet"
+        },
+        {
+          "at": "2026-10-20T17:34:24.522Z",
+          "msg": "rendered"
+        },
+        {
+          "at": "2026-10-20T17:34:26.660Z",
+          "msg": "QA 24/24 passed"
+        },
+        {
+          "at": "2026-10-20T17:34:26.662Z",
+          "msg": "TEST mode: QA passed; upload and publishing skipped"
+        }
+      ],
+      "updatedAt": "2026-10-20T17:34:26.662Z",
+      "copy": {
+        "title": "تصميم لوحات التحكم باحترافية 🔥",
+        "caption": "تصميم لوحات التحكم باحترافية 🔥\n\nوش تحصل معنا:\n✅ مؤشرات واضحة بنظرة\n✅ رسوم بيانية سهلة القراءة\n✅ نظام تصميم قابل للتوسع\n\nجاهزين نبدأ مشروعك — تواصل معانا على الخاص 📩\n\nℹ️ التصميم المعروض مفاهيمي (Concept C002) لعلامة خيالية، وليس مشروعًا منفذًا لعميل.\n🤖 أُنتج هذا المحتوى بمساعدة أدوات الذكاء الاصطناعي.\n\n#dashboard #dashboarddesign #saasdesign #glassmorphism #تصميم #مصمم_مستقل #freelancedesigner #designinspiration",
+        "hashtags": [
+          "#dashboard",
+          "#dashboarddesign",
+          "#saasdesign",
+          "#glassmorphism",
+          "#تصميم",
+          "#مصمم_مستقل",
+          "#freelancedesigner",
+          "#designinspiration"
+        ]
+      },
+      "video": {
+        "file": "out/2026-10-20-C002/2026-10-20-C002.mp4",
+        "sha256": "c58ba548818b38b72d5fa25759675bf329c3ef2924cbf7aeb6357674e8156285",
+        "bytes": 3704245,
+        "thumb": "out/2026-10-20-C002/thumb.jpg"
+      },
+      "qa": [
+        {
+          "name": "file size 0.3–50 MB",
+          "ok": true,
+          "detail": "3.70 MB"
+        },
+        {
+          "name": "video stream H.264",
+          "ok": true,
+          "detail": "h264"
+        },
+        {
+          "name": "resolution 1080×1920",
+          "ok": true,
+          "detail": "1080×1920"
+        },
+        {
+          "name": "pixel format yuv420p",
+          "ok": true,
+          "detail": "yuv420p"
+        },
+        {
+          "name": "frame rate 30 fps",
+          "ok": true,
+          "detail": "30.00"
+        },
+        {
+          "name": "duration 10–15s",
+          "ok": true,
+          "detail": "14.00s"
+        },
+        {
+          "name": "audio stream AAC",
+          "ok": true,
+          "detail": "aac"
+        },
+        {
+          "name": "moov atom at start (faststart)",
+          "ok": true,
+          "detail": "web-optimised"
+        },
+        {
+          "name": "loudness −18…−10 LUFS",
+          "ok": true,
+          "detail": "-12.5 LUFS"
+        },
+        {
+          "name": "true peak ≤ −0.5 dBTP",
+          "ok": true,
+          "detail": "-2.4 dBTP"
+        },
+        {
+          "name": "no black frames",
+          "ok": true,
+          "detail": "0.00s black"
+        },
+        {
+          "name": "no frozen segments > 1.5s",
+          "ok": true,
+          "detail": "motion throughout"
+        },
+        {
+          "name": "title 8–80 chars",
+          "ok": true,
+          "detail": "31 chars"
+        },
+        {
+          "name": "caption ≤ 2200 chars",
+          "ok": true,
+          "detail": "417 chars"
+        },
+        {
+          "name": "3–10 hashtags",
+          "ok": true,
+          "detail": "8"
+        },
+        {
+          "name": "hashtags well-formed",
+          "ok": true,
+          "detail": "#dashboard #dashboarddesign #saasdesign #glassmorphism #تصميم #مصمم_مستقل #freelancedesigner #designinspiration"
+        },
+        {
+          "name": "no duplicate hashtags",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "concept disclaimer present",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no client-work claims",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no links or emails",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "idea not used before",
+          "ok": true,
+          "detail": "6f983db1fe4b832c"
+        },
+        {
+          "name": "video file is unique",
+          "ok": true,
+          "detail": "c58ba548818b"
+        },
+        {
+          "name": "caption not reused",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "one video per day",
+          "ok": true,
+          "detail": "2026-10-20"
+        }
+      ],
+      "plannedAt": "2026-10-20T16:00:00.000Z",
+      "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/39466974843"
     }
   ]
 }
