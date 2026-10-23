@@ -1129,6 +1129,246 @@
       ],
       "plannedAt": "2026-10-22T16:00:00.000Z",
       "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/39824523245"
+    },
+    {
+      "id": "2026-10-23-C005",
+      "date": "2026-10-23",
+      "status": "test",
+      "idea": {
+        "category": "product",
+        "subjectKey": "watch",
+        "styleKey": "editorial",
+        "paletteKey": "sand-navy",
+        "fingerprint": "3354631222b43b80",
+        "conceptNo": 5,
+        "code": "C005",
+        "date": "2026-10-23",
+        "brand": "Stride",
+        "subject": {
+          "ar": "ساعة ذكية رياضية",
+          "en": "Sport smartwatch"
+        },
+        "categoryMeta": {
+          "ar": "تصميم منتج",
+          "en": "Product Design"
+        },
+        "icon": "heart",
+        "shape": "watch",
+        "palette": {
+          "key": "sand-navy",
+          "name": "Sand & Navy",
+          "mode": "light",
+          "bg": "#EFE9DF",
+          "surface": "#FBF8F3",
+          "surface2": "#E8E0D2",
+          "ink": "#14213D",
+          "muted": "#5F6578",
+          "line": "#DDD3C3",
+          "accent": "#14213D",
+          "accent2": "#D98E04",
+          "accentInk": "#FBF8F3"
+        },
+        "style": {
+          "key": "editorial",
+          "name": "Editorial",
+          "radius": 4,
+          "border": 1,
+          "shadow": "none",
+          "heading": "Playfair Display",
+          "weight": 600,
+          "tracking": -0.5
+        },
+        "content": {
+          "specs": [
+            [
+              "Display",
+              "1.4\" AMOLED"
+            ],
+            [
+              "Battery",
+              "7 days"
+            ],
+            [
+              "Water",
+              "5 ATM"
+            ],
+            [
+              "Sensors",
+              "HR · SpO₂ · GPS"
+            ]
+          ],
+          "materials": [
+            "Titanium case",
+            "Sapphire glass",
+            "Fluoro strap"
+          ]
+        },
+        "seed": "2026-10-23:4#0"
+      },
+      "createdAt": "2026-10-23T17:32:30.590Z",
+      "log": [
+        {
+          "at": "2026-10-23T17:32:30.590Z",
+          "msg": "idea chosen: product / watch / editorial / sand-navy"
+        },
+        {
+          "at": "2026-10-23T17:33:23.776Z",
+          "msg": "rendered"
+        },
+        {
+          "at": "2026-10-23T17:33:25.769Z",
+          "msg": "QA 24/24 passed"
+        },
+        {
+          "at": "2026-10-23T17:33:25.771Z",
+          "msg": "TEST mode: QA passed; upload and publishing skipped"
+        }
+      ],
+      "updatedAt": "2026-10-23T17:33:25.771Z",
+      "copy": {
+        "title": "عندك منتج جديد؟ نصمم شكله من الصفر ✨",
+        "caption": "عندك منتج جديد؟ نصمم شكله من الصفر ✨\n\nوش تحصل معنا:\n✅ تصميم شكل المنتج\n✅ مواصفات وخامات مدروسة\n✅ تشكيلة ألوان متكاملة\n\nاحفظ الفيديو، وتواصل معانا على الخاص لمشروعك 📩\n\nℹ️ التصميم المعروض مفاهيمي (Concept C005) لعلامة خيالية، وليس مشروعًا منفذًا لعميل.\n🤖 أُنتج هذا المحتوى بمساعدة أدوات الذكاء الاصطناعي.\n\n#productdesign #industrialdesign #3ddesign #editorialdesign #تصميم #مصمم_مستقل #freelancedesigner #designinspiration",
+        "hashtags": [
+          "#productdesign",
+          "#industrialdesign",
+          "#3ddesign",
+          "#editorialdesign",
+          "#تصميم",
+          "#مصمم_مستقل",
+          "#freelancedesigner",
+          "#designinspiration"
+        ]
+      },
+      "video": {
+        "file": "out/2026-10-23-C005/2026-10-23-C005.mp4",
+        "sha256": "a25f5616fedfea0b7692a6548da1f173142889ed4bd8886a2f6f9d890395fc8e",
+        "bytes": 3664822,
+        "thumb": "out/2026-10-23-C005/thumb.jpg"
+      },
+      "qa": [
+        {
+          "name": "file size 0.3–50 MB",
+          "ok": true,
+          "detail": "3.66 MB"
+        },
+        {
+          "name": "video stream H.264",
+          "ok": true,
+          "detail": "h264"
+        },
+        {
+          "name": "resolution 1080×1920",
+          "ok": true,
+          "detail": "1080×1920"
+        },
+        {
+          "name": "pixel format yuv420p",
+          "ok": true,
+          "detail": "yuv420p"
+        },
+        {
+          "name": "frame rate 30 fps",
+          "ok": true,
+          "detail": "30.00"
+        },
+        {
+          "name": "duration 10–15s",
+          "ok": true,
+          "detail": "14.00s"
+        },
+        {
+          "name": "audio stream AAC",
+          "ok": true,
+          "detail": "aac"
+        },
+        {
+          "name": "moov atom at start (faststart)",
+          "ok": true,
+          "detail": "web-optimised"
+        },
+        {
+          "name": "loudness −18…−10 LUFS",
+          "ok": true,
+          "detail": "-12.6 LUFS"
+        },
+        {
+          "name": "true peak ≤ −0.5 dBTP",
+          "ok": true,
+          "detail": "-3.5 dBTP"
+        },
+        {
+          "name": "no black frames",
+          "ok": true,
+          "detail": "0.00s black"
+        },
+        {
+          "name": "no frozen segments > 1.5s",
+          "ok": true,
+          "detail": "motion throughout"
+        },
+        {
+          "name": "title 8–80 chars",
+          "ok": true,
+          "detail": "36 chars"
+        },
+        {
+          "name": "caption ≤ 2200 chars",
+          "ok": true,
+          "detail": "422 chars"
+        },
+        {
+          "name": "3–10 hashtags",
+          "ok": true,
+          "detail": "8"
+        },
+        {
+          "name": "hashtags well-formed",
+          "ok": true,
+          "detail": "#productdesign #industrialdesign #3ddesign #editorialdesign #تصميم #مصمم_مستقل #freelancedesigner #designinspiration"
+        },
+        {
+          "name": "no duplicate hashtags",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "concept disclaimer present",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no client-work claims",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no links or emails",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "idea not used before",
+          "ok": true,
+          "detail": "3354631222b43b80"
+        },
+        {
+          "name": "video file is unique",
+          "ok": true,
+          "detail": "a25f5616fedf"
+        },
+        {
+          "name": "caption not reused",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "one video per day",
+          "ok": true,
+          "detail": "2026-10-23"
+        }
+      ],
+      "plannedAt": "2026-10-23T16:00:00.000Z",
+      "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/39995288043"
     }
   ]
 }
