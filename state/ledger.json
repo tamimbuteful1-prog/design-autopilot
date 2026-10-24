@@ -1369,6 +1369,231 @@
       ],
       "plannedAt": "2026-10-23T16:00:00.000Z",
       "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/39995288043"
+    },
+    {
+      "id": "2026-10-24-C006",
+      "date": "2026-10-24",
+      "status": "test",
+      "idea": {
+        "category": "packaging",
+        "subjectKey": "chocolate",
+        "styleKey": "minimal",
+        "paletteKey": "ocean-dark",
+        "fingerprint": "6726ec900cc4a311",
+        "conceptNo": 6,
+        "code": "C006",
+        "date": "2026-10-24",
+        "brand": "Cacao Club",
+        "subject": {
+          "ar": "تغليف لوح شوكولاتة",
+          "en": "Chocolate bar wrapper"
+        },
+        "categoryMeta": {
+          "ar": "تصميم تغليف",
+          "en": "Packaging"
+        },
+        "icon": "star",
+        "shape": "bar",
+        "palette": {
+          "key": "ocean-dark",
+          "name": "Deep Ocean",
+          "mode": "dark",
+          "bg": "#071A24",
+          "surface": "#0E2733",
+          "surface2": "#143443",
+          "ink": "#E8F6FA",
+          "muted": "#8DB3C1",
+          "line": "#1E4253",
+          "accent": "#3CC3E8",
+          "accent2": "#FFB547",
+          "accentInk": "#071A24"
+        },
+        "style": {
+          "key": "minimal",
+          "name": "Swiss Minimal",
+          "radius": 14,
+          "border": 1,
+          "shadow": "0 1px 0 rgba(0,0,0,.04)",
+          "heading": "Space Grotesk",
+          "weight": 600,
+          "tracking": -1.2
+        },
+        "content": {
+          "productName": "Sea Salt Caramel",
+          "descriptor": "Bean to bar · Small batch",
+          "notes": [
+            "Single origin cacao",
+            "Natural ingredients",
+            "Plastic-free wrap"
+          ],
+          "weight": "80 g"
+        },
+        "seed": "2026-10-24:5#0"
+      },
+      "createdAt": "2026-10-24T16:16:07.857Z",
+      "log": [
+        {
+          "at": "2026-10-24T16:16:07.857Z",
+          "msg": "idea chosen: packaging / chocolate / minimal / ocean-dark"
+        },
+        {
+          "at": "2026-10-24T16:16:44.461Z",
+          "msg": "rendered"
+        },
+        {
+          "at": "2026-10-24T16:16:45.933Z",
+          "msg": "QA 24/24 passed"
+        },
+        {
+          "at": "2026-10-24T16:16:45.935Z",
+          "msg": "TEST mode: QA passed; upload and publishing skipped"
+        }
+      ],
+      "updatedAt": "2026-10-24T16:16:45.935Z",
+      "copy": {
+        "title": "تصميم التغليف باحترافية 🔥",
+        "caption": "تصميم التغليف باحترافية 🔥\n\nوش تحصل معنا:\n✅ ملصق يخطف العين على الرف\n✅ تشكيلة لكل النكهات\n✅ ملفات جاهزة للطباعة\n\nجاهزين نبدأ مشروعك — تواصل معانا على الخاص 📩\n\nℹ️ التصميم المعروض مفاهيمي (Concept C006) لعلامة خيالية، وليس مشروعًا منفذًا لعميل.\n🤖 أُنتج هذا المحتوى بمساعدة أدوات الذكاء الاصطناعي.\n\n#packagingdesign #branding #labeldesign #minimaldesign #تصميم #مصمم_مستقل #freelancedesigner #designinspiration",
+        "hashtags": [
+          "#packagingdesign",
+          "#branding",
+          "#labeldesign",
+          "#minimaldesign",
+          "#تصميم",
+          "#مصمم_مستقل",
+          "#freelancedesigner",
+          "#designinspiration"
+        ]
+      },
+      "video": {
+        "file": "out/2026-10-24-C006/2026-10-24-C006.mp4",
+        "sha256": "b0abcd269e66fcb80b006e65e3e011b3dedf495c199f632f01e7a24e5e1f739e",
+        "bytes": 4559816,
+        "thumb": "out/2026-10-24-C006/thumb.jpg"
+      },
+      "qa": [
+        {
+          "name": "file size 0.3–50 MB",
+          "ok": true,
+          "detail": "4.56 MB"
+        },
+        {
+          "name": "video stream H.264",
+          "ok": true,
+          "detail": "h264"
+        },
+        {
+          "name": "resolution 1080×1920",
+          "ok": true,
+          "detail": "1080×1920"
+        },
+        {
+          "name": "pixel format yuv420p",
+          "ok": true,
+          "detail": "yuv420p"
+        },
+        {
+          "name": "frame rate 30 fps",
+          "ok": true,
+          "detail": "30.00"
+        },
+        {
+          "name": "duration 10–15s",
+          "ok": true,
+          "detail": "14.00s"
+        },
+        {
+          "name": "audio stream AAC",
+          "ok": true,
+          "detail": "aac"
+        },
+        {
+          "name": "moov atom at start (faststart)",
+          "ok": true,
+          "detail": "web-optimised"
+        },
+        {
+          "name": "loudness −18…−10 LUFS",
+          "ok": true,
+          "detail": "-12.6 LUFS"
+        },
+        {
+          "name": "true peak ≤ −0.5 dBTP",
+          "ok": true,
+          "detail": "-3 dBTP"
+        },
+        {
+          "name": "no black frames",
+          "ok": true,
+          "detail": "0.00s black"
+        },
+        {
+          "name": "no frozen segments > 1.5s",
+          "ok": true,
+          "detail": "motion throughout"
+        },
+        {
+          "name": "title 8–80 chars",
+          "ok": true,
+          "detail": "26 chars"
+        },
+        {
+          "name": "caption ≤ 2200 chars",
+          "ok": true,
+          "detail": "409 chars"
+        },
+        {
+          "name": "3–10 hashtags",
+          "ok": true,
+          "detail": "8"
+        },
+        {
+          "name": "hashtags well-formed",
+          "ok": true,
+          "detail": "#packagingdesign #branding #labeldesign #minimaldesign #تصميم #مصمم_مستقل #freelancedesigner #designinspiration"
+        },
+        {
+          "name": "no duplicate hashtags",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "concept disclaimer present",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no client-work claims",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no links or emails",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "idea not used before",
+          "ok": true,
+          "detail": "6726ec900cc4a311"
+        },
+        {
+          "name": "video file is unique",
+          "ok": true,
+          "detail": "b0abcd269e66"
+        },
+        {
+          "name": "caption not reused",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "one video per day",
+          "ok": true,
+          "detail": "2026-10-24"
+        }
+      ],
+      "plannedAt": "2026-10-24T16:00:00.000Z",
+      "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/40110718499"
     }
   ]
 }
