@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T16:31:36.219Z",
+  "generatedAt": "2026-10-25T17:14:34.999Z",
   "repo": "tamimbuteful1-prog/design-autopilot",
   "control": {
     "paused": false,
@@ -19,6 +19,45 @@
     "timezone": "Asia/Riyadh"
   },
   "entries": [
+    {
+      "id": "2026-10-25-C007",
+      "date": "2026-10-25",
+      "code": "C007",
+      "category": {
+        "ar": "تطبيق جوال",
+        "en": "Mobile App"
+      },
+      "subject": {
+        "ar": "تطبيق لإدارة الميزانية الشخصية",
+        "en": "Personal budget"
+      },
+      "brand": "Ledgr",
+      "style": "Glassmorphism",
+      "palette": {
+        "name": "Terracotta",
+        "colors": [
+          "#F6EEE7",
+          "#B94E28",
+          "#2E5E6E",
+          "#2A1A12"
+        ]
+      },
+      "status": "test",
+      "title": "خدمة تصميم تطبيقات الجوال — وش نقدم لك؟",
+      "videoUrl": null,
+      "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/40213532498",
+      "plannedAt": "2026-10-25T16:00:00.000Z",
+      "buffer": null,
+      "issue": null,
+      "qa": {
+        "passed": 24,
+        "total": 24,
+        "failed": []
+      },
+      "error": null,
+      "updatedAt": "2026-10-25T17:14:34.997Z",
+      "thumb": "thumbs/2026-10-25-C007.jpg"
+    },
     {
       "id": "2026-10-24-C006",
       "date": "2026-10-24",

@@ -1594,6 +1594,287 @@
       ],
       "plannedAt": "2026-10-24T16:00:00.000Z",
       "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/40110718499"
+    },
+    {
+      "id": "2026-10-25-C007",
+      "date": "2026-10-25",
+      "status": "test",
+      "idea": {
+        "category": "mobile",
+        "subjectKey": "budget",
+        "styleKey": "glass",
+        "paletteKey": "terracotta",
+        "fingerprint": "d512b4980c2fecfd",
+        "conceptNo": 7,
+        "code": "C007",
+        "date": "2026-10-25",
+        "brand": "Ledgr",
+        "subject": {
+          "ar": "تطبيق لإدارة الميزانية الشخصية",
+          "en": "Personal budget"
+        },
+        "categoryMeta": {
+          "ar": "تطبيق جوال",
+          "en": "Mobile App"
+        },
+        "icon": "wallet",
+        "shape": null,
+        "palette": {
+          "key": "terracotta",
+          "name": "Terracotta",
+          "mode": "light",
+          "bg": "#F6EEE7",
+          "surface": "#FFFAF5",
+          "surface2": "#F1E4D8",
+          "ink": "#2A1A12",
+          "muted": "#7A6253",
+          "line": "#E6D5C6",
+          "accent": "#B94E28",
+          "accent2": "#2E5E6E",
+          "accentInk": "#FFFFFF"
+        },
+        "style": {
+          "key": "glass",
+          "name": "Glassmorphism",
+          "radius": 32,
+          "border": 1,
+          "shadow": "0 40px 80px -30px rgba(0,0,0,.45)",
+          "heading": "Inter",
+          "weight": 600,
+          "tracking": -1.2,
+          "glass": true
+        },
+        "content": {
+          "greeting": "Hi, Omar",
+          "heroTitle": "Available balance",
+          "heroValue": "$3,584",
+          "heroSub": "Spent 42% of monthly plan",
+          "chips": [
+            "Week",
+            "Month",
+            "Year"
+          ],
+          "list": [
+            {
+              "title": "Groceries",
+              "sub": "12 transactions",
+              "meta": "-$163",
+              "icon": "cart"
+            },
+            {
+              "title": "Transport",
+              "sub": "Metro & fuel",
+              "meta": "-$66",
+              "icon": "bolt"
+            },
+            {
+              "title": "Freelance income",
+              "sub": "Invoice #204",
+              "meta": "+$2257",
+              "icon": "star"
+            }
+          ],
+          "detail": {
+            "title": "Savings goal",
+            "subtitle": "New laptop · Dec",
+            "stats": [
+              [
+                "Saved",
+                "$1191"
+              ],
+              [
+                "Goal",
+                "$1,800"
+              ],
+              [
+                "Left",
+                "7 wks"
+              ]
+            ],
+            "progress": 74,
+            "cta": "Add to savings"
+          },
+          "stats": {
+            "title": "Spending",
+            "value": "$1254",
+            "bars": [
+              89,
+              46,
+              77,
+              47,
+              26,
+              93,
+              96
+            ],
+            "label": "Daily spending"
+          }
+        },
+        "seed": "2026-10-25:6#0"
+      },
+      "createdAt": "2026-10-25T17:13:15.591Z",
+      "log": [
+        {
+          "at": "2026-10-25T17:13:15.591Z",
+          "msg": "idea chosen: mobile / budget / glass / terracotta"
+        },
+        {
+          "at": "2026-10-25T17:14:32.703Z",
+          "msg": "rendered"
+        },
+        {
+          "at": "2026-10-25T17:14:34.995Z",
+          "msg": "QA 24/24 passed"
+        },
+        {
+          "at": "2026-10-25T17:14:34.997Z",
+          "msg": "TEST mode: QA passed; upload and publishing skipped"
+        }
+      ],
+      "updatedAt": "2026-10-25T17:14:34.997Z",
+      "copy": {
+        "title": "خدمة تصميم تطبيقات الجوال — وش نقدم لك؟",
+        "caption": "خدمة تصميم تطبيقات الجوال — وش نقدم لك؟\n\nوش تحصل معنا:\n✅ واجهات iOS و Android\n✅ تجربة استخدام سهلة\n✅ ملفات جاهزة للمبرمج\n\nجاهزين نبدأ مشروعك — تواصل معانا على الخاص 📩\n\nℹ️ التصميم المعروض مفاهيمي (Concept C007) لعلامة خيالية، وليس مشروعًا منفذًا لعميل.\n🤖 أُنتج هذا المحتوى بمساعدة أدوات الذكاء الاصطناعي.\n\n#mobileapp #appdesign #uidesign #glassmorphism #تصميم #مصمم_مستقل #freelancedesigner #designinspiration",
+        "hashtags": [
+          "#mobileapp",
+          "#appdesign",
+          "#uidesign",
+          "#glassmorphism",
+          "#تصميم",
+          "#مصمم_مستقل",
+          "#freelancedesigner",
+          "#designinspiration"
+        ]
+      },
+      "video": {
+        "file": "out/2026-10-25-C007/2026-10-25-C007.mp4",
+        "sha256": "f5b7a4178cea51be5e3fbe5914ff458fda85c4639801a8b8f0d4f9043901aabb",
+        "bytes": 4460610,
+        "thumb": "out/2026-10-25-C007/thumb.jpg"
+      },
+      "qa": [
+        {
+          "name": "file size 0.3–50 MB",
+          "ok": true,
+          "detail": "4.46 MB"
+        },
+        {
+          "name": "video stream H.264",
+          "ok": true,
+          "detail": "h264"
+        },
+        {
+          "name": "resolution 1080×1920",
+          "ok": true,
+          "detail": "1080×1920"
+        },
+        {
+          "name": "pixel format yuv420p",
+          "ok": true,
+          "detail": "yuv420p"
+        },
+        {
+          "name": "frame rate 30 fps",
+          "ok": true,
+          "detail": "30.00"
+        },
+        {
+          "name": "duration 10–15s",
+          "ok": true,
+          "detail": "14.00s"
+        },
+        {
+          "name": "audio stream AAC",
+          "ok": true,
+          "detail": "aac"
+        },
+        {
+          "name": "moov atom at start (faststart)",
+          "ok": true,
+          "detail": "web-optimised"
+        },
+        {
+          "name": "loudness −18…−10 LUFS",
+          "ok": true,
+          "detail": "-12.6 LUFS"
+        },
+        {
+          "name": "true peak ≤ −0.5 dBTP",
+          "ok": true,
+          "detail": "-3.2 dBTP"
+        },
+        {
+          "name": "no black frames",
+          "ok": true,
+          "detail": "0.00s black"
+        },
+        {
+          "name": "no frozen segments > 1.5s",
+          "ok": true,
+          "detail": "motion throughout"
+        },
+        {
+          "name": "title 8–80 chars",
+          "ok": true,
+          "detail": "39 chars"
+        },
+        {
+          "name": "caption ≤ 2200 chars",
+          "ok": true,
+          "detail": "410 chars"
+        },
+        {
+          "name": "3–10 hashtags",
+          "ok": true,
+          "detail": "8"
+        },
+        {
+          "name": "hashtags well-formed",
+          "ok": true,
+          "detail": "#mobileapp #appdesign #uidesign #glassmorphism #تصميم #مصمم_مستقل #freelancedesigner #designinspiration"
+        },
+        {
+          "name": "no duplicate hashtags",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "concept disclaimer present",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no client-work claims",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no links or emails",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "idea not used before",
+          "ok": true,
+          "detail": "d512b4980c2fecfd"
+        },
+        {
+          "name": "video file is unique",
+          "ok": true,
+          "detail": "f5b7a4178cea"
+        },
+        {
+          "name": "caption not reused",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "one video per day",
+          "ok": true,
+          "detail": "2026-10-25"
+        }
+      ],
+      "plannedAt": "2026-10-25T16:00:00.000Z",
+      "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/40213532498"
     }
   ]
 }
