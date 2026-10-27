@@ -1875,6 +1875,325 @@
       ],
       "plannedAt": "2026-10-25T16:00:00.000Z",
       "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/40213532498"
+    },
+    {
+      "id": "2026-10-27-C008",
+      "date": "2026-10-27",
+      "status": "test",
+      "idea": {
+        "category": "dashboard",
+        "subjectKey": "ecommerce",
+        "styleKey": "editorial",
+        "paletteKey": "emerald-night",
+        "fingerprint": "11fb822d62bc174f",
+        "conceptNo": 8,
+        "code": "C008",
+        "date": "2026-10-27",
+        "brand": "Cartly",
+        "subject": {
+          "ar": "لوحة تحكم لمتجر إلكتروني",
+          "en": "E-commerce operations"
+        },
+        "categoryMeta": {
+          "ar": "لوحة تحكم",
+          "en": "Dashboard"
+        },
+        "icon": "cart",
+        "shape": null,
+        "palette": {
+          "key": "emerald-night",
+          "name": "Emerald Night",
+          "mode": "dark",
+          "bg": "#06140F",
+          "surface": "#0D221A",
+          "surface2": "#133026",
+          "ink": "#E9FBF2",
+          "muted": "#86B3A0",
+          "line": "#1C3F32",
+          "accent": "#2BD98A",
+          "accent2": "#F2C14E",
+          "accentInk": "#06140F"
+        },
+        "style": {
+          "key": "editorial",
+          "name": "Editorial",
+          "radius": 4,
+          "border": 1,
+          "shadow": "none",
+          "heading": "Playfair Display",
+          "weight": 600,
+          "tracking": -0.5
+        },
+        "content": {
+          "title": "Store performance",
+          "nav": [
+            "Overview",
+            "Orders",
+            "Products",
+            "Customers",
+            "Marketing"
+          ],
+          "kpis": [
+            {
+              "label": "Sales",
+              "value": "168k SAR",
+              "delta": "+18%"
+            },
+            {
+              "label": "Orders",
+              "value": "1002",
+              "delta": "+3%"
+            },
+            {
+              "label": "Conversion",
+              "value": "4.5%",
+              "delta": "+0.5%"
+            },
+            {
+              "label": "Returns",
+              "value": "4.9%",
+              "delta": "-1.0%"
+            }
+          ],
+          "series": [
+            31,
+            43,
+            50,
+            57,
+            67,
+            63,
+            61,
+            70,
+            79,
+            76,
+            72,
+            79
+          ],
+          "series2": [
+            18,
+            17,
+            23,
+            21,
+            21,
+            24,
+            28,
+            27,
+            33,
+            38,
+            36,
+            34
+          ],
+          "bars": [
+            {
+              "label": "Apparel",
+              "value": 87
+            },
+            {
+              "label": "Home",
+              "value": 48
+            },
+            {
+              "label": "Beauty",
+              "value": 50
+            },
+            {
+              "label": "Tech",
+              "value": 45
+            }
+          ],
+          "table": [
+            [
+              "#10482",
+              "Linen shirt",
+              "189 SAR",
+              "Shipped"
+            ],
+            [
+              "#10481",
+              "Desk lamp",
+              "320 SAR",
+              "Packing"
+            ],
+            [
+              "#10480",
+              "Face serum",
+              "95 SAR",
+              "Delivered"
+            ],
+            [
+              "#10479",
+              "Earbuds",
+              "410 SAR",
+              "Shipped"
+            ]
+          ]
+        },
+        "seed": "2026-10-27:7#0"
+      },
+      "createdAt": "2026-10-27T18:18:39.896Z",
+      "log": [
+        {
+          "at": "2026-10-27T18:18:39.896Z",
+          "msg": "idea chosen: dashboard / ecommerce / editorial / emerald-night"
+        },
+        {
+          "at": "2026-10-27T18:19:18.342Z",
+          "msg": "rendered"
+        },
+        {
+          "at": "2026-10-27T18:19:19.826Z",
+          "msg": "QA 24/24 passed"
+        },
+        {
+          "at": "2026-10-27T18:19:19.829Z",
+          "msg": "TEST mode: QA passed; upload and publishing skipped"
+        }
+      ],
+      "updatedAt": "2026-10-27T18:19:19.829Z",
+      "copy": {
+        "title": "بياناتك مبعثرة؟ نصمم لك لوحة تحكم واضحة ✨",
+        "caption": "بياناتك مبعثرة؟ نصمم لك لوحة تحكم واضحة ✨\n\nوش تحصل معنا:\n✅ مؤشرات واضحة بنظرة\n✅ رسوم بيانية سهلة القراءة\n✅ نظام تصميم قابل للتوسع\n\nجاهزين نبدأ مشروعك — تواصل معانا على الخاص 📩\n\nℹ️ التصميم المعروض مفاهيمي (Concept C008) لعلامة خيالية، وليس مشروعًا منفذًا لعميل.\n🤖 أُنتج هذا المحتوى بمساعدة أدوات الذكاء الاصطناعي.\n\n#dashboard #dashboarddesign #saasdesign #editorialdesign #تصميم #مصمم_مستقل #freelancedesigner #designinspiration",
+        "hashtags": [
+          "#dashboard",
+          "#dashboarddesign",
+          "#saasdesign",
+          "#editorialdesign",
+          "#تصميم",
+          "#مصمم_مستقل",
+          "#freelancedesigner",
+          "#designinspiration"
+        ]
+      },
+      "video": {
+        "file": "out/2026-10-27-C008/2026-10-27-C008.mp4",
+        "sha256": "8de3c23c2d25d14002cee733f3e4aac5f53522f618b2610a5ba2572028efb927",
+        "bytes": 3857925,
+        "thumb": "out/2026-10-27-C008/thumb.jpg"
+      },
+      "qa": [
+        {
+          "name": "file size 0.3–50 MB",
+          "ok": true,
+          "detail": "3.86 MB"
+        },
+        {
+          "name": "video stream H.264",
+          "ok": true,
+          "detail": "h264"
+        },
+        {
+          "name": "resolution 1080×1920",
+          "ok": true,
+          "detail": "1080×1920"
+        },
+        {
+          "name": "pixel format yuv420p",
+          "ok": true,
+          "detail": "yuv420p"
+        },
+        {
+          "name": "frame rate 30 fps",
+          "ok": true,
+          "detail": "30.00"
+        },
+        {
+          "name": "duration 10–15s",
+          "ok": true,
+          "detail": "14.00s"
+        },
+        {
+          "name": "audio stream AAC",
+          "ok": true,
+          "detail": "aac"
+        },
+        {
+          "name": "moov atom at start (faststart)",
+          "ok": true,
+          "detail": "web-optimised"
+        },
+        {
+          "name": "loudness −18…−10 LUFS",
+          "ok": true,
+          "detail": "-12.7 LUFS"
+        },
+        {
+          "name": "true peak ≤ −0.5 dBTP",
+          "ok": true,
+          "detail": "-0.8 dBTP"
+        },
+        {
+          "name": "no black frames",
+          "ok": true,
+          "detail": "0.00s black"
+        },
+        {
+          "name": "no frozen segments > 1.5s",
+          "ok": true,
+          "detail": "motion throughout"
+        },
+        {
+          "name": "title 8–80 chars",
+          "ok": true,
+          "detail": "41 chars"
+        },
+        {
+          "name": "caption ≤ 2200 chars",
+          "ok": true,
+          "detail": "429 chars"
+        },
+        {
+          "name": "3–10 hashtags",
+          "ok": true,
+          "detail": "8"
+        },
+        {
+          "name": "hashtags well-formed",
+          "ok": true,
+          "detail": "#dashboard #dashboarddesign #saasdesign #editorialdesign #تصميم #مصمم_مستقل #freelancedesigner #designinspiration"
+        },
+        {
+          "name": "no duplicate hashtags",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "concept disclaimer present",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no client-work claims",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no links or emails",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "idea not used before",
+          "ok": true,
+          "detail": "11fb822d62bc174f"
+        },
+        {
+          "name": "video file is unique",
+          "ok": true,
+          "detail": "8de3c23c2d25"
+        },
+        {
+          "name": "caption not reused",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "one video per day",
+          "ok": true,
+          "detail": "2026-10-27"
+        }
+      ],
+      "plannedAt": "2026-10-27T16:00:00.000Z",
+      "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/40558668310"
     }
   ]
 }
