@@ -2194,6 +2194,290 @@
       ],
       "plannedAt": "2026-10-27T16:00:00.000Z",
       "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/40558668310"
+    },
+    {
+      "id": "2026-10-28-C009",
+      "date": "2026-10-28",
+      "status": "test",
+      "idea": {
+        "category": "website",
+        "subjectKey": "roastery",
+        "styleKey": "soft",
+        "paletteKey": "citrus",
+        "fingerprint": "5fbb8f5763f2b201",
+        "conceptNo": 9,
+        "code": "C009",
+        "date": "2026-10-28",
+        "brand": "Dune Roasters",
+        "subject": {
+          "ar": "موقع لمحمصة قهوة",
+          "en": "Coffee roastery e-shop"
+        },
+        "categoryMeta": {
+          "ar": "موقع إلكتروني",
+          "en": "Website"
+        },
+        "icon": "cup",
+        "shape": null,
+        "palette": {
+          "key": "citrus",
+          "name": "Citrus Pop",
+          "mode": "light",
+          "bg": "#FFF8E6",
+          "surface": "#FFFFFF",
+          "surface2": "#FFF1C9",
+          "ink": "#1C1A12",
+          "muted": "#6E6A55",
+          "line": "#F0E3B8",
+          "accent": "#1F3DFF",
+          "accent2": "#FF6B3D",
+          "accentInk": "#FFFFFF"
+        },
+        "style": {
+          "key": "soft",
+          "name": "Soft UI",
+          "radius": 28,
+          "border": 0,
+          "shadow": "0 30px 60px -20px rgba(0,0,0,.25)",
+          "heading": "Inter",
+          "weight": 700,
+          "tracking": -1.5
+        },
+        "content": {
+          "nav": [
+            "Shop",
+            "Subscriptions",
+            "Origins",
+            "Cafés"
+          ],
+          "heroTitle": "Small-batch coffee, roasted every Monday",
+          "heroSub": "Traceable beans from 11 farms, delivered fresh.",
+          "cta": "Shop beans",
+          "features": [
+            {
+              "title": "Traceable",
+              "body": "Know the farm, altitude and harvest.",
+              "icon": "map"
+            },
+            {
+              "title": "Fresh roast",
+              "body": "Shipped within 48 hours of roasting.",
+              "icon": "sun"
+            },
+            {
+              "title": "Brew guides",
+              "body": "Recipes for V60, Chemex and espresso.",
+              "icon": "cup"
+            }
+          ],
+          "stats": [
+            [
+              "11",
+              "Farms"
+            ],
+            [
+              "48h",
+              "Roast to door"
+            ],
+            [
+              "6",
+              "Origins"
+            ]
+          ],
+          "pricing": [
+            {
+              "name": "Taster",
+              "price": "89 SAR",
+              "items": [
+                "3 × 100g",
+                "Monthly"
+              ]
+            },
+            {
+              "name": "Daily",
+              "price": "149 SAR",
+              "items": [
+                "2 × 250g",
+                "Monthly"
+              ]
+            },
+            {
+              "name": "Office",
+              "price": "399 SAR",
+              "items": [
+                "2kg",
+                "Bi-weekly"
+              ]
+            }
+          ],
+          "steps": null
+        },
+        "seed": "2026-10-28:8#0"
+      },
+      "createdAt": "2026-10-28T18:30:54.771Z",
+      "log": [
+        {
+          "at": "2026-10-28T18:30:54.771Z",
+          "msg": "idea chosen: website / roastery / soft / citrus"
+        },
+        {
+          "at": "2026-10-28T18:31:54.085Z",
+          "msg": "rendered"
+        },
+        {
+          "at": "2026-10-28T18:31:56.323Z",
+          "msg": "QA 24/24 passed"
+        },
+        {
+          "at": "2026-10-28T18:31:56.325Z",
+          "msg": "TEST mode: QA passed; upload and publishing skipped"
+        }
+      ],
+      "updatedAt": "2026-10-28T18:31:56.325Z",
+      "copy": {
+        "title": "تبي موقع يجيب عملاء؟ نصمم لك موقعك ✨",
+        "caption": "تبي موقع يجيب عملاء؟ نصمم لك موقعك ✨\n\nوش تحصل معنا:\n✅ صفحة رئيسية تقنع الزائر\n✅ تصميم متجاوب مع الجوال\n✅ جاهز للتطوير مباشرة\n\nجاهزين نبدأ مشروعك — تواصل معانا على الخاص 📩\n\nℹ️ التصميم المعروض مفاهيمي (Concept C009) لعلامة خيالية، وليس مشروعًا منفذًا لعميل.\n🤖 أُنتج هذا المحتوى بمساعدة أدوات الذكاء الاصطناعي.\n\n#webdesign #landingpage #websitedesign #softui #تصميم #مصمم_مستقل #freelancedesigner #designinspiration",
+        "hashtags": [
+          "#webdesign",
+          "#landingpage",
+          "#websitedesign",
+          "#softui",
+          "#تصميم",
+          "#مصمم_مستقل",
+          "#freelancedesigner",
+          "#designinspiration"
+        ]
+      },
+      "video": {
+        "file": "out/2026-10-28-C009/2026-10-28-C009.mp4",
+        "sha256": "7ae81f82a8b5a6b4b91b95a43a82ead57d0cdf55c4c22d7a7363980947d4913d",
+        "bytes": 5655857,
+        "thumb": "out/2026-10-28-C009/thumb.jpg"
+      },
+      "qa": [
+        {
+          "name": "file size 0.3–50 MB",
+          "ok": true,
+          "detail": "5.66 MB"
+        },
+        {
+          "name": "video stream H.264",
+          "ok": true,
+          "detail": "h264"
+        },
+        {
+          "name": "resolution 1080×1920",
+          "ok": true,
+          "detail": "1080×1920"
+        },
+        {
+          "name": "pixel format yuv420p",
+          "ok": true,
+          "detail": "yuv420p"
+        },
+        {
+          "name": "frame rate 30 fps",
+          "ok": true,
+          "detail": "30.00"
+        },
+        {
+          "name": "duration 10–15s",
+          "ok": true,
+          "detail": "14.00s"
+        },
+        {
+          "name": "audio stream AAC",
+          "ok": true,
+          "detail": "aac"
+        },
+        {
+          "name": "moov atom at start (faststart)",
+          "ok": true,
+          "detail": "web-optimised"
+        },
+        {
+          "name": "loudness −18…−10 LUFS",
+          "ok": true,
+          "detail": "-12.6 LUFS"
+        },
+        {
+          "name": "true peak ≤ −0.5 dBTP",
+          "ok": true,
+          "detail": "-2.2 dBTP"
+        },
+        {
+          "name": "no black frames",
+          "ok": true,
+          "detail": "0.00s black"
+        },
+        {
+          "name": "no frozen segments > 1.5s",
+          "ok": true,
+          "detail": "motion throughout"
+        },
+        {
+          "name": "title 8–80 chars",
+          "ok": true,
+          "detail": "36 chars"
+        },
+        {
+          "name": "caption ≤ 2200 chars",
+          "ok": true,
+          "detail": "414 chars"
+        },
+        {
+          "name": "3–10 hashtags",
+          "ok": true,
+          "detail": "8"
+        },
+        {
+          "name": "hashtags well-formed",
+          "ok": true,
+          "detail": "#webdesign #landingpage #websitedesign #softui #تصميم #مصمم_مستقل #freelancedesigner #designinspiration"
+        },
+        {
+          "name": "no duplicate hashtags",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "concept disclaimer present",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no client-work claims",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no links or emails",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "idea not used before",
+          "ok": true,
+          "detail": "5fbb8f5763f2b201"
+        },
+        {
+          "name": "video file is unique",
+          "ok": true,
+          "detail": "7ae81f82a8b5"
+        },
+        {
+          "name": "caption not reused",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "one video per day",
+          "ok": true,
+          "detail": "2026-10-28"
+        }
+      ],
+      "plannedAt": "2026-10-28T16:00:00.000Z",
+      "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/40745718612"
     }
   ]
 }
