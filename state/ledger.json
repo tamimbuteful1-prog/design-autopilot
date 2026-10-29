@@ -2478,6 +2478,251 @@
       ],
       "plannedAt": "2026-10-28T16:00:00.000Z",
       "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/40745718612"
+    },
+    {
+      "id": "2026-10-29-C010",
+      "date": "2026-10-29",
+      "status": "test",
+      "idea": {
+        "category": "uiux",
+        "subjectKey": "booking",
+        "styleKey": "minimal",
+        "paletteKey": "blush",
+        "fingerprint": "8ee128ec46cd554a",
+        "conceptNo": 10,
+        "code": "C010",
+        "date": "2026-10-29",
+        "brand": "Slotly",
+        "subject": {
+          "ar": "تجربة حجز موعد",
+          "en": "Appointment booking flow"
+        },
+        "categoryMeta": {
+          "ar": "تجربة مستخدم UI/UX",
+          "en": "UI/UX Flow"
+        },
+        "icon": "calendar",
+        "shape": null,
+        "palette": {
+          "key": "blush",
+          "name": "Blush & Ink",
+          "mode": "light",
+          "bg": "#F9ECEC",
+          "surface": "#FFFFFF",
+          "surface2": "#F6E1E1",
+          "ink": "#221417",
+          "muted": "#7A5F64",
+          "line": "#EDD6D7",
+          "accent": "#B3264B",
+          "accent2": "#3A3A8C",
+          "accentInk": "#FFFFFF"
+        },
+        "style": {
+          "key": "minimal",
+          "name": "Swiss Minimal",
+          "radius": 14,
+          "border": 1,
+          "shadow": "0 1px 0 rgba(0,0,0,.04)",
+          "heading": "Space Grotesk",
+          "weight": 600,
+          "tracking": -1.2
+        },
+        "content": {
+          "flow": [
+            {
+              "title": "Choose a service",
+              "body": "Haircut, beard trim or full grooming.",
+              "cta": "Next"
+            },
+            {
+              "title": "Pick a time",
+              "body": "Thursday, 14 November",
+              "cta": "Confirm time",
+              "options": [
+                "10:00",
+                "11:30",
+                "13:00",
+                "16:30"
+              ]
+            },
+            {
+              "title": "You're booked",
+              "body": "Added to your calendar with a reminder.",
+              "cta": "Done"
+            }
+          ],
+          "principle": [
+            "Smart defaults",
+            "Scannable time slots",
+            "Instant confirmation"
+          ]
+        },
+        "seed": "2026-10-29:9#0"
+      },
+      "createdAt": "2026-10-29T18:40:25.247Z",
+      "log": [
+        {
+          "at": "2026-10-29T18:40:25.247Z",
+          "msg": "idea chosen: uiux / booking / minimal / blush"
+        },
+        {
+          "at": "2026-10-29T18:41:25.929Z",
+          "msg": "rendered"
+        },
+        {
+          "at": "2026-10-29T18:41:28.124Z",
+          "msg": "QA 24/24 passed"
+        },
+        {
+          "at": "2026-10-29T18:41:28.127Z",
+          "msg": "TEST mode: QA passed; upload and publishing skipped"
+        }
+      ],
+      "updatedAt": "2026-10-29T18:41:28.127Z",
+      "copy": {
+        "title": "تجربة المستخدم UI/UX باحترافية 🔥",
+        "caption": "تجربة المستخدم UI/UX باحترافية 🔥\n\nوش تحصل معنا:\n✅ دراسة رحلة المستخدم\n✅ نموذج تفاعلي قبل البرمجة\n✅ نظام تصميم متكامل\n\nجاهزين نبدأ مشروعك — تواصل معانا على الخاص 📩\n\nℹ️ التصميم المعروض مفاهيمي (Concept C010) لعلامة خيالية، وليس مشروعًا منفذًا لعميل.\n🤖 أُنتج هذا المحتوى بمساعدة أدوات الذكاء الاصطناعي.\n\n#uiux #uxdesign #designsystem #minimaldesign #تصميم #مصمم_مستقل #freelancedesigner #designinspiration",
+        "hashtags": [
+          "#uiux",
+          "#uxdesign",
+          "#designsystem",
+          "#minimaldesign",
+          "#تصميم",
+          "#مصمم_مستقل",
+          "#freelancedesigner",
+          "#designinspiration"
+        ]
+      },
+      "video": {
+        "file": "out/2026-10-29-C010/2026-10-29-C010.mp4",
+        "sha256": "72d2c41ff75c8c06d27bc7be12383d27cfc098aec7125c699d93c15fffe4e3cb",
+        "bytes": 4547839,
+        "thumb": "out/2026-10-29-C010/thumb.jpg"
+      },
+      "qa": [
+        {
+          "name": "file size 0.3–50 MB",
+          "ok": true,
+          "detail": "4.55 MB"
+        },
+        {
+          "name": "video stream H.264",
+          "ok": true,
+          "detail": "h264"
+        },
+        {
+          "name": "resolution 1080×1920",
+          "ok": true,
+          "detail": "1080×1920"
+        },
+        {
+          "name": "pixel format yuv420p",
+          "ok": true,
+          "detail": "yuv420p"
+        },
+        {
+          "name": "frame rate 30 fps",
+          "ok": true,
+          "detail": "30.00"
+        },
+        {
+          "name": "duration 10–15s",
+          "ok": true,
+          "detail": "14.00s"
+        },
+        {
+          "name": "audio stream AAC",
+          "ok": true,
+          "detail": "aac"
+        },
+        {
+          "name": "moov atom at start (faststart)",
+          "ok": true,
+          "detail": "web-optimised"
+        },
+        {
+          "name": "loudness −18…−10 LUFS",
+          "ok": true,
+          "detail": "-12.6 LUFS"
+        },
+        {
+          "name": "true peak ≤ −0.5 dBTP",
+          "ok": true,
+          "detail": "-2.5 dBTP"
+        },
+        {
+          "name": "no black frames",
+          "ok": true,
+          "detail": "0.00s black"
+        },
+        {
+          "name": "no frozen segments > 1.5s",
+          "ok": true,
+          "detail": "motion throughout"
+        },
+        {
+          "name": "title 8–80 chars",
+          "ok": true,
+          "detail": "33 chars"
+        },
+        {
+          "name": "caption ≤ 2200 chars",
+          "ok": true,
+          "detail": "405 chars"
+        },
+        {
+          "name": "3–10 hashtags",
+          "ok": true,
+          "detail": "8"
+        },
+        {
+          "name": "hashtags well-formed",
+          "ok": true,
+          "detail": "#uiux #uxdesign #designsystem #minimaldesign #تصميم #مصمم_مستقل #freelancedesigner #designinspiration"
+        },
+        {
+          "name": "no duplicate hashtags",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "concept disclaimer present",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no client-work claims",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no links or emails",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "idea not used before",
+          "ok": true,
+          "detail": "8ee128ec46cd554a"
+        },
+        {
+          "name": "video file is unique",
+          "ok": true,
+          "detail": "72d2c41ff75c"
+        },
+        {
+          "name": "caption not reused",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "one video per day",
+          "ok": true,
+          "detail": "2026-10-29"
+        }
+      ],
+      "plannedAt": "2026-10-29T16:00:00.000Z",
+      "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/40932871555"
     }
   ]
 }
