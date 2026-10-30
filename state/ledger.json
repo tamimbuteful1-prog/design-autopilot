@@ -2723,6 +2723,246 @@
       ],
       "plannedAt": "2026-10-29T16:00:00.000Z",
       "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/40932871555"
+    },
+    {
+      "id": "2026-10-30-C011",
+      "date": "2026-10-30",
+      "status": "test",
+      "idea": {
+        "category": "product",
+        "subjectKey": "bottle",
+        "styleKey": "brutal",
+        "paletteKey": "graphite-lime",
+        "fingerprint": "26f980bcf40754c6",
+        "conceptNo": 11,
+        "code": "C011",
+        "date": "2026-10-30",
+        "brand": "Maa",
+        "subject": {
+          "ar": "زجاجة مياه ذكية",
+          "en": "Smart water bottle"
+        },
+        "categoryMeta": {
+          "ar": "تصميم منتج",
+          "en": "Product Design"
+        },
+        "icon": "drop",
+        "shape": "bottle",
+        "palette": {
+          "key": "graphite-lime",
+          "name": "Graphite Lime",
+          "mode": "dark",
+          "bg": "#111312",
+          "surface": "#1A1D1B",
+          "surface2": "#232725",
+          "ink": "#F1F5EF",
+          "muted": "#9AA39C",
+          "line": "#2D322F",
+          "accent": "#C6F432",
+          "accentInk": "#111312",
+          "accent2": "#7AA7FF"
+        },
+        "style": {
+          "key": "brutal",
+          "name": "Neo-Brutalism",
+          "radius": 6,
+          "border": 3,
+          "shadow": "10px 10px 0 0 var(--ink)",
+          "heading": "Space Grotesk",
+          "weight": 700,
+          "tracking": -1
+        },
+        "content": {
+          "specs": [
+            [
+              "Capacity",
+              "750 ml"
+            ],
+            [
+              "Insulation",
+              "24 h cold"
+            ],
+            [
+              "Sensor",
+              "Sip tracking"
+            ],
+            [
+              "Cap",
+              "LED reminder"
+            ]
+          ],
+          "materials": [
+            "Stainless steel",
+            "Powder coat",
+            "Bamboo cap"
+          ]
+        },
+        "seed": "2026-10-30:10#0"
+      },
+      "createdAt": "2026-10-30T18:14:34.520Z",
+      "log": [
+        {
+          "at": "2026-10-30T18:14:34.521Z",
+          "msg": "idea chosen: product / bottle / brutal / graphite-lime"
+        },
+        {
+          "at": "2026-10-30T18:15:28.625Z",
+          "msg": "rendered"
+        },
+        {
+          "at": "2026-10-30T18:15:30.668Z",
+          "msg": "QA 24/24 passed"
+        },
+        {
+          "at": "2026-10-30T18:15:30.670Z",
+          "msg": "TEST mode: QA passed; upload and publishing skipped"
+        }
+      ],
+      "updatedAt": "2026-10-30T18:15:30.670Z",
+      "copy": {
+        "title": "خدمة تصميم المنتجات — وش نقدم لك؟",
+        "caption": "خدمة تصميم المنتجات — وش نقدم لك؟\n\nوش تحصل معنا:\n✅ تصميم شكل المنتج\n✅ مواصفات وخامات مدروسة\n✅ تشكيلة ألوان متكاملة\n\nجاهزين نبدأ مشروعك — تواصل معانا على الخاص 📩\n\nℹ️ التصميم المعروض مفاهيمي (Concept C011) لعلامة خيالية، وليس مشروعًا منفذًا لعميل.\n🤖 أُنتج هذا المحتوى بمساعدة أدوات الذكاء الاصطناعي.\n\n#productdesign #industrialdesign #3ddesign #neobrutalism #تصميم #مصمم_مستقل #freelancedesigner #designinspiration",
+        "hashtags": [
+          "#productdesign",
+          "#industrialdesign",
+          "#3ddesign",
+          "#neobrutalism",
+          "#تصميم",
+          "#مصمم_مستقل",
+          "#freelancedesigner",
+          "#designinspiration"
+        ]
+      },
+      "video": {
+        "file": "out/2026-10-30-C011/2026-10-30-C011.mp4",
+        "sha256": "5f58ab9f7a353c913d9bbf5b8c1d8047b4faa7847a83d7cb03092b79f74f000c",
+        "bytes": 3459599,
+        "thumb": "out/2026-10-30-C011/thumb.jpg"
+      },
+      "qa": [
+        {
+          "name": "file size 0.3–50 MB",
+          "ok": true,
+          "detail": "3.46 MB"
+        },
+        {
+          "name": "video stream H.264",
+          "ok": true,
+          "detail": "h264"
+        },
+        {
+          "name": "resolution 1080×1920",
+          "ok": true,
+          "detail": "1080×1920"
+        },
+        {
+          "name": "pixel format yuv420p",
+          "ok": true,
+          "detail": "yuv420p"
+        },
+        {
+          "name": "frame rate 30 fps",
+          "ok": true,
+          "detail": "30.00"
+        },
+        {
+          "name": "duration 10–15s",
+          "ok": true,
+          "detail": "14.00s"
+        },
+        {
+          "name": "audio stream AAC",
+          "ok": true,
+          "detail": "aac"
+        },
+        {
+          "name": "moov atom at start (faststart)",
+          "ok": true,
+          "detail": "web-optimised"
+        },
+        {
+          "name": "loudness −18…−10 LUFS",
+          "ok": true,
+          "detail": "-12.6 LUFS"
+        },
+        {
+          "name": "true peak ≤ −0.5 dBTP",
+          "ok": true,
+          "detail": "-3 dBTP"
+        },
+        {
+          "name": "no black frames",
+          "ok": true,
+          "detail": "0.00s black"
+        },
+        {
+          "name": "no frozen segments > 1.5s",
+          "ok": true,
+          "detail": "motion throughout"
+        },
+        {
+          "name": "title 8–80 chars",
+          "ok": true,
+          "detail": "33 chars"
+        },
+        {
+          "name": "caption ≤ 2200 chars",
+          "ok": true,
+          "detail": "414 chars"
+        },
+        {
+          "name": "3–10 hashtags",
+          "ok": true,
+          "detail": "8"
+        },
+        {
+          "name": "hashtags well-formed",
+          "ok": true,
+          "detail": "#productdesign #industrialdesign #3ddesign #neobrutalism #تصميم #مصمم_مستقل #freelancedesigner #designinspiration"
+        },
+        {
+          "name": "no duplicate hashtags",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "concept disclaimer present",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no client-work claims",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no links or emails",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "idea not used before",
+          "ok": true,
+          "detail": "26f980bcf40754c6"
+        },
+        {
+          "name": "video file is unique",
+          "ok": true,
+          "detail": "5f58ab9f7a35"
+        },
+        {
+          "name": "caption not reused",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "one video per day",
+          "ok": true,
+          "detail": "2026-10-30"
+        }
+      ],
+      "plannedAt": "2026-10-30T16:00:00.000Z",
+      "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/41105085728"
     }
   ]
 }
