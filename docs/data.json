@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T12:44:23.080Z",
+  "generatedAt": "2026-10-31T17:24:38.610Z",
   "repo": "tamimbuteful1-prog/design-autopilot",
   "control": {
     "paused": false,
@@ -19,6 +19,45 @@
     "timezone": "Asia/Riyadh"
   },
   "entries": [
+    {
+      "id": "2026-10-31-C012",
+      "date": "2026-10-31",
+      "code": "C012",
+      "category": {
+        "ar": "تصميم تغليف",
+        "en": "Packaging"
+      },
+      "subject": {
+        "ar": "تصميم علبة شاي فاخرة",
+        "en": "Premium tea box"
+      },
+      "brand": "Leaf & Ledger",
+      "style": "Soft UI",
+      "palette": {
+        "name": "Deep Ocean",
+        "colors": [
+          "#071A24",
+          "#3CC3E8",
+          "#FFB547",
+          "#E8F6FA"
+        ]
+      },
+      "status": "test",
+      "title": "خدمة تصميم التغليف — وش نقدم لك؟",
+      "videoUrl": null,
+      "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/41224165327",
+      "plannedAt": "2026-10-31T16:00:00.000Z",
+      "buffer": null,
+      "issue": null,
+      "qa": {
+        "passed": 24,
+        "total": 24,
+        "failed": []
+      },
+      "error": null,
+      "updatedAt": "2026-10-31T17:24:38.607Z",
+      "thumb": "thumbs/2026-10-31-C012.jpg"
+    },
     {
       "id": "2026-10-30-C011",
       "date": "2026-10-30",
