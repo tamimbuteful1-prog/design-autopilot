@@ -3188,6 +3188,286 @@
       ],
       "plannedAt": "2026-10-31T16:00:00.000Z",
       "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/41224165327"
+    },
+    {
+      "id": "2026-11-01-C013",
+      "date": "2026-11-01",
+      "status": "test",
+      "idea": {
+        "category": "mobile",
+        "subjectKey": "sleep",
+        "styleKey": "editorial",
+        "paletteKey": "emerald-night",
+        "fingerprint": "f5cd6cf31f26dabc",
+        "conceptNo": 13,
+        "code": "C013",
+        "date": "2026-11-01",
+        "brand": "Hush",
+        "subject": {
+          "ar": "تطبيق لتتبع النوم",
+          "en": "Sleep tracker"
+        },
+        "categoryMeta": {
+          "ar": "تطبيق جوال",
+          "en": "Mobile App"
+        },
+        "icon": "moon",
+        "shape": null,
+        "palette": {
+          "key": "emerald-night",
+          "name": "Emerald Night",
+          "mode": "dark",
+          "bg": "#06140F",
+          "surface": "#0D221A",
+          "surface2": "#133026",
+          "ink": "#E9FBF2",
+          "muted": "#86B3A0",
+          "line": "#1C3F32",
+          "accent": "#2BD98A",
+          "accent2": "#F2C14E",
+          "accentInk": "#06140F"
+        },
+        "style": {
+          "key": "editorial",
+          "name": "Editorial",
+          "radius": 4,
+          "border": 1,
+          "shadow": "none",
+          "heading": "Playfair Display",
+          "weight": 600,
+          "tracking": -0.5
+        },
+        "content": {
+          "greeting": "Good night, Reem",
+          "heroTitle": "Last night",
+          "heroValue": "6h 17m",
+          "heroSub": "Sleep score 85",
+          "chips": [
+            "Sounds",
+            "Stories",
+            "Alarms"
+          ],
+          "list": [
+            {
+              "title": "Rain on leaves",
+              "sub": "Ambient · 45 min",
+              "meta": "Play",
+              "icon": "drop"
+            },
+            {
+              "title": "Wind-down breathing",
+              "sub": "Guided · 6 min",
+              "meta": "Play",
+              "icon": "heart"
+            },
+            {
+              "title": "Smart alarm",
+              "sub": "06:30 – 07:00",
+              "meta": "On",
+              "icon": "bell"
+            }
+          ],
+          "detail": {
+            "title": "Sleep stages",
+            "subtitle": "Thursday night",
+            "stats": [
+              [
+                "Deep",
+                "2h 50m"
+              ],
+              [
+                "REM",
+                "2h 38m"
+              ],
+              [
+                "Awake",
+                "5m"
+              ]
+            ],
+            "progress": 81,
+            "cta": "See full report"
+          },
+          "stats": {
+            "title": "Weekly average",
+            "value": "6h 36m",
+            "bars": [
+              62,
+              81,
+              71,
+              75,
+              92,
+              60,
+              89
+            ],
+            "label": "Hours slept"
+          }
+        },
+        "seed": "2026-11-01:12#0"
+      },
+      "createdAt": "2026-11-01T18:08:13.086Z",
+      "log": [
+        {
+          "at": "2026-11-01T18:08:13.086Z",
+          "msg": "idea chosen: mobile / sleep / editorial / emerald-night"
+        },
+        {
+          "at": "2026-11-01T18:08:54.896Z",
+          "msg": "rendered"
+        },
+        {
+          "at": "2026-11-01T18:08:56.348Z",
+          "msg": "QA 24/24 passed"
+        },
+        {
+          "at": "2026-11-01T18:08:56.397Z",
+          "msg": "TEST mode: QA passed; upload and publishing skipped"
+        }
+      ],
+      "updatedAt": "2026-11-01T18:08:56.397Z",
+      "copy": {
+        "title": "خدمة تصميم تطبيقات الجوال — وش نقدم لك؟",
+        "caption": "خدمة تصميم تطبيقات الجوال — وش نقدم لك؟\n\nوش تحصل معنا:\n✅ واجهات iOS و Android\n✅ تجربة استخدام سهلة\n✅ ملفات جاهزة للمبرمج\n\nتبي تصميم زي كذا لمشروعك؟ تواصل معانا على الخاص 📩\n\nℹ️ التصميم المعروض مفاهيمي (Concept C013) لعلامة خيالية، وليس مشروعًا منفذًا لعميل.\n🤖 أُنتج هذا المحتوى بمساعدة أدوات الذكاء الاصطناعي.\n\n#mobileapp #appdesign #uidesign #editorialdesign #تصميم #مصمم_مستقل #freelancedesigner #designinspiration",
+        "hashtags": [
+          "#mobileapp",
+          "#appdesign",
+          "#uidesign",
+          "#editorialdesign",
+          "#تصميم",
+          "#مصمم_مستقل",
+          "#freelancedesigner",
+          "#designinspiration"
+        ]
+      },
+      "video": {
+        "file": "out/2026-11-01-C013/2026-11-01-C013.mp4",
+        "sha256": "d748d97a5c72aa982c551ca609a473515c152b4205b193d84926f207013b37e8",
+        "bytes": 3990538,
+        "thumb": "out/2026-11-01-C013/thumb.jpg"
+      },
+      "qa": [
+        {
+          "name": "file size 0.3–50 MB",
+          "ok": true,
+          "detail": "3.99 MB"
+        },
+        {
+          "name": "video stream H.264",
+          "ok": true,
+          "detail": "h264"
+        },
+        {
+          "name": "resolution 1080×1920",
+          "ok": true,
+          "detail": "1080×1920"
+        },
+        {
+          "name": "pixel format yuv420p",
+          "ok": true,
+          "detail": "yuv420p"
+        },
+        {
+          "name": "frame rate 30 fps",
+          "ok": true,
+          "detail": "30.00"
+        },
+        {
+          "name": "duration 10–15s",
+          "ok": true,
+          "detail": "14.00s"
+        },
+        {
+          "name": "audio stream AAC",
+          "ok": true,
+          "detail": "aac"
+        },
+        {
+          "name": "moov atom at start (faststart)",
+          "ok": true,
+          "detail": "web-optimised"
+        },
+        {
+          "name": "loudness −18…−10 LUFS",
+          "ok": true,
+          "detail": "-12.6 LUFS"
+        },
+        {
+          "name": "true peak ≤ −0.5 dBTP",
+          "ok": true,
+          "detail": "-2.8 dBTP"
+        },
+        {
+          "name": "no black frames",
+          "ok": true,
+          "detail": "0.00s black"
+        },
+        {
+          "name": "no frozen segments > 1.5s",
+          "ok": true,
+          "detail": "motion throughout"
+        },
+        {
+          "name": "title 8–80 chars",
+          "ok": true,
+          "detail": "39 chars"
+        },
+        {
+          "name": "caption ≤ 2200 chars",
+          "ok": true,
+          "detail": "417 chars"
+        },
+        {
+          "name": "3–10 hashtags",
+          "ok": true,
+          "detail": "8"
+        },
+        {
+          "name": "hashtags well-formed",
+          "ok": true,
+          "detail": "#mobileapp #appdesign #uidesign #editorialdesign #تصميم #مصمم_مستقل #freelancedesigner #designinspiration"
+        },
+        {
+          "name": "no duplicate hashtags",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "concept disclaimer present",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no client-work claims",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no links or emails",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "idea not used before",
+          "ok": true,
+          "detail": "f5cd6cf31f26dabc"
+        },
+        {
+          "name": "video file is unique",
+          "ok": true,
+          "detail": "d748d97a5c72"
+        },
+        {
+          "name": "caption not reused",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "one video per day",
+          "ok": true,
+          "detail": "2026-11-01"
+        }
+      ],
+      "plannedAt": "2026-11-01T16:00:00.000Z",
+      "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/41334967810"
     }
   ]
 }
