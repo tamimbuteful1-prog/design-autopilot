@@ -3468,6 +3468,325 @@
       ],
       "plannedAt": "2026-11-01T16:00:00.000Z",
       "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/41334967810"
+    },
+    {
+      "id": "2026-11-03-C014",
+      "date": "2026-11-03",
+      "status": "test",
+      "idea": {
+        "category": "dashboard",
+        "subjectKey": "hotel",
+        "styleKey": "minimal",
+        "paletteKey": "midnight-violet",
+        "fingerprint": "b305654223ed6415",
+        "conceptNo": 14,
+        "code": "C014",
+        "date": "2026-11-03",
+        "brand": "Harbor Desk",
+        "subject": {
+          "ar": "لوحة تحكم لإدارة فندق",
+          "en": "Hotel occupancy"
+        },
+        "categoryMeta": {
+          "ar": "لوحة تحكم",
+          "en": "Dashboard"
+        },
+        "icon": "home",
+        "shape": null,
+        "palette": {
+          "key": "midnight-violet",
+          "name": "Midnight Violet",
+          "mode": "dark",
+          "bg": "#0D0B1A",
+          "surface": "#17142B",
+          "surface2": "#211D3A",
+          "ink": "#F2F0FF",
+          "muted": "#A39FC2",
+          "line": "#2E2950",
+          "accent": "#8B7CFF",
+          "accent2": "#3FE0C5",
+          "accentInk": "#0D0B1A"
+        },
+        "style": {
+          "key": "minimal",
+          "name": "Swiss Minimal",
+          "radius": 14,
+          "border": 1,
+          "shadow": "0 1px 0 rgba(0,0,0,.04)",
+          "heading": "Space Grotesk",
+          "weight": 600,
+          "tracking": -1.2
+        },
+        "content": {
+          "title": "Property overview",
+          "nav": [
+            "Front desk",
+            "Rooms",
+            "Bookings",
+            "Housekeeping",
+            "Revenue"
+          ],
+          "kpis": [
+            {
+              "label": "Occupancy",
+              "value": "71%",
+              "delta": "+2%"
+            },
+            {
+              "label": "ADR",
+              "value": "750 SAR",
+              "delta": "+7%"
+            },
+            {
+              "label": "RevPAR",
+              "value": "520 SAR",
+              "delta": "+3%"
+            },
+            {
+              "label": "Check-ins",
+              "value": "73",
+              "delta": "+5"
+            }
+          ],
+          "series": [
+            52,
+            51,
+            52,
+            49,
+            46,
+            46,
+            50,
+            51,
+            50,
+            56,
+            53,
+            58
+          ],
+          "series2": [
+            44,
+            48,
+            44,
+            45,
+            44,
+            45,
+            49,
+            53,
+            54,
+            51,
+            50,
+            52
+          ],
+          "bars": [
+            {
+              "label": "Direct",
+              "value": 44
+            },
+            {
+              "label": "OTA",
+              "value": 74
+            },
+            {
+              "label": "Corporate",
+              "value": 23
+            },
+            {
+              "label": "Walk-in",
+              "value": 11
+            }
+          ],
+          "table": [
+            [
+              "Suite 1204",
+              "Deluxe",
+              "3 nights",
+              "Arriving"
+            ],
+            [
+              "Room 812",
+              "Standard",
+              "1 night",
+              "In house"
+            ],
+            [
+              "Room 615",
+              "Twin",
+              "2 nights",
+              "Cleaning"
+            ],
+            [
+              "Suite 1401",
+              "Royal",
+              "5 nights",
+              "Arriving"
+            ]
+          ]
+        },
+        "seed": "2026-11-03:13#0"
+      },
+      "createdAt": "2026-11-02T21:57:40.887Z",
+      "log": [
+        {
+          "at": "2026-11-02T21:57:40.887Z",
+          "msg": "idea chosen: dashboard / hotel / minimal / midnight-violet"
+        },
+        {
+          "at": "2026-11-02T21:58:37.411Z",
+          "msg": "rendered"
+        },
+        {
+          "at": "2026-11-02T21:58:39.454Z",
+          "msg": "QA 24/24 passed"
+        },
+        {
+          "at": "2026-11-02T21:58:39.457Z",
+          "msg": "TEST mode: QA passed; upload and publishing skipped"
+        }
+      ],
+      "updatedAt": "2026-11-02T21:58:39.457Z",
+      "copy": {
+        "title": "خدمة تصميم لوحات التحكم — وش نقدم لك؟",
+        "caption": "خدمة تصميم لوحات التحكم — وش نقدم لك؟\n\nوش تحصل معنا:\n✅ مؤشرات واضحة بنظرة\n✅ رسوم بيانية سهلة القراءة\n✅ نظام تصميم قابل للتوسع\n\nجاهزين نبدأ مشروعك — تواصل معانا على الخاص 📩\n\nℹ️ التصميم المعروض مفاهيمي (Concept C014) لعلامة خيالية، وليس مشروعًا منفذًا لعميل.\n🤖 أُنتج هذا المحتوى بمساعدة أدوات الذكاء الاصطناعي.\n\n#dashboard #dashboarddesign #saasdesign #minimaldesign #تصميم #مصمم_مستقل #freelancedesigner #designinspiration",
+        "hashtags": [
+          "#dashboard",
+          "#dashboarddesign",
+          "#saasdesign",
+          "#minimaldesign",
+          "#تصميم",
+          "#مصمم_مستقل",
+          "#freelancedesigner",
+          "#designinspiration"
+        ]
+      },
+      "video": {
+        "file": "out/2026-11-03-C014/2026-11-03-C014.mp4",
+        "sha256": "ea9c2304fdfd5d17141e99b6f8e763ad2f152c27ec6c2de5bb9190766fca45b3",
+        "bytes": 3638521,
+        "thumb": "out/2026-11-03-C014/thumb.jpg"
+      },
+      "qa": [
+        {
+          "name": "file size 0.3–50 MB",
+          "ok": true,
+          "detail": "3.64 MB"
+        },
+        {
+          "name": "video stream H.264",
+          "ok": true,
+          "detail": "h264"
+        },
+        {
+          "name": "resolution 1080×1920",
+          "ok": true,
+          "detail": "1080×1920"
+        },
+        {
+          "name": "pixel format yuv420p",
+          "ok": true,
+          "detail": "yuv420p"
+        },
+        {
+          "name": "frame rate 30 fps",
+          "ok": true,
+          "detail": "30.00"
+        },
+        {
+          "name": "duration 10–15s",
+          "ok": true,
+          "detail": "14.00s"
+        },
+        {
+          "name": "audio stream AAC",
+          "ok": true,
+          "detail": "aac"
+        },
+        {
+          "name": "moov atom at start (faststart)",
+          "ok": true,
+          "detail": "web-optimised"
+        },
+        {
+          "name": "loudness −18…−10 LUFS",
+          "ok": true,
+          "detail": "-12.6 LUFS"
+        },
+        {
+          "name": "true peak ≤ −0.5 dBTP",
+          "ok": true,
+          "detail": "-3.3 dBTP"
+        },
+        {
+          "name": "no black frames",
+          "ok": true,
+          "detail": "0.00s black"
+        },
+        {
+          "name": "no frozen segments > 1.5s",
+          "ok": true,
+          "detail": "motion throughout"
+        },
+        {
+          "name": "title 8–80 chars",
+          "ok": true,
+          "detail": "37 chars"
+        },
+        {
+          "name": "caption ≤ 2200 chars",
+          "ok": true,
+          "detail": "423 chars"
+        },
+        {
+          "name": "3–10 hashtags",
+          "ok": true,
+          "detail": "8"
+        },
+        {
+          "name": "hashtags well-formed",
+          "ok": true,
+          "detail": "#dashboard #dashboarddesign #saasdesign #minimaldesign #تصميم #مصمم_مستقل #freelancedesigner #designinspiration"
+        },
+        {
+          "name": "no duplicate hashtags",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "concept disclaimer present",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no client-work claims",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no links or emails",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "idea not used before",
+          "ok": true,
+          "detail": "b305654223ed6415"
+        },
+        {
+          "name": "video file is unique",
+          "ok": true,
+          "detail": "ea9c2304fdfd"
+        },
+        {
+          "name": "caption not reused",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "one video per day",
+          "ok": true,
+          "detail": "2026-11-03"
+        }
+      ],
+      "plannedAt": "2026-11-03T16:00:00.000Z",
+      "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/41532939749"
     }
   ]
 }

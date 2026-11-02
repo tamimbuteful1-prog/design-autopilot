@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T19:34:17.369Z",
+  "generatedAt": "2026-11-02T21:58:39.460Z",
   "repo": "tamimbuteful1-prog/design-autopilot",
   "control": {
     "paused": false,
@@ -19,6 +19,45 @@
     "timezone": "Asia/Riyadh"
   },
   "entries": [
+    {
+      "id": "2026-11-03-C014",
+      "date": "2026-11-03",
+      "code": "C014",
+      "category": {
+        "ar": "لوحة تحكم",
+        "en": "Dashboard"
+      },
+      "subject": {
+        "ar": "لوحة تحكم لإدارة فندق",
+        "en": "Hotel occupancy"
+      },
+      "brand": "Harbor Desk",
+      "style": "Swiss Minimal",
+      "palette": {
+        "name": "Midnight Violet",
+        "colors": [
+          "#0D0B1A",
+          "#8B7CFF",
+          "#3FE0C5",
+          "#F2F0FF"
+        ]
+      },
+      "status": "test",
+      "title": "خدمة تصميم لوحات التحكم — وش نقدم لك؟",
+      "videoUrl": null,
+      "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/41532939749",
+      "plannedAt": "2026-11-03T16:00:00.000Z",
+      "buffer": null,
+      "issue": null,
+      "qa": {
+        "passed": 24,
+        "total": 24,
+        "failed": []
+      },
+      "error": null,
+      "updatedAt": "2026-11-02T21:58:39.457Z",
+      "thumb": "thumbs/2026-11-03-C014.jpg"
+    },
     {
       "id": "2026-11-01-C013",
       "date": "2026-11-01",
