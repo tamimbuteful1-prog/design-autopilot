@@ -3787,6 +3787,270 @@
       ],
       "plannedAt": "2026-11-03T16:00:00.000Z",
       "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/41532939749"
+    },
+    {
+      "id": "2026-11-04-C015",
+      "date": "2026-11-04",
+      "status": "test",
+      "idea": {
+        "category": "website",
+        "subjectKey": "fintech",
+        "styleKey": "soft",
+        "paletteKey": "citrus",
+        "fingerprint": "5b48310a1526c829",
+        "conceptNo": 15,
+        "code": "C015",
+        "date": "2026-11-04",
+        "brand": "Tally",
+        "subject": {
+          "ar": "صفحة هبوط لتطبيق مالي",
+          "en": "Fintech app landing page"
+        },
+        "categoryMeta": {
+          "ar": "موقع إلكتروني",
+          "en": "Website"
+        },
+        "icon": "wallet",
+        "shape": null,
+        "palette": {
+          "key": "citrus",
+          "name": "Citrus Pop",
+          "mode": "light",
+          "bg": "#FFF8E6",
+          "surface": "#FFFFFF",
+          "surface2": "#FFF1C9",
+          "ink": "#1C1A12",
+          "muted": "#6E6A55",
+          "line": "#F0E3B8",
+          "accent": "#1F3DFF",
+          "accent2": "#FF6B3D",
+          "accentInk": "#FFFFFF"
+        },
+        "style": {
+          "key": "soft",
+          "name": "Soft UI",
+          "radius": 28,
+          "border": 0,
+          "shadow": "0 30px 60px -20px rgba(0,0,0,.25)",
+          "heading": "Inter",
+          "weight": 700,
+          "tracking": -1.5
+        },
+        "content": {
+          "nav": [
+            "Personal",
+            "Business",
+            "Security",
+            "Get the app"
+          ],
+          "heroTitle": "Money that moves as fast as you do",
+          "heroSub": "Instant transfers, smart budgets and zero hidden fees.",
+          "cta": "Get the app",
+          "features": [
+            {
+              "title": "Instant transfers",
+              "body": "Send to anyone in seconds.",
+              "icon": "bolt"
+            },
+            {
+              "title": "Smart budgets",
+              "body": "Automatic categories and alerts.",
+              "icon": "chart"
+            },
+            {
+              "title": "Bank-grade security",
+              "body": "Biometrics and card controls.",
+              "icon": "check"
+            }
+          ],
+          "stats": [
+            [
+              "0",
+              "Hidden fees"
+            ],
+            [
+              "3 sec",
+              "Transfers"
+            ],
+            [
+              "24/7",
+              "Support"
+            ]
+          ],
+          "pricing": null,
+          "steps": [
+            "Download",
+            "Verify",
+            "Fund",
+            "Spend"
+          ]
+        },
+        "seed": "2026-11-04:14#0"
+      },
+      "createdAt": "2026-11-04T20:03:54.562Z",
+      "log": [
+        {
+          "at": "2026-11-04T20:03:54.562Z",
+          "msg": "idea chosen: website / fintech / soft / citrus"
+        },
+        {
+          "at": "2026-11-04T20:04:50.574Z",
+          "msg": "rendered"
+        },
+        {
+          "at": "2026-11-04T20:04:52.722Z",
+          "msg": "QA 24/24 passed"
+        },
+        {
+          "at": "2026-11-04T20:04:52.725Z",
+          "msg": "TEST mode: QA passed; upload and publishing skipped"
+        }
+      ],
+      "updatedAt": "2026-11-04T20:04:52.725Z",
+      "copy": {
+        "title": "تصميم المواقع وصفحات الهبوط باحترافية 🔥",
+        "caption": "تصميم المواقع وصفحات الهبوط باحترافية 🔥\n\nوش تحصل معنا:\n✅ صفحة رئيسية تقنع الزائر\n✅ تصميم متجاوب مع الجوال\n✅ جاهز للتطوير مباشرة\n\nتبي تصميم زي كذا لمشروعك؟ تواصل معانا على الخاص 📩\n\nℹ️ التصميم المعروض مفاهيمي (Concept C015) لعلامة خيالية، وليس مشروعًا منفذًا لعميل.\n🤖 أُنتج هذا المحتوى بمساعدة أدوات الذكاء الاصطناعي.\n\n#webdesign #landingpage #websitedesign #softui #تصميم #مصمم_مستقل #freelancedesigner #designinspiration",
+        "hashtags": [
+          "#webdesign",
+          "#landingpage",
+          "#websitedesign",
+          "#softui",
+          "#تصميم",
+          "#مصمم_مستقل",
+          "#freelancedesigner",
+          "#designinspiration"
+        ]
+      },
+      "video": {
+        "file": "out/2026-11-04-C015/2026-11-04-C015.mp4",
+        "sha256": "e43dcfca326587ee4ce486ac77ef9162c0aab3e081283f9818609cea9a1d1aa7",
+        "bytes": 4937218,
+        "thumb": "out/2026-11-04-C015/thumb.jpg"
+      },
+      "qa": [
+        {
+          "name": "file size 0.3–50 MB",
+          "ok": true,
+          "detail": "4.94 MB"
+        },
+        {
+          "name": "video stream H.264",
+          "ok": true,
+          "detail": "h264"
+        },
+        {
+          "name": "resolution 1080×1920",
+          "ok": true,
+          "detail": "1080×1920"
+        },
+        {
+          "name": "pixel format yuv420p",
+          "ok": true,
+          "detail": "yuv420p"
+        },
+        {
+          "name": "frame rate 30 fps",
+          "ok": true,
+          "detail": "30.00"
+        },
+        {
+          "name": "duration 10–15s",
+          "ok": true,
+          "detail": "14.00s"
+        },
+        {
+          "name": "audio stream AAC",
+          "ok": true,
+          "detail": "aac"
+        },
+        {
+          "name": "moov atom at start (faststart)",
+          "ok": true,
+          "detail": "web-optimised"
+        },
+        {
+          "name": "loudness −18…−10 LUFS",
+          "ok": true,
+          "detail": "-12.5 LUFS"
+        },
+        {
+          "name": "true peak ≤ −0.5 dBTP",
+          "ok": true,
+          "detail": "-2.5 dBTP"
+        },
+        {
+          "name": "no black frames",
+          "ok": true,
+          "detail": "0.00s black"
+        },
+        {
+          "name": "no frozen segments > 1.5s",
+          "ok": true,
+          "detail": "motion throughout"
+        },
+        {
+          "name": "title 8–80 chars",
+          "ok": true,
+          "detail": "40 chars"
+        },
+        {
+          "name": "caption ≤ 2200 chars",
+          "ok": true,
+          "detail": "423 chars"
+        },
+        {
+          "name": "3–10 hashtags",
+          "ok": true,
+          "detail": "8"
+        },
+        {
+          "name": "hashtags well-formed",
+          "ok": true,
+          "detail": "#webdesign #landingpage #websitedesign #softui #تصميم #مصمم_مستقل #freelancedesigner #designinspiration"
+        },
+        {
+          "name": "no duplicate hashtags",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "concept disclaimer present",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no client-work claims",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no links or emails",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "idea not used before",
+          "ok": true,
+          "detail": "5b48310a1526c829"
+        },
+        {
+          "name": "video file is unique",
+          "ok": true,
+          "detail": "e43dcfca3265"
+        },
+        {
+          "name": "caption not reused",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "one video per day",
+          "ok": true,
+          "detail": "2026-11-04"
+        }
+      ],
+      "plannedAt": "2026-11-04T16:00:00.000Z",
+      "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/41902747253"
     }
   ]
 }
