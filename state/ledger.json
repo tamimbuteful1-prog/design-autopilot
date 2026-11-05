@@ -4051,6 +4051,251 @@
       ],
       "plannedAt": "2026-11-04T16:00:00.000Z",
       "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/41902747253"
+    },
+    {
+      "id": "2026-11-05-C016",
+      "date": "2026-11-05",
+      "status": "test",
+      "idea": {
+        "category": "uiux",
+        "subjectKey": "onboarding",
+        "styleKey": "brutal",
+        "paletteKey": "blush",
+        "fingerprint": "fcad925b5540ad97",
+        "conceptNo": 16,
+        "code": "C016",
+        "date": "2026-11-05",
+        "brand": "Tasko",
+        "subject": {
+          "ar": "رحلة تسجيل مستخدم جديد (Onboarding)",
+          "en": "Onboarding flow"
+        },
+        "categoryMeta": {
+          "ar": "تجربة مستخدم UI/UX",
+          "en": "UI/UX Flow"
+        },
+        "icon": "star",
+        "shape": null,
+        "palette": {
+          "key": "blush",
+          "name": "Blush & Ink",
+          "mode": "light",
+          "bg": "#F9ECEC",
+          "surface": "#FFFFFF",
+          "surface2": "#F6E1E1",
+          "ink": "#221417",
+          "muted": "#7A5F64",
+          "line": "#EDD6D7",
+          "accent": "#B3264B",
+          "accent2": "#3A3A8C",
+          "accentInk": "#FFFFFF"
+        },
+        "style": {
+          "key": "brutal",
+          "name": "Neo-Brutalism",
+          "radius": 6,
+          "border": 3,
+          "shadow": "10px 10px 0 0 var(--ink)",
+          "heading": "Space Grotesk",
+          "weight": 700,
+          "tracking": -1
+        },
+        "content": {
+          "flow": [
+            {
+              "title": "Welcome",
+              "body": "Build habits that stick, one day at a time.",
+              "cta": "Get started"
+            },
+            {
+              "title": "Pick your goals",
+              "body": "Choose up to 3 to personalise your plan.",
+              "cta": "Continue",
+              "options": [
+                "Sleep better",
+                "Read more",
+                "Move daily",
+                "Drink water"
+              ]
+            },
+            {
+              "title": "Stay on track",
+              "body": "Gentle reminders at the times you choose.",
+              "cta": "Allow notifications"
+            }
+          ],
+          "principle": [
+            "Progressive disclosure",
+            "One decision per screen",
+            "Clear primary action"
+          ]
+        },
+        "seed": "2026-11-05:15#0"
+      },
+      "createdAt": "2026-11-05T20:17:04.775Z",
+      "log": [
+        {
+          "at": "2026-11-05T20:17:04.775Z",
+          "msg": "idea chosen: uiux / onboarding / brutal / blush"
+        },
+        {
+          "at": "2026-11-05T20:17:52.720Z",
+          "msg": "rendered"
+        },
+        {
+          "at": "2026-11-05T20:17:54.504Z",
+          "msg": "QA 24/24 passed"
+        },
+        {
+          "at": "2026-11-05T20:17:54.507Z",
+          "msg": "TEST mode: QA passed; upload and publishing skipped"
+        }
+      ],
+      "updatedAt": "2026-11-05T20:17:54.507Z",
+      "copy": {
+        "title": "خدمة تجربة المستخدم UI/UX — وش نقدم لك؟",
+        "caption": "خدمة تجربة المستخدم UI/UX — وش نقدم لك؟\n\nوش تحصل معنا:\n✅ دراسة رحلة المستخدم\n✅ نموذج تفاعلي قبل البرمجة\n✅ نظام تصميم متكامل\n\nجاهزين نبدأ مشروعك — تواصل معانا على الخاص 📩\n\nℹ️ التصميم المعروض مفاهيمي (Concept C016) لعلامة خيالية، وليس مشروعًا منفذًا لعميل.\n🤖 أُنتج هذا المحتوى بمساعدة أدوات الذكاء الاصطناعي.\n\n#uiux #uxdesign #designsystem #neobrutalism #تصميم #مصمم_مستقل #freelancedesigner #designinspiration",
+        "hashtags": [
+          "#uiux",
+          "#uxdesign",
+          "#designsystem",
+          "#neobrutalism",
+          "#تصميم",
+          "#مصمم_مستقل",
+          "#freelancedesigner",
+          "#designinspiration"
+        ]
+      },
+      "video": {
+        "file": "out/2026-11-05-C016/2026-11-05-C016.mp4",
+        "sha256": "36cef4756e134ba34ae9f9080e26def3620739e7b1362b3d4aeb60cc2b071ff8",
+        "bytes": 4749903,
+        "thumb": "out/2026-11-05-C016/thumb.jpg"
+      },
+      "qa": [
+        {
+          "name": "file size 0.3–50 MB",
+          "ok": true,
+          "detail": "4.75 MB"
+        },
+        {
+          "name": "video stream H.264",
+          "ok": true,
+          "detail": "h264"
+        },
+        {
+          "name": "resolution 1080×1920",
+          "ok": true,
+          "detail": "1080×1920"
+        },
+        {
+          "name": "pixel format yuv420p",
+          "ok": true,
+          "detail": "yuv420p"
+        },
+        {
+          "name": "frame rate 30 fps",
+          "ok": true,
+          "detail": "30.00"
+        },
+        {
+          "name": "duration 10–15s",
+          "ok": true,
+          "detail": "14.00s"
+        },
+        {
+          "name": "audio stream AAC",
+          "ok": true,
+          "detail": "aac"
+        },
+        {
+          "name": "moov atom at start (faststart)",
+          "ok": true,
+          "detail": "web-optimised"
+        },
+        {
+          "name": "loudness −18…−10 LUFS",
+          "ok": true,
+          "detail": "-12.7 LUFS"
+        },
+        {
+          "name": "true peak ≤ −0.5 dBTP",
+          "ok": true,
+          "detail": "-2.7 dBTP"
+        },
+        {
+          "name": "no black frames",
+          "ok": true,
+          "detail": "0.00s black"
+        },
+        {
+          "name": "no frozen segments > 1.5s",
+          "ok": true,
+          "detail": "motion throughout"
+        },
+        {
+          "name": "title 8–80 chars",
+          "ok": true,
+          "detail": "39 chars"
+        },
+        {
+          "name": "caption ≤ 2200 chars",
+          "ok": true,
+          "detail": "410 chars"
+        },
+        {
+          "name": "3–10 hashtags",
+          "ok": true,
+          "detail": "8"
+        },
+        {
+          "name": "hashtags well-formed",
+          "ok": true,
+          "detail": "#uiux #uxdesign #designsystem #neobrutalism #تصميم #مصمم_مستقل #freelancedesigner #designinspiration"
+        },
+        {
+          "name": "no duplicate hashtags",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "concept disclaimer present",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no client-work claims",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no links or emails",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "idea not used before",
+          "ok": true,
+          "detail": "fcad925b5540ad97"
+        },
+        {
+          "name": "video file is unique",
+          "ok": true,
+          "detail": "36cef4756e13"
+        },
+        {
+          "name": "caption not reused",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "one video per day",
+          "ok": true,
+          "detail": "2026-11-05"
+        }
+      ],
+      "plannedAt": "2026-11-05T16:00:00.000Z",
+      "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/42101851223"
     }
   ]
 }
