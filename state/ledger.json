@@ -4296,6 +4296,247 @@
       ],
       "plannedAt": "2026-11-05T16:00:00.000Z",
       "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/42101851223"
+    },
+    {
+      "id": "2026-11-06-C017",
+      "date": "2026-11-06",
+      "status": "test",
+      "idea": {
+        "category": "product",
+        "subjectKey": "lamp",
+        "styleKey": "glass",
+        "paletteKey": "emerald-night",
+        "fingerprint": "6a26777d7060e70c",
+        "conceptNo": 17,
+        "code": "C017",
+        "date": "2026-11-06",
+        "brand": "Arcline",
+        "subject": {
+          "ar": "مصباح مكتبي قابل للطي",
+          "en": "Folding desk lamp"
+        },
+        "categoryMeta": {
+          "ar": "تصميم منتج",
+          "en": "Product Design"
+        },
+        "icon": "sun",
+        "shape": "lamp",
+        "palette": {
+          "key": "emerald-night",
+          "name": "Emerald Night",
+          "mode": "dark",
+          "bg": "#06140F",
+          "surface": "#0D221A",
+          "surface2": "#133026",
+          "ink": "#E9FBF2",
+          "muted": "#86B3A0",
+          "line": "#1C3F32",
+          "accent": "#2BD98A",
+          "accent2": "#F2C14E",
+          "accentInk": "#06140F"
+        },
+        "style": {
+          "key": "glass",
+          "name": "Glassmorphism",
+          "radius": 32,
+          "border": 1,
+          "shadow": "0 40px 80px -30px rgba(0,0,0,.45)",
+          "heading": "Inter",
+          "weight": 600,
+          "tracking": -1.2,
+          "glass": true
+        },
+        "content": {
+          "specs": [
+            [
+              "Output",
+              "434 lm"
+            ],
+            [
+              "Colour temp",
+              "2700–6500K"
+            ],
+            [
+              "Charging",
+              "USB-C + Qi"
+            ],
+            [
+              "Arm",
+              "3-axis hinge"
+            ]
+          ],
+          "materials": [
+            "Aluminium",
+            "Walnut base",
+            "Frosted diffuser"
+          ]
+        },
+        "seed": "2026-11-06:16#0"
+      },
+      "createdAt": "2026-11-06T19:43:11.074Z",
+      "log": [
+        {
+          "at": "2026-11-06T19:43:11.074Z",
+          "msg": "idea chosen: product / lamp / glass / emerald-night"
+        },
+        {
+          "at": "2026-11-06T19:44:01.033Z",
+          "msg": "rendered"
+        },
+        {
+          "at": "2026-11-06T19:44:02.644Z",
+          "msg": "QA 24/24 passed"
+        },
+        {
+          "at": "2026-11-06T19:44:02.647Z",
+          "msg": "TEST mode: QA passed; upload and publishing skipped"
+        }
+      ],
+      "updatedAt": "2026-11-06T19:44:02.647Z",
+      "copy": {
+        "title": "خدمة تصميم المنتجات — وش نقدم لك؟",
+        "caption": "خدمة تصميم المنتجات — وش نقدم لك؟\n\nوش تحصل معنا:\n✅ تصميم شكل المنتج\n✅ مواصفات وخامات مدروسة\n✅ تشكيلة ألوان متكاملة\n\nجاهزين نبدأ مشروعك — تواصل معانا على الخاص 📩\n\nℹ️ التصميم المعروض مفاهيمي (Concept C017) لعلامة خيالية، وليس مشروعًا منفذًا لعميل.\n🤖 أُنتج هذا المحتوى بمساعدة أدوات الذكاء الاصطناعي.\n\n#productdesign #industrialdesign #3ddesign #glassmorphism #تصميم #مصمم_مستقل #freelancedesigner #designinspiration",
+        "hashtags": [
+          "#productdesign",
+          "#industrialdesign",
+          "#3ddesign",
+          "#glassmorphism",
+          "#تصميم",
+          "#مصمم_مستقل",
+          "#freelancedesigner",
+          "#designinspiration"
+        ]
+      },
+      "video": {
+        "file": "out/2026-11-06-C017/2026-11-06-C017.mp4",
+        "sha256": "6db0d18a83dd5fad94eca02b9dbf92a4a9e25154ccf7053221dcc07174e11ea1",
+        "bytes": 3700197,
+        "thumb": "out/2026-11-06-C017/thumb.jpg"
+      },
+      "qa": [
+        {
+          "name": "file size 0.3–50 MB",
+          "ok": true,
+          "detail": "3.70 MB"
+        },
+        {
+          "name": "video stream H.264",
+          "ok": true,
+          "detail": "h264"
+        },
+        {
+          "name": "resolution 1080×1920",
+          "ok": true,
+          "detail": "1080×1920"
+        },
+        {
+          "name": "pixel format yuv420p",
+          "ok": true,
+          "detail": "yuv420p"
+        },
+        {
+          "name": "frame rate 30 fps",
+          "ok": true,
+          "detail": "30.00"
+        },
+        {
+          "name": "duration 10–15s",
+          "ok": true,
+          "detail": "14.00s"
+        },
+        {
+          "name": "audio stream AAC",
+          "ok": true,
+          "detail": "aac"
+        },
+        {
+          "name": "moov atom at start (faststart)",
+          "ok": true,
+          "detail": "web-optimised"
+        },
+        {
+          "name": "loudness −18…−10 LUFS",
+          "ok": true,
+          "detail": "-12.6 LUFS"
+        },
+        {
+          "name": "true peak ≤ −0.5 dBTP",
+          "ok": true,
+          "detail": "-2.1 dBTP"
+        },
+        {
+          "name": "no black frames",
+          "ok": true,
+          "detail": "0.00s black"
+        },
+        {
+          "name": "no frozen segments > 1.5s",
+          "ok": true,
+          "detail": "motion throughout"
+        },
+        {
+          "name": "title 8–80 chars",
+          "ok": true,
+          "detail": "33 chars"
+        },
+        {
+          "name": "caption ≤ 2200 chars",
+          "ok": true,
+          "detail": "415 chars"
+        },
+        {
+          "name": "3–10 hashtags",
+          "ok": true,
+          "detail": "8"
+        },
+        {
+          "name": "hashtags well-formed",
+          "ok": true,
+          "detail": "#productdesign #industrialdesign #3ddesign #glassmorphism #تصميم #مصمم_مستقل #freelancedesigner #designinspiration"
+        },
+        {
+          "name": "no duplicate hashtags",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "concept disclaimer present",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no client-work claims",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no links or emails",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "idea not used before",
+          "ok": true,
+          "detail": "6a26777d7060e70c"
+        },
+        {
+          "name": "video file is unique",
+          "ok": true,
+          "detail": "6db0d18a83dd"
+        },
+        {
+          "name": "caption not reused",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "one video per day",
+          "ok": true,
+          "detail": "2026-11-06"
+        }
+      ],
+      "plannedAt": "2026-11-06T16:00:00.000Z",
+      "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/42282007673"
     }
   ]
 }
