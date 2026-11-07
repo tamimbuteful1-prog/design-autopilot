@@ -4537,6 +4537,231 @@
       ],
       "plannedAt": "2026-11-06T16:00:00.000Z",
       "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/42282007673"
+    },
+    {
+      "id": "2026-11-07-C018",
+      "date": "2026-11-07",
+      "status": "test",
+      "idea": {
+        "category": "packaging",
+        "subjectKey": "coffee-bag",
+        "styleKey": "editorial",
+        "paletteKey": "midnight-violet",
+        "fingerprint": "9c7f69d1c5d85f7d",
+        "conceptNo": 18,
+        "code": "C018",
+        "date": "2026-11-07",
+        "brand": "Najd Beans",
+        "subject": {
+          "ar": "تغليف كيس قهوة مختصة",
+          "en": "Specialty coffee bag"
+        },
+        "categoryMeta": {
+          "ar": "تصميم تغليف",
+          "en": "Packaging"
+        },
+        "icon": "cup",
+        "shape": "pouch",
+        "palette": {
+          "key": "midnight-violet",
+          "name": "Midnight Violet",
+          "mode": "dark",
+          "bg": "#0D0B1A",
+          "surface": "#17142B",
+          "surface2": "#211D3A",
+          "ink": "#F2F0FF",
+          "muted": "#A39FC2",
+          "line": "#2E2950",
+          "accent": "#8B7CFF",
+          "accent2": "#3FE0C5",
+          "accentInk": "#0D0B1A"
+        },
+        "style": {
+          "key": "editorial",
+          "name": "Editorial",
+          "radius": 4,
+          "border": 1,
+          "shadow": "none",
+          "heading": "Playfair Display",
+          "weight": 600,
+          "tracking": -0.5
+        },
+        "content": {
+          "productName": "Colombia Huila",
+          "descriptor": "Single origin · Filter roast",
+          "notes": [
+            "Peach",
+            "Cacao",
+            "Bergamot"
+          ],
+          "weight": "250 g"
+        },
+        "seed": "2026-11-07:17#0"
+      },
+      "createdAt": "2026-11-07T17:52:16.431Z",
+      "log": [
+        {
+          "at": "2026-11-07T17:52:16.431Z",
+          "msg": "idea chosen: packaging / coffee-bag / editorial / midnight-violet"
+        },
+        {
+          "at": "2026-11-07T17:53:09.082Z",
+          "msg": "rendered"
+        },
+        {
+          "at": "2026-11-07T17:53:11.155Z",
+          "msg": "QA 24/24 passed"
+        },
+        {
+          "at": "2026-11-07T17:53:11.158Z",
+          "msg": "TEST mode: QA passed; upload and publishing skipped"
+        }
+      ],
+      "updatedAt": "2026-11-07T17:53:11.158Z",
+      "copy": {
+        "title": "خدمة تصميم التغليف — وش نقدم لك؟",
+        "caption": "خدمة تصميم التغليف — وش نقدم لك؟\n\nوش تحصل معنا:\n✅ ملصق يخطف العين على الرف\n✅ تشكيلة لكل النكهات\n✅ ملفات جاهزة للطباعة\n\nاحفظ الفيديو، وتواصل معانا على الخاص لمشروعك 📩\n\nℹ️ التصميم المعروض مفاهيمي (Concept C018) لعلامة خيالية، وليس مشروعًا منفذًا لعميل.\n🤖 أُنتج هذا المحتوى بمساعدة أدوات الذكاء الاصطناعي.\n\n#packagingdesign #branding #labeldesign #editorialdesign #تصميم #مصمم_مستقل #freelancedesigner #designinspiration",
+        "hashtags": [
+          "#packagingdesign",
+          "#branding",
+          "#labeldesign",
+          "#editorialdesign",
+          "#تصميم",
+          "#مصمم_مستقل",
+          "#freelancedesigner",
+          "#designinspiration"
+        ]
+      },
+      "video": {
+        "file": "out/2026-11-07-C018/2026-11-07-C018.mp4",
+        "sha256": "71fc64cb0e68a10ab6f573e6bb5382cedc8df75e4b7c5cbae7b10399b25e7bfa",
+        "bytes": 3823462,
+        "thumb": "out/2026-11-07-C018/thumb.jpg"
+      },
+      "qa": [
+        {
+          "name": "file size 0.3–50 MB",
+          "ok": true,
+          "detail": "3.82 MB"
+        },
+        {
+          "name": "video stream H.264",
+          "ok": true,
+          "detail": "h264"
+        },
+        {
+          "name": "resolution 1080×1920",
+          "ok": true,
+          "detail": "1080×1920"
+        },
+        {
+          "name": "pixel format yuv420p",
+          "ok": true,
+          "detail": "yuv420p"
+        },
+        {
+          "name": "frame rate 30 fps",
+          "ok": true,
+          "detail": "30.00"
+        },
+        {
+          "name": "duration 10–15s",
+          "ok": true,
+          "detail": "14.00s"
+        },
+        {
+          "name": "audio stream AAC",
+          "ok": true,
+          "detail": "aac"
+        },
+        {
+          "name": "moov atom at start (faststart)",
+          "ok": true,
+          "detail": "web-optimised"
+        },
+        {
+          "name": "loudness −18…−10 LUFS",
+          "ok": true,
+          "detail": "-12.6 LUFS"
+        },
+        {
+          "name": "true peak ≤ −0.5 dBTP",
+          "ok": true,
+          "detail": "-3 dBTP"
+        },
+        {
+          "name": "no black frames",
+          "ok": true,
+          "detail": "0.00s black"
+        },
+        {
+          "name": "no frozen segments > 1.5s",
+          "ok": true,
+          "detail": "motion throughout"
+        },
+        {
+          "name": "title 8–80 chars",
+          "ok": true,
+          "detail": "32 chars"
+        },
+        {
+          "name": "caption ≤ 2200 chars",
+          "ok": true,
+          "detail": "419 chars"
+        },
+        {
+          "name": "3–10 hashtags",
+          "ok": true,
+          "detail": "8"
+        },
+        {
+          "name": "hashtags well-formed",
+          "ok": true,
+          "detail": "#packagingdesign #branding #labeldesign #editorialdesign #تصميم #مصمم_مستقل #freelancedesigner #designinspiration"
+        },
+        {
+          "name": "no duplicate hashtags",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "concept disclaimer present",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no client-work claims",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no links or emails",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "idea not used before",
+          "ok": true,
+          "detail": "9c7f69d1c5d85f7d"
+        },
+        {
+          "name": "video file is unique",
+          "ok": true,
+          "detail": "71fc64cb0e68"
+        },
+        {
+          "name": "caption not reused",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "one video per day",
+          "ok": true,
+          "detail": "2026-11-07"
+        }
+      ],
+      "plannedAt": "2026-11-07T16:00:00.000Z",
+      "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/42398372175"
     }
   ]
 }

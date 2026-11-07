@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T17:46:09.009Z",
+  "generatedAt": "2026-11-07T17:53:11.162Z",
   "repo": "tamimbuteful1-prog/design-autopilot",
   "control": {
     "paused": false,
@@ -19,6 +19,45 @@
     "timezone": "Asia/Riyadh"
   },
   "entries": [
+    {
+      "id": "2026-11-07-C018",
+      "date": "2026-11-07",
+      "code": "C018",
+      "category": {
+        "ar": "تصميم تغليف",
+        "en": "Packaging"
+      },
+      "subject": {
+        "ar": "تغليف كيس قهوة مختصة",
+        "en": "Specialty coffee bag"
+      },
+      "brand": "Najd Beans",
+      "style": "Editorial",
+      "palette": {
+        "name": "Midnight Violet",
+        "colors": [
+          "#0D0B1A",
+          "#8B7CFF",
+          "#3FE0C5",
+          "#F2F0FF"
+        ]
+      },
+      "status": "test",
+      "title": "خدمة تصميم التغليف — وش نقدم لك؟",
+      "videoUrl": null,
+      "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/42398372175",
+      "plannedAt": "2026-11-07T16:00:00.000Z",
+      "buffer": null,
+      "issue": null,
+      "qa": {
+        "passed": 24,
+        "total": 24,
+        "failed": []
+      },
+      "error": null,
+      "updatedAt": "2026-11-07T17:53:11.158Z",
+      "thumb": "thumbs/2026-11-07-C018.jpg"
+    },
     {
       "id": "2026-11-06-C017",
       "date": "2026-11-06",
