@@ -5043,6 +5043,326 @@
       ],
       "plannedAt": "2026-11-08T16:00:00.000Z",
       "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/42508226460"
+    },
+    {
+      "id": "2026-11-10-C020",
+      "date": "2026-11-10",
+      "status": "test",
+      "idea": {
+        "category": "dashboard",
+        "subjectKey": "logistics",
+        "styleKey": "glass",
+        "paletteKey": "sage-light",
+        "fingerprint": "f9c313919e681380",
+        "conceptNo": 20,
+        "code": "C020",
+        "date": "2026-11-10",
+        "brand": "Cargo One",
+        "subject": {
+          "ar": "لوحة تحكم لإدارة أسطول التوصيل",
+          "en": "Delivery fleet operations"
+        },
+        "categoryMeta": {
+          "ar": "لوحة تحكم",
+          "en": "Dashboard"
+        },
+        "icon": "map",
+        "shape": null,
+        "palette": {
+          "key": "sage-light",
+          "name": "Sage",
+          "mode": "light",
+          "bg": "#EEF1EA",
+          "surface": "#FFFFFF",
+          "surface2": "#F5F7F2",
+          "ink": "#18211B",
+          "muted": "#5D6B60",
+          "line": "#DCE3D8",
+          "accent": "#2F6B4F",
+          "accent2": "#E8B04B",
+          "accentInk": "#FFFFFF"
+        },
+        "style": {
+          "key": "glass",
+          "name": "Glassmorphism",
+          "radius": 32,
+          "border": 1,
+          "shadow": "0 40px 80px -30px rgba(0,0,0,.45)",
+          "heading": "Inter",
+          "weight": 600,
+          "tracking": -1.2,
+          "glass": true
+        },
+        "content": {
+          "title": "Fleet today",
+          "nav": [
+            "Live map",
+            "Drivers",
+            "Orders",
+            "Vehicles",
+            "Reports"
+          ],
+          "kpis": [
+            {
+              "label": "Deliveries",
+              "value": "1664",
+              "delta": "+11%"
+            },
+            {
+              "label": "On-time",
+              "value": "98%",
+              "delta": "+2.9%"
+            },
+            {
+              "label": "Avg. ETA",
+              "value": "29 min",
+              "delta": "-4 min"
+            },
+            {
+              "label": "Active vans",
+              "value": "72",
+              "delta": "+1"
+            }
+          ],
+          "series": [
+            43,
+            48,
+            53,
+            55,
+            54,
+            65,
+            66,
+            71,
+            69,
+            76,
+            87,
+            96
+          ],
+          "series2": [
+            26,
+            35,
+            40,
+            39,
+            39,
+            39,
+            44,
+            48,
+            47,
+            52,
+            58,
+            61
+          ],
+          "bars": [
+            {
+              "label": "North",
+              "value": 81
+            },
+            {
+              "label": "South",
+              "value": 75
+            },
+            {
+              "label": "East",
+              "value": 61
+            },
+            {
+              "label": "West",
+              "value": 36
+            }
+          ],
+          "table": [
+            [
+              "VAN-214",
+              "A. Hassan",
+              "Olaya",
+              "On route"
+            ],
+            [
+              "VAN-118",
+              "M. Saleh",
+              "Malqa",
+              "Delivered"
+            ],
+            [
+              "VAN-301",
+              "S. Fahad",
+              "Hittin",
+              "Delayed"
+            ],
+            [
+              "VAN-077",
+              "R. Nasser",
+              "Yasmin",
+              "On route"
+            ]
+          ]
+        },
+        "seed": "2026-11-10:19#0"
+      },
+      "createdAt": "2026-11-09T22:43:16.799Z",
+      "log": [
+        {
+          "at": "2026-11-09T22:43:16.799Z",
+          "msg": "idea chosen: dashboard / logistics / glass / sage-light"
+        },
+        {
+          "at": "2026-11-09T22:44:25.177Z",
+          "msg": "rendered"
+        },
+        {
+          "at": "2026-11-09T22:44:26.918Z",
+          "msg": "QA 24/24 passed"
+        },
+        {
+          "at": "2026-11-09T22:44:26.921Z",
+          "msg": "TEST mode: QA passed; upload and publishing skipped"
+        }
+      ],
+      "updatedAt": "2026-11-09T22:44:26.921Z",
+      "copy": {
+        "title": "تصميم لوحات التحكم باحترافية 🔥",
+        "caption": "تصميم لوحات التحكم باحترافية 🔥\n\nوش تحصل معنا:\n✅ مؤشرات واضحة بنظرة\n✅ رسوم بيانية سهلة القراءة\n✅ نظام تصميم قابل للتوسع\n\nتبي تصميم زي كذا لمشروعك؟ تواصل معانا على الخاص 📩\n\nℹ️ التصميم المعروض مفاهيمي (Concept C020) لعلامة خيالية، وليس مشروعًا منفذًا لعميل.\n🤖 أُنتج هذا المحتوى بمساعدة أدوات الذكاء الاصطناعي.\n\n#dashboard #dashboarddesign #saasdesign #glassmorphism #تصميم #مصمم_مستقل #freelancedesigner #designinspiration",
+        "hashtags": [
+          "#dashboard",
+          "#dashboarddesign",
+          "#saasdesign",
+          "#glassmorphism",
+          "#تصميم",
+          "#مصمم_مستقل",
+          "#freelancedesigner",
+          "#designinspiration"
+        ]
+      },
+      "video": {
+        "file": "out/2026-11-10-C020/2026-11-10-C020.mp4",
+        "sha256": "270048ec4312d215d71a57e2b582a58deb64eeb22d8e197df046d5189cb630c5",
+        "bytes": 3613051,
+        "thumb": "out/2026-11-10-C020/thumb.jpg"
+      },
+      "qa": [
+        {
+          "name": "file size 0.3–50 MB",
+          "ok": true,
+          "detail": "3.61 MB"
+        },
+        {
+          "name": "video stream H.264",
+          "ok": true,
+          "detail": "h264"
+        },
+        {
+          "name": "resolution 1080×1920",
+          "ok": true,
+          "detail": "1080×1920"
+        },
+        {
+          "name": "pixel format yuv420p",
+          "ok": true,
+          "detail": "yuv420p"
+        },
+        {
+          "name": "frame rate 30 fps",
+          "ok": true,
+          "detail": "30.00"
+        },
+        {
+          "name": "duration 10–15s",
+          "ok": true,
+          "detail": "14.00s"
+        },
+        {
+          "name": "audio stream AAC",
+          "ok": true,
+          "detail": "aac"
+        },
+        {
+          "name": "moov atom at start (faststart)",
+          "ok": true,
+          "detail": "web-optimised"
+        },
+        {
+          "name": "loudness −18…−10 LUFS",
+          "ok": true,
+          "detail": "-12.6 LUFS"
+        },
+        {
+          "name": "true peak ≤ −0.5 dBTP",
+          "ok": true,
+          "detail": "-2 dBTP"
+        },
+        {
+          "name": "no black frames",
+          "ok": true,
+          "detail": "0.00s black"
+        },
+        {
+          "name": "no frozen segments > 1.5s",
+          "ok": true,
+          "detail": "motion throughout"
+        },
+        {
+          "name": "title 8–80 chars",
+          "ok": true,
+          "detail": "31 chars"
+        },
+        {
+          "name": "caption ≤ 2200 chars",
+          "ok": true,
+          "detail": "422 chars"
+        },
+        {
+          "name": "3–10 hashtags",
+          "ok": true,
+          "detail": "8"
+        },
+        {
+          "name": "hashtags well-formed",
+          "ok": true,
+          "detail": "#dashboard #dashboarddesign #saasdesign #glassmorphism #تصميم #مصمم_مستقل #freelancedesigner #designinspiration"
+        },
+        {
+          "name": "no duplicate hashtags",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "concept disclaimer present",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no client-work claims",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no links or emails",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "idea not used before",
+          "ok": true,
+          "detail": "f9c313919e681380"
+        },
+        {
+          "name": "video file is unique",
+          "ok": true,
+          "detail": "270048ec4312"
+        },
+        {
+          "name": "caption not reused",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "one video per day",
+          "ok": true,
+          "detail": "2026-11-10"
+        }
+      ],
+      "plannedAt": "2026-11-10T16:00:00.000Z",
+      "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/42714278103"
     }
   ]
 }
