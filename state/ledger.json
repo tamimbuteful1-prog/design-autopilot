@@ -5363,6 +5363,512 @@
       ],
       "plannedAt": "2026-11-10T16:00:00.000Z",
       "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/42714278103"
+    },
+    {
+      "id": "2026-11-11-C021",
+      "date": "2026-11-11",
+      "status": "qa_failed",
+      "idea": {
+        "category": "website",
+        "subjectKey": "skincare",
+        "styleKey": "minimal",
+        "paletteKey": "ocean-dark",
+        "fingerprint": "80cc6eee589d0a75",
+        "conceptNo": 21,
+        "code": "C021",
+        "date": "2026-11-11",
+        "brand": "Aura Lab",
+        "subject": {
+          "ar": "موقع لعلامة عناية بالبشرة",
+          "en": "Skincare brand"
+        },
+        "categoryMeta": {
+          "ar": "موقع إلكتروني",
+          "en": "Website"
+        },
+        "icon": "drop",
+        "shape": null,
+        "palette": {
+          "key": "ocean-dark",
+          "name": "Deep Ocean",
+          "mode": "dark",
+          "bg": "#071A24",
+          "surface": "#0E2733",
+          "surface2": "#143443",
+          "ink": "#E8F6FA",
+          "muted": "#8DB3C1",
+          "line": "#1E4253",
+          "accent": "#3CC3E8",
+          "accent2": "#FFB547",
+          "accentInk": "#071A24"
+        },
+        "style": {
+          "key": "minimal",
+          "name": "Swiss Minimal",
+          "radius": 14,
+          "border": 1,
+          "shadow": "0 1px 0 rgba(0,0,0,.04)",
+          "heading": "Space Grotesk",
+          "weight": 600,
+          "tracking": -1.2
+        },
+        "content": {
+          "nav": [
+            "Shop",
+            "Routine finder",
+            "Ingredients",
+            "About"
+          ],
+          "heroTitle": "Fewer steps. Better skin.",
+          "heroSub": "Clinically tested essentials made for hot climates.",
+          "cta": "Find my routine",
+          "features": [
+            {
+              "title": "Climate-ready",
+              "body": "Lightweight textures for heat and humidity.",
+              "icon": "sun"
+            },
+            {
+              "title": "Clean actives",
+              "body": "Niacinamide, ceramides, no fillers.",
+              "icon": "drop"
+            },
+            {
+              "title": "Refillable",
+              "body": "Glass bottles with refill pouches.",
+              "icon": "leaf"
+            }
+          ],
+          "stats": [
+            [
+              "4",
+              "Essentials"
+            ],
+            [
+              "0",
+              "Fragrance"
+            ],
+            [
+              "100%",
+              "Refillable"
+            ]
+          ],
+          "pricing": null,
+          "steps": [
+            "Cleanse",
+            "Treat",
+            "Hydrate",
+            "Protect"
+          ]
+        },
+        "seed": "2026-11-11:20#0"
+      },
+      "createdAt": "2026-11-11T19:52:56.423Z",
+      "log": [
+        {
+          "at": "2026-11-11T19:52:56.424Z",
+          "msg": "idea chosen: website / skincare / minimal / ocean-dark"
+        },
+        {
+          "at": "2026-11-11T19:53:52.058Z",
+          "msg": "rendered"
+        },
+        {
+          "at": "2026-11-11T19:53:54.161Z",
+          "msg": "QA 23/24 passed"
+        },
+        {
+          "at": "2026-11-11T19:53:54.163Z",
+          "msg": "QA failed: true peak ≤ −0.5 dBTP"
+        }
+      ],
+      "updatedAt": "2026-11-11T19:53:54.163Z",
+      "copy": {
+        "title": "تصميم المواقع وصفحات الهبوط باحترافية 🔥",
+        "caption": "تصميم المواقع وصفحات الهبوط باحترافية 🔥\n\nوش تحصل معنا:\n✅ صفحة رئيسية تقنع الزائر\n✅ تصميم متجاوب مع الجوال\n✅ جاهز للتطوير مباشرة\n\nتبي تصميم زي كذا لمشروعك؟ تواصل معانا على الخاص 📩\n\nℹ️ التصميم المعروض مفاهيمي (Concept C021) لعلامة خيالية، وليس مشروعًا منفذًا لعميل.\n🤖 أُنتج هذا المحتوى بمساعدة أدوات الذكاء الاصطناعي.\n\n#webdesign #landingpage #websitedesign #minimaldesign #تصميم #مصمم_مستقل #freelancedesigner #designinspiration",
+        "hashtags": [
+          "#webdesign",
+          "#landingpage",
+          "#websitedesign",
+          "#minimaldesign",
+          "#تصميم",
+          "#مصمم_مستقل",
+          "#freelancedesigner",
+          "#designinspiration"
+        ]
+      },
+      "video": {
+        "file": "out/2026-11-11-C021/2026-11-11-C021.mp4",
+        "sha256": "b6f2b4b0143fc0e9fed6b119c676e2cc8a1cac85346f5013a3c2b5ebb1ec5677",
+        "bytes": 4268177,
+        "thumb": "out/2026-11-11-C021/thumb.jpg"
+      },
+      "qa": [
+        {
+          "name": "file size 0.3–50 MB",
+          "ok": true,
+          "detail": "4.27 MB"
+        },
+        {
+          "name": "video stream H.264",
+          "ok": true,
+          "detail": "h264"
+        },
+        {
+          "name": "resolution 1080×1920",
+          "ok": true,
+          "detail": "1080×1920"
+        },
+        {
+          "name": "pixel format yuv420p",
+          "ok": true,
+          "detail": "yuv420p"
+        },
+        {
+          "name": "frame rate 30 fps",
+          "ok": true,
+          "detail": "30.00"
+        },
+        {
+          "name": "duration 10–15s",
+          "ok": true,
+          "detail": "14.00s"
+        },
+        {
+          "name": "audio stream AAC",
+          "ok": true,
+          "detail": "aac"
+        },
+        {
+          "name": "moov atom at start (faststart)",
+          "ok": true,
+          "detail": "web-optimised"
+        },
+        {
+          "name": "loudness −18…−10 LUFS",
+          "ok": true,
+          "detail": "-12.7 LUFS"
+        },
+        {
+          "name": "true peak ≤ −0.5 dBTP",
+          "ok": false,
+          "detail": "0 dBTP"
+        },
+        {
+          "name": "no black frames",
+          "ok": true,
+          "detail": "0.00s black"
+        },
+        {
+          "name": "no frozen segments > 1.5s",
+          "ok": true,
+          "detail": "motion throughout"
+        },
+        {
+          "name": "title 8–80 chars",
+          "ok": true,
+          "detail": "40 chars"
+        },
+        {
+          "name": "caption ≤ 2200 chars",
+          "ok": true,
+          "detail": "430 chars"
+        },
+        {
+          "name": "3–10 hashtags",
+          "ok": true,
+          "detail": "8"
+        },
+        {
+          "name": "hashtags well-formed",
+          "ok": true,
+          "detail": "#webdesign #landingpage #websitedesign #minimaldesign #تصميم #مصمم_مستقل #freelancedesigner #designinspiration"
+        },
+        {
+          "name": "no duplicate hashtags",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "concept disclaimer present",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no client-work claims",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no links or emails",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "idea not used before",
+          "ok": true,
+          "detail": "80cc6eee589d0a75"
+        },
+        {
+          "name": "video file is unique",
+          "ok": true,
+          "detail": "b6f2b4b0143f"
+        },
+        {
+          "name": "caption not reused",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "one video per day",
+          "ok": true,
+          "detail": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-11-C022",
+      "date": "2026-11-11",
+      "status": "test",
+      "idea": {
+        "category": "uiux",
+        "subjectKey": "checkout",
+        "styleKey": "soft",
+        "paletteKey": "graphite-lime",
+        "fingerprint": "1a499d4aadacb432",
+        "conceptNo": 22,
+        "code": "C022",
+        "date": "2026-11-11",
+        "brand": "Basket",
+        "subject": {
+          "ar": "إعادة تصميم تجربة الدفع (Checkout)",
+          "en": "Checkout flow redesign"
+        },
+        "categoryMeta": {
+          "ar": "تجربة مستخدم UI/UX",
+          "en": "UI/UX Flow"
+        },
+        "icon": "cart",
+        "shape": null,
+        "palette": {
+          "key": "graphite-lime",
+          "name": "Graphite Lime",
+          "mode": "dark",
+          "bg": "#111312",
+          "surface": "#1A1D1B",
+          "surface2": "#232725",
+          "ink": "#F1F5EF",
+          "muted": "#9AA39C",
+          "line": "#2D322F",
+          "accent": "#C6F432",
+          "accentInk": "#111312",
+          "accent2": "#7AA7FF"
+        },
+        "style": {
+          "key": "soft",
+          "name": "Soft UI",
+          "radius": 28,
+          "border": 0,
+          "shadow": "0 30px 60px -20px rgba(0,0,0,.25)",
+          "heading": "Inter",
+          "weight": 700,
+          "tracking": -1.5
+        },
+        "content": {
+          "flow": [
+            {
+              "title": "Your cart",
+              "body": "2 items · Free delivery over 200 SAR",
+              "cta": "Checkout"
+            },
+            {
+              "title": "Delivery",
+              "body": "Choose a delivery slot that suits you.",
+              "cta": "Continue to payment",
+              "options": [
+                "Today 18–20",
+                "Tomorrow 10–12",
+                "Tomorrow 16–18"
+              ]
+            },
+            {
+              "title": "Order placed",
+              "body": "We will message you when it ships.",
+              "cta": "Track order"
+            }
+          ],
+          "principle": [
+            "Fewer form fields",
+            "Visible progress",
+            "Trust signals at payment"
+          ]
+        },
+        "seed": "2026-11-11:21#0"
+      },
+      "createdAt": "2026-11-11T19:53:56.187Z",
+      "log": [
+        {
+          "at": "2026-11-11T19:53:56.187Z",
+          "msg": "idea chosen: uiux / checkout / soft / graphite-lime"
+        },
+        {
+          "at": "2026-11-11T19:54:40.165Z",
+          "msg": "rendered"
+        },
+        {
+          "at": "2026-11-11T19:54:42.297Z",
+          "msg": "QA 24/24 passed"
+        },
+        {
+          "at": "2026-11-11T19:54:42.301Z",
+          "msg": "TEST mode: QA passed; upload and publishing skipped"
+        }
+      ],
+      "updatedAt": "2026-11-11T19:54:42.301Z",
+      "copy": {
+        "title": "عملاؤك يتوهون في منتجك؟ نصمم لهم تجربة سهلة ✨",
+        "caption": "عملاؤك يتوهون في منتجك؟ نصمم لهم تجربة سهلة ✨\n\nوش تحصل معنا:\n✅ دراسة رحلة المستخدم\n✅ نموذج تفاعلي قبل البرمجة\n✅ نظام تصميم متكامل\n\nاحفظ الفيديو، وتواصل معانا على الخاص لمشروعك 📩\n\nℹ️ التصميم المعروض مفاهيمي (Concept C022) لعلامة خيالية، وليس مشروعًا منفذًا لعميل.\n🤖 أُنتج هذا المحتوى بمساعدة أدوات الذكاء الاصطناعي.\n\n#uiux #uxdesign #designsystem #softui #تصميم #مصمم_مستقل #freelancedesigner #designinspiration",
+        "hashtags": [
+          "#uiux",
+          "#uxdesign",
+          "#designsystem",
+          "#softui",
+          "#تصميم",
+          "#مصمم_مستقل",
+          "#freelancedesigner",
+          "#designinspiration"
+        ]
+      },
+      "video": {
+        "file": "out/2026-11-11-C022/2026-11-11-C022.mp4",
+        "sha256": "629af41bdb2955c9276fc0b5549a4795913c27bdac70fc7eca948c0da44304d8",
+        "bytes": 4866304,
+        "thumb": "out/2026-11-11-C022/thumb.jpg"
+      },
+      "qa": [
+        {
+          "name": "file size 0.3–50 MB",
+          "ok": true,
+          "detail": "4.87 MB"
+        },
+        {
+          "name": "video stream H.264",
+          "ok": true,
+          "detail": "h264"
+        },
+        {
+          "name": "resolution 1080×1920",
+          "ok": true,
+          "detail": "1080×1920"
+        },
+        {
+          "name": "pixel format yuv420p",
+          "ok": true,
+          "detail": "yuv420p"
+        },
+        {
+          "name": "frame rate 30 fps",
+          "ok": true,
+          "detail": "30.00"
+        },
+        {
+          "name": "duration 10–15s",
+          "ok": true,
+          "detail": "14.00s"
+        },
+        {
+          "name": "audio stream AAC",
+          "ok": true,
+          "detail": "aac"
+        },
+        {
+          "name": "moov atom at start (faststart)",
+          "ok": true,
+          "detail": "web-optimised"
+        },
+        {
+          "name": "loudness −18…−10 LUFS",
+          "ok": true,
+          "detail": "-12.6 LUFS"
+        },
+        {
+          "name": "true peak ≤ −0.5 dBTP",
+          "ok": true,
+          "detail": "-2.5 dBTP"
+        },
+        {
+          "name": "no black frames",
+          "ok": true,
+          "detail": "0.00s black"
+        },
+        {
+          "name": "no frozen segments > 1.5s",
+          "ok": true,
+          "detail": "motion throughout"
+        },
+        {
+          "name": "title 8–80 chars",
+          "ok": true,
+          "detail": "45 chars"
+        },
+        {
+          "name": "caption ≤ 2200 chars",
+          "ok": true,
+          "detail": "412 chars"
+        },
+        {
+          "name": "3–10 hashtags",
+          "ok": true,
+          "detail": "8"
+        },
+        {
+          "name": "hashtags well-formed",
+          "ok": true,
+          "detail": "#uiux #uxdesign #designsystem #softui #تصميم #مصمم_مستقل #freelancedesigner #designinspiration"
+        },
+        {
+          "name": "no duplicate hashtags",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "concept disclaimer present",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no client-work claims",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no links or emails",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "idea not used before",
+          "ok": true,
+          "detail": "1a499d4aadacb432"
+        },
+        {
+          "name": "video file is unique",
+          "ok": true,
+          "detail": "629af41bdb29"
+        },
+        {
+          "name": "caption not reused",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "one video per day",
+          "ok": true,
+          "detail": "2026-11-11"
+        }
+      ],
+      "plannedAt": "2026-11-11T16:00:00.000Z",
+      "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/43091181754"
     }
   ]
 }
