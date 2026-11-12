@@ -5869,6 +5869,247 @@
       ],
       "plannedAt": "2026-11-11T16:00:00.000Z",
       "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/43091181754"
+    },
+    {
+      "id": "2026-11-12-C023",
+      "date": "2026-11-12",
+      "status": "test",
+      "idea": {
+        "category": "product",
+        "subjectKey": "headphones",
+        "styleKey": "glass",
+        "paletteKey": "terracotta",
+        "fingerprint": "623436eeca808f62",
+        "conceptNo": 23,
+        "code": "C023",
+        "date": "2026-11-12",
+        "brand": "Quiet",
+        "subject": {
+          "ar": "سماعات رأس لاسلكية",
+          "en": "Wireless headphones"
+        },
+        "categoryMeta": {
+          "ar": "تصميم منتج",
+          "en": "Product Design"
+        },
+        "icon": "play",
+        "shape": "headphones",
+        "palette": {
+          "key": "terracotta",
+          "name": "Terracotta",
+          "mode": "light",
+          "bg": "#F6EEE7",
+          "surface": "#FFFAF5",
+          "surface2": "#F1E4D8",
+          "ink": "#2A1A12",
+          "muted": "#7A6253",
+          "line": "#E6D5C6",
+          "accent": "#B94E28",
+          "accent2": "#2E5E6E",
+          "accentInk": "#FFFFFF"
+        },
+        "style": {
+          "key": "glass",
+          "name": "Glassmorphism",
+          "radius": 32,
+          "border": 1,
+          "shadow": "0 40px 80px -30px rgba(0,0,0,.45)",
+          "heading": "Inter",
+          "weight": 600,
+          "tracking": -1.2,
+          "glass": true
+        },
+        "content": {
+          "specs": [
+            [
+              "ANC",
+              "Adaptive"
+            ],
+            [
+              "Battery",
+              "40 h"
+            ],
+            [
+              "Weight",
+              "256 g"
+            ],
+            [
+              "Codec",
+              "LDAC / AAC"
+            ]
+          ],
+          "materials": [
+            "Memory foam",
+            "Vegan leather",
+            "Matte polymer"
+          ]
+        },
+        "seed": "2026-11-12:22#0"
+      },
+      "createdAt": "2026-11-12T20:28:52.618Z",
+      "log": [
+        {
+          "at": "2026-11-12T20:28:52.618Z",
+          "msg": "idea chosen: product / headphones / glass / terracotta"
+        },
+        {
+          "at": "2026-11-12T20:30:01.556Z",
+          "msg": "rendered"
+        },
+        {
+          "at": "2026-11-12T20:30:03.743Z",
+          "msg": "QA 24/24 passed"
+        },
+        {
+          "at": "2026-11-12T20:30:03.746Z",
+          "msg": "TEST mode: QA passed; upload and publishing skipped"
+        }
+      ],
+      "updatedAt": "2026-11-12T20:30:03.746Z",
+      "copy": {
+        "title": "تصميم المنتجات باحترافية 🔥",
+        "caption": "تصميم المنتجات باحترافية 🔥\n\nوش تحصل معنا:\n✅ تصميم شكل المنتج\n✅ مواصفات وخامات مدروسة\n✅ تشكيلة ألوان متكاملة\n\nاحفظ الفيديو، وتواصل معانا على الخاص لمشروعك 📩\n\nℹ️ التصميم المعروض مفاهيمي (Concept C023) لعلامة خيالية، وليس مشروعًا منفذًا لعميل.\n🤖 أُنتج هذا المحتوى بمساعدة أدوات الذكاء الاصطناعي.\n\n#productdesign #industrialdesign #3ddesign #glassmorphism #تصميم #مصمم_مستقل #freelancedesigner #designinspiration",
+        "hashtags": [
+          "#productdesign",
+          "#industrialdesign",
+          "#3ddesign",
+          "#glassmorphism",
+          "#تصميم",
+          "#مصمم_مستقل",
+          "#freelancedesigner",
+          "#designinspiration"
+        ]
+      },
+      "video": {
+        "file": "out/2026-11-12-C023/2026-11-12-C023.mp4",
+        "sha256": "6e617b6905da89f9340977ad26fe41c94cadb1aed597dadfa96c6212c3942b7b",
+        "bytes": 3730787,
+        "thumb": "out/2026-11-12-C023/thumb.jpg"
+      },
+      "qa": [
+        {
+          "name": "file size 0.3–50 MB",
+          "ok": true,
+          "detail": "3.73 MB"
+        },
+        {
+          "name": "video stream H.264",
+          "ok": true,
+          "detail": "h264"
+        },
+        {
+          "name": "resolution 1080×1920",
+          "ok": true,
+          "detail": "1080×1920"
+        },
+        {
+          "name": "pixel format yuv420p",
+          "ok": true,
+          "detail": "yuv420p"
+        },
+        {
+          "name": "frame rate 30 fps",
+          "ok": true,
+          "detail": "30.00"
+        },
+        {
+          "name": "duration 10–15s",
+          "ok": true,
+          "detail": "14.00s"
+        },
+        {
+          "name": "audio stream AAC",
+          "ok": true,
+          "detail": "aac"
+        },
+        {
+          "name": "moov atom at start (faststart)",
+          "ok": true,
+          "detail": "web-optimised"
+        },
+        {
+          "name": "loudness −18…−10 LUFS",
+          "ok": true,
+          "detail": "-12.7 LUFS"
+        },
+        {
+          "name": "true peak ≤ −0.5 dBTP",
+          "ok": true,
+          "detail": "-3.2 dBTP"
+        },
+        {
+          "name": "no black frames",
+          "ok": true,
+          "detail": "0.00s black"
+        },
+        {
+          "name": "no frozen segments > 1.5s",
+          "ok": true,
+          "detail": "motion throughout"
+        },
+        {
+          "name": "title 8–80 chars",
+          "ok": true,
+          "detail": "27 chars"
+        },
+        {
+          "name": "caption ≤ 2200 chars",
+          "ok": true,
+          "detail": "411 chars"
+        },
+        {
+          "name": "3–10 hashtags",
+          "ok": true,
+          "detail": "8"
+        },
+        {
+          "name": "hashtags well-formed",
+          "ok": true,
+          "detail": "#productdesign #industrialdesign #3ddesign #glassmorphism #تصميم #مصمم_مستقل #freelancedesigner #designinspiration"
+        },
+        {
+          "name": "no duplicate hashtags",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "concept disclaimer present",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no client-work claims",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no links or emails",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "idea not used before",
+          "ok": true,
+          "detail": "623436eeca808f62"
+        },
+        {
+          "name": "video file is unique",
+          "ok": true,
+          "detail": "6e617b6905da"
+        },
+        {
+          "name": "caption not reused",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "one video per day",
+          "ok": true,
+          "detail": "2026-11-12"
+        }
+      ],
+      "plannedAt": "2026-11-12T16:00:00.000Z",
+      "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/43300568555"
     }
   ]
 }
