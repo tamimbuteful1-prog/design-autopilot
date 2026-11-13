@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T19:49:54.087Z",
+  "generatedAt": "2026-11-13T20:05:12.725Z",
   "repo": "tamimbuteful1-prog/design-autopilot",
   "control": {
     "paused": false,
@@ -19,6 +19,86 @@
     "timezone": "Asia/Riyadh"
   },
   "entries": [
+    {
+      "id": "2026-11-13-C025",
+      "date": "2026-11-13",
+      "code": "C025",
+      "category": {
+        "ar": "تطبيق جوال",
+        "en": "Mobile App"
+      },
+      "subject": {
+        "ar": "تطبيق تمارين منزلية",
+        "en": "Home workouts"
+      },
+      "brand": "Pulse",
+      "style": "Neo-Brutalism",
+      "palette": {
+        "name": "Midnight Violet",
+        "colors": [
+          "#0D0B1A",
+          "#8B7CFF",
+          "#3FE0C5",
+          "#F2F0FF"
+        ]
+      },
+      "status": "test",
+      "title": "خدمة تصميم تطبيقات الجوال — وش نقدم لك؟",
+      "videoUrl": null,
+      "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/43497961770",
+      "plannedAt": "2026-11-13T16:00:00.000Z",
+      "buffer": null,
+      "issue": null,
+      "qa": {
+        "passed": 24,
+        "total": 24,
+        "failed": []
+      },
+      "error": null,
+      "updatedAt": "2026-11-13T20:05:12.721Z",
+      "thumb": "thumbs/2026-11-13-C025.jpg"
+    },
+    {
+      "id": "2026-11-13-C024",
+      "date": "2026-11-13",
+      "code": "C024",
+      "category": {
+        "ar": "تصميم تغليف",
+        "en": "Packaging"
+      },
+      "subject": {
+        "ar": "تصميم علبة مشروب غازي طبيعي",
+        "en": "Sparkling drink can"
+      },
+      "brand": "Pop Garden",
+      "style": "Swiss Minimal",
+      "palette": {
+        "name": "Citrus Pop",
+        "colors": [
+          "#FFF8E6",
+          "#1F3DFF",
+          "#FF6B3D",
+          "#1C1A12"
+        ]
+      },
+      "status": "qa_failed",
+      "title": "خدمة تصميم التغليف — وش نقدم لك؟",
+      "videoUrl": null,
+      "runUrl": null,
+      "plannedAt": null,
+      "buffer": null,
+      "issue": null,
+      "qa": {
+        "passed": 23,
+        "total": 24,
+        "failed": [
+          "true peak ≤ −0.5 dBTP"
+        ]
+      },
+      "error": null,
+      "updatedAt": "2026-11-13T20:04:38.725Z",
+      "thumb": "thumbs/2026-11-13-C024.jpg"
+    },
     {
       "id": "2026-11-12-C023",
       "date": "2026-11-12",

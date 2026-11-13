@@ -6110,6 +6110,510 @@
       ],
       "plannedAt": "2026-11-12T16:00:00.000Z",
       "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/43300568555"
+    },
+    {
+      "id": "2026-11-13-C024",
+      "date": "2026-11-13",
+      "status": "qa_failed",
+      "idea": {
+        "category": "packaging",
+        "subjectKey": "juice-can",
+        "styleKey": "minimal",
+        "paletteKey": "citrus",
+        "fingerprint": "60248a7843a384f3",
+        "conceptNo": 24,
+        "code": "C024",
+        "date": "2026-11-13",
+        "brand": "Pop Garden",
+        "subject": {
+          "ar": "تصميم علبة مشروب غازي طبيعي",
+          "en": "Sparkling drink can"
+        },
+        "categoryMeta": {
+          "ar": "تصميم تغليف",
+          "en": "Packaging"
+        },
+        "icon": "drop",
+        "shape": "can",
+        "palette": {
+          "key": "citrus",
+          "name": "Citrus Pop",
+          "mode": "light",
+          "bg": "#FFF8E6",
+          "surface": "#FFFFFF",
+          "surface2": "#FFF1C9",
+          "ink": "#1C1A12",
+          "muted": "#6E6A55",
+          "line": "#F0E3B8",
+          "accent": "#1F3DFF",
+          "accent2": "#FF6B3D",
+          "accentInk": "#FFFFFF"
+        },
+        "style": {
+          "key": "minimal",
+          "name": "Swiss Minimal",
+          "radius": 14,
+          "border": 1,
+          "shadow": "0 1px 0 rgba(0,0,0,.04)",
+          "heading": "Space Grotesk",
+          "weight": 600,
+          "tracking": -1.2
+        },
+        "content": {
+          "productName": "Yuzu Ginger",
+          "descriptor": "Sparkling botanical water",
+          "notes": [
+            "No added sugar",
+            "Real fruit",
+            "Vegan"
+          ],
+          "weight": "330 ml"
+        },
+        "seed": "2026-11-13:23#0"
+      },
+      "createdAt": "2026-11-13T20:04:01.212Z",
+      "log": [
+        {
+          "at": "2026-11-13T20:04:01.212Z",
+          "msg": "idea chosen: packaging / juice-can / minimal / citrus"
+        },
+        {
+          "at": "2026-11-13T20:04:37.258Z",
+          "msg": "rendered"
+        },
+        {
+          "at": "2026-11-13T20:04:38.723Z",
+          "msg": "QA 23/24 passed"
+        },
+        {
+          "at": "2026-11-13T20:04:38.725Z",
+          "msg": "QA failed: true peak ≤ −0.5 dBTP"
+        }
+      ],
+      "updatedAt": "2026-11-13T20:04:38.725Z",
+      "copy": {
+        "title": "خدمة تصميم التغليف — وش نقدم لك؟",
+        "caption": "خدمة تصميم التغليف — وش نقدم لك؟\n\nوش تحصل معنا:\n✅ ملصق يخطف العين على الرف\n✅ تشكيلة لكل النكهات\n✅ ملفات جاهزة للطباعة\n\nتبي تصميم زي كذا لمشروعك؟ تواصل معانا على الخاص 📩\n\nℹ️ التصميم المعروض مفاهيمي (Concept C024) لعلامة خيالية، وليس مشروعًا منفذًا لعميل.\n🤖 أُنتج هذا المحتوى بمساعدة أدوات الذكاء الاصطناعي.\n\n#packagingdesign #branding #labeldesign #minimaldesign #تصميم #مصمم_مستقل #freelancedesigner #designinspiration",
+        "hashtags": [
+          "#packagingdesign",
+          "#branding",
+          "#labeldesign",
+          "#minimaldesign",
+          "#تصميم",
+          "#مصمم_مستقل",
+          "#freelancedesigner",
+          "#designinspiration"
+        ]
+      },
+      "video": {
+        "file": "out/2026-11-13-C024/2026-11-13-C024.mp4",
+        "sha256": "8384d466d04a9d3912ba7ed2b468349fefff7545e41929b2270c16c1d9a68396",
+        "bytes": 4365721,
+        "thumb": "out/2026-11-13-C024/thumb.jpg"
+      },
+      "qa": [
+        {
+          "name": "file size 0.3–50 MB",
+          "ok": true,
+          "detail": "4.37 MB"
+        },
+        {
+          "name": "video stream H.264",
+          "ok": true,
+          "detail": "h264"
+        },
+        {
+          "name": "resolution 1080×1920",
+          "ok": true,
+          "detail": "1080×1920"
+        },
+        {
+          "name": "pixel format yuv420p",
+          "ok": true,
+          "detail": "yuv420p"
+        },
+        {
+          "name": "frame rate 30 fps",
+          "ok": true,
+          "detail": "30.00"
+        },
+        {
+          "name": "duration 10–15s",
+          "ok": true,
+          "detail": "14.00s"
+        },
+        {
+          "name": "audio stream AAC",
+          "ok": true,
+          "detail": "aac"
+        },
+        {
+          "name": "moov atom at start (faststart)",
+          "ok": true,
+          "detail": "web-optimised"
+        },
+        {
+          "name": "loudness −18…−10 LUFS",
+          "ok": true,
+          "detail": "-12.7 LUFS"
+        },
+        {
+          "name": "true peak ≤ −0.5 dBTP",
+          "ok": false,
+          "detail": "0.5 dBTP"
+        },
+        {
+          "name": "no black frames",
+          "ok": true,
+          "detail": "0.00s black"
+        },
+        {
+          "name": "no frozen segments > 1.5s",
+          "ok": true,
+          "detail": "motion throughout"
+        },
+        {
+          "name": "title 8–80 chars",
+          "ok": true,
+          "detail": "32 chars"
+        },
+        {
+          "name": "caption ≤ 2200 chars",
+          "ok": true,
+          "detail": "420 chars"
+        },
+        {
+          "name": "3–10 hashtags",
+          "ok": true,
+          "detail": "8"
+        },
+        {
+          "name": "hashtags well-formed",
+          "ok": true,
+          "detail": "#packagingdesign #branding #labeldesign #minimaldesign #تصميم #مصمم_مستقل #freelancedesigner #designinspiration"
+        },
+        {
+          "name": "no duplicate hashtags",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "concept disclaimer present",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no client-work claims",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no links or emails",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "idea not used before",
+          "ok": true,
+          "detail": "60248a7843a384f3"
+        },
+        {
+          "name": "video file is unique",
+          "ok": true,
+          "detail": "8384d466d04a"
+        },
+        {
+          "name": "caption not reused",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "one video per day",
+          "ok": true,
+          "detail": "2026-11-13"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-13-C025",
+      "date": "2026-11-13",
+      "status": "test",
+      "idea": {
+        "category": "mobile",
+        "subjectKey": "fitness",
+        "styleKey": "brutal",
+        "paletteKey": "midnight-violet",
+        "fingerprint": "d115b2821977ae2d",
+        "conceptNo": 25,
+        "code": "C025",
+        "date": "2026-11-13",
+        "brand": "Pulse",
+        "subject": {
+          "ar": "تطبيق تمارين منزلية",
+          "en": "Home workouts"
+        },
+        "categoryMeta": {
+          "ar": "تطبيق جوال",
+          "en": "Mobile App"
+        },
+        "icon": "bolt",
+        "shape": null,
+        "palette": {
+          "key": "midnight-violet",
+          "name": "Midnight Violet",
+          "mode": "dark",
+          "bg": "#0D0B1A",
+          "surface": "#17142B",
+          "surface2": "#211D3A",
+          "ink": "#F2F0FF",
+          "muted": "#A39FC2",
+          "line": "#2E2950",
+          "accent": "#8B7CFF",
+          "accent2": "#3FE0C5",
+          "accentInk": "#0D0B1A"
+        },
+        "style": {
+          "key": "brutal",
+          "name": "Neo-Brutalism",
+          "radius": 6,
+          "border": 3,
+          "shadow": "10px 10px 0 0 var(--ink)",
+          "heading": "Space Grotesk",
+          "weight": 700,
+          "tracking": -1
+        },
+        "content": {
+          "greeting": "Ready, Faisal?",
+          "heroTitle": "Today's session",
+          "heroValue": "34 min HIIT",
+          "heroSub": "476 kcal · No equipment",
+          "chips": [
+            "Strength",
+            "Cardio",
+            "Mobility",
+            "Yoga"
+          ],
+          "list": [
+            {
+              "title": "Core Burner",
+              "sub": "12 min · Beginner",
+              "meta": "4.9",
+              "icon": "bolt"
+            },
+            {
+              "title": "Lower Body Power",
+              "sub": "25 min · Medium",
+              "meta": "4.8",
+              "icon": "heart"
+            },
+            {
+              "title": "Evening Stretch",
+              "sub": "10 min · Easy",
+              "meta": "4.9",
+              "icon": "moon"
+            }
+          ],
+          "detail": {
+            "title": "Core Burner",
+            "subtitle": "8 exercises · 12 min",
+            "stats": [
+              [
+                "Level",
+                "Easy"
+              ],
+              [
+                "Kcal",
+                "144"
+              ],
+              [
+                "Sets",
+                "3"
+              ]
+            ],
+            "progress": 55,
+            "cta": "Start workout"
+          },
+          "stats": {
+            "title": "Weekly activity",
+            "value": "4 / 7 days",
+            "bars": [
+              63,
+              39,
+              66,
+              75,
+              83,
+              62,
+              84
+            ],
+            "label": "Active minutes"
+          }
+        },
+        "seed": "2026-11-13:24#0"
+      },
+      "createdAt": "2026-11-13T20:04:39.672Z",
+      "log": [
+        {
+          "at": "2026-11-13T20:04:39.672Z",
+          "msg": "idea chosen: mobile / fitness / brutal / midnight-violet"
+        },
+        {
+          "at": "2026-11-13T20:05:11.228Z",
+          "msg": "rendered"
+        },
+        {
+          "at": "2026-11-13T20:05:12.718Z",
+          "msg": "QA 24/24 passed"
+        },
+        {
+          "at": "2026-11-13T20:05:12.721Z",
+          "msg": "TEST mode: QA passed; upload and publishing skipped"
+        }
+      ],
+      "updatedAt": "2026-11-13T20:05:12.721Z",
+      "copy": {
+        "title": "خدمة تصميم تطبيقات الجوال — وش نقدم لك؟",
+        "caption": "خدمة تصميم تطبيقات الجوال — وش نقدم لك؟\n\nوش تحصل معنا:\n✅ واجهات iOS و Android\n✅ تجربة استخدام سهلة\n✅ ملفات جاهزة للمبرمج\n\nجاهزين نبدأ مشروعك — تواصل معانا على الخاص 📩\n\nℹ️ التصميم المعروض مفاهيمي (Concept C025) لعلامة خيالية، وليس مشروعًا منفذًا لعميل.\n🤖 أُنتج هذا المحتوى بمساعدة أدوات الذكاء الاصطناعي.\n\n#mobileapp #appdesign #uidesign #neobrutalism #تصميم #مصمم_مستقل #freelancedesigner #designinspiration",
+        "hashtags": [
+          "#mobileapp",
+          "#appdesign",
+          "#uidesign",
+          "#neobrutalism",
+          "#تصميم",
+          "#مصمم_مستقل",
+          "#freelancedesigner",
+          "#designinspiration"
+        ]
+      },
+      "video": {
+        "file": "out/2026-11-13-C025/2026-11-13-C025.mp4",
+        "sha256": "f8ea3624d58ca4f5d9f0074e762ced7676426850d74f239e5f552372db33f051",
+        "bytes": 4053131,
+        "thumb": "out/2026-11-13-C025/thumb.jpg"
+      },
+      "qa": [
+        {
+          "name": "file size 0.3–50 MB",
+          "ok": true,
+          "detail": "4.05 MB"
+        },
+        {
+          "name": "video stream H.264",
+          "ok": true,
+          "detail": "h264"
+        },
+        {
+          "name": "resolution 1080×1920",
+          "ok": true,
+          "detail": "1080×1920"
+        },
+        {
+          "name": "pixel format yuv420p",
+          "ok": true,
+          "detail": "yuv420p"
+        },
+        {
+          "name": "frame rate 30 fps",
+          "ok": true,
+          "detail": "30.00"
+        },
+        {
+          "name": "duration 10–15s",
+          "ok": true,
+          "detail": "14.00s"
+        },
+        {
+          "name": "audio stream AAC",
+          "ok": true,
+          "detail": "aac"
+        },
+        {
+          "name": "moov atom at start (faststart)",
+          "ok": true,
+          "detail": "web-optimised"
+        },
+        {
+          "name": "loudness −18…−10 LUFS",
+          "ok": true,
+          "detail": "-12.7 LUFS"
+        },
+        {
+          "name": "true peak ≤ −0.5 dBTP",
+          "ok": true,
+          "detail": "-2.3 dBTP"
+        },
+        {
+          "name": "no black frames",
+          "ok": true,
+          "detail": "0.00s black"
+        },
+        {
+          "name": "no frozen segments > 1.5s",
+          "ok": true,
+          "detail": "motion throughout"
+        },
+        {
+          "name": "title 8–80 chars",
+          "ok": true,
+          "detail": "39 chars"
+        },
+        {
+          "name": "caption ≤ 2200 chars",
+          "ok": true,
+          "detail": "409 chars"
+        },
+        {
+          "name": "3–10 hashtags",
+          "ok": true,
+          "detail": "8"
+        },
+        {
+          "name": "hashtags well-formed",
+          "ok": true,
+          "detail": "#mobileapp #appdesign #uidesign #neobrutalism #تصميم #مصمم_مستقل #freelancedesigner #designinspiration"
+        },
+        {
+          "name": "no duplicate hashtags",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "concept disclaimer present",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no client-work claims",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no links or emails",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "idea not used before",
+          "ok": true,
+          "detail": "d115b2821977ae2d"
+        },
+        {
+          "name": "video file is unique",
+          "ok": true,
+          "detail": "f8ea3624d58c"
+        },
+        {
+          "name": "caption not reused",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "one video per day",
+          "ok": true,
+          "detail": "2026-11-13"
+        }
+      ],
+      "plannedAt": "2026-11-13T16:00:00.000Z",
+      "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/43497961770"
     }
   ]
 }
