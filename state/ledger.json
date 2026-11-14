@@ -6614,6 +6614,325 @@
       ],
       "plannedAt": "2026-11-13T16:00:00.000Z",
       "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/43497961770"
+    },
+    {
+      "id": "2026-11-14-C026",
+      "date": "2026-11-14",
+      "status": "test",
+      "idea": {
+        "category": "dashboard",
+        "subjectKey": "clinic",
+        "styleKey": "soft",
+        "paletteKey": "emerald-night",
+        "fingerprint": "510bbe433133ce66",
+        "conceptNo": 26,
+        "code": "C026",
+        "date": "2026-11-14",
+        "brand": "Medi Desk",
+        "subject": {
+          "ar": "لوحة تحكم لعيادة ومواعيد المرضى",
+          "en": "Clinic scheduling"
+        },
+        "categoryMeta": {
+          "ar": "لوحة تحكم",
+          "en": "Dashboard"
+        },
+        "icon": "heart",
+        "shape": null,
+        "palette": {
+          "key": "emerald-night",
+          "name": "Emerald Night",
+          "mode": "dark",
+          "bg": "#06140F",
+          "surface": "#0D221A",
+          "surface2": "#133026",
+          "ink": "#E9FBF2",
+          "muted": "#86B3A0",
+          "line": "#1C3F32",
+          "accent": "#2BD98A",
+          "accent2": "#F2C14E",
+          "accentInk": "#06140F"
+        },
+        "style": {
+          "key": "soft",
+          "name": "Soft UI",
+          "radius": 28,
+          "border": 0,
+          "shadow": "0 30px 60px -20px rgba(0,0,0,.25)",
+          "heading": "Inter",
+          "weight": 700,
+          "tracking": -1.5
+        },
+        "content": {
+          "title": "Clinic today",
+          "nav": [
+            "Schedule",
+            "Patients",
+            "Doctors",
+            "Rooms",
+            "Reports"
+          ],
+          "kpis": [
+            {
+              "label": "Appointments",
+              "value": "166",
+              "delta": "+10%"
+            },
+            {
+              "label": "Avg. wait",
+              "value": "13 min",
+              "delta": "-4 min"
+            },
+            {
+              "label": "No-shows",
+              "value": "6.5%",
+              "delta": "-0.6%"
+            },
+            {
+              "label": "Room use",
+              "value": "87%",
+              "delta": "+3%"
+            }
+          ],
+          "series": [
+            35,
+            45,
+            43,
+            41,
+            41,
+            40,
+            37,
+            35,
+            32,
+            32,
+            42,
+            47
+          ],
+          "series2": [
+            12,
+            12,
+            14,
+            17,
+            18,
+            19,
+            21,
+            21,
+            20,
+            18,
+            18,
+            21
+          ],
+          "bars": [
+            {
+              "label": "Dental",
+              "value": 59
+            },
+            {
+              "label": "Derma",
+              "value": 25
+            },
+            {
+              "label": "Pediatrics",
+              "value": 66
+            },
+            {
+              "label": "General",
+              "value": 88
+            }
+          ],
+          "table": [
+            [
+              "09:30",
+              "Dental",
+              "Room 2",
+              "Checked in"
+            ],
+            [
+              "10:00",
+              "Pediatrics",
+              "Room 5",
+              "Waiting"
+            ],
+            [
+              "10:15",
+              "General",
+              "Room 1",
+              "In session"
+            ],
+            [
+              "10:45",
+              "Derma",
+              "Room 3",
+              "Booked"
+            ]
+          ]
+        },
+        "seed": "2026-11-14:25#0"
+      },
+      "createdAt": "2026-11-14T18:30:36.545Z",
+      "log": [
+        {
+          "at": "2026-11-14T18:30:36.545Z",
+          "msg": "idea chosen: dashboard / clinic / soft / emerald-night"
+        },
+        {
+          "at": "2026-11-14T18:31:16.176Z",
+          "msg": "rendered"
+        },
+        {
+          "at": "2026-11-14T18:31:17.540Z",
+          "msg": "QA 24/24 passed"
+        },
+        {
+          "at": "2026-11-14T18:31:17.543Z",
+          "msg": "TEST mode: QA passed; upload and publishing skipped"
+        }
+      ],
+      "updatedAt": "2026-11-14T18:31:17.543Z",
+      "copy": {
+        "title": "بياناتك مبعثرة؟ نصمم لك لوحة تحكم واضحة ✨",
+        "caption": "بياناتك مبعثرة؟ نصمم لك لوحة تحكم واضحة ✨\n\nوش تحصل معنا:\n✅ مؤشرات واضحة بنظرة\n✅ رسوم بيانية سهلة القراءة\n✅ نظام تصميم قابل للتوسع\n\nجاهزين نبدأ مشروعك — تواصل معانا على الخاص 📩\n\nℹ️ التصميم المعروض مفاهيمي (Concept C026) لعلامة خيالية، وليس مشروعًا منفذًا لعميل.\n🤖 أُنتج هذا المحتوى بمساعدة أدوات الذكاء الاصطناعي.\n\n#dashboard #dashboarddesign #saasdesign #softui #تصميم #مصمم_مستقل #freelancedesigner #designinspiration",
+        "hashtags": [
+          "#dashboard",
+          "#dashboarddesign",
+          "#saasdesign",
+          "#softui",
+          "#تصميم",
+          "#مصمم_مستقل",
+          "#freelancedesigner",
+          "#designinspiration"
+        ]
+      },
+      "video": {
+        "file": "out/2026-11-14-C026/2026-11-14-C026.mp4",
+        "sha256": "1aab6afdc3007c046b511c5e16c9d9a694112ba4a48fd2fadd8877afd4e4bd9c",
+        "bytes": 3720179,
+        "thumb": "out/2026-11-14-C026/thumb.jpg"
+      },
+      "qa": [
+        {
+          "name": "file size 0.3–50 MB",
+          "ok": true,
+          "detail": "3.72 MB"
+        },
+        {
+          "name": "video stream H.264",
+          "ok": true,
+          "detail": "h264"
+        },
+        {
+          "name": "resolution 1080×1920",
+          "ok": true,
+          "detail": "1080×1920"
+        },
+        {
+          "name": "pixel format yuv420p",
+          "ok": true,
+          "detail": "yuv420p"
+        },
+        {
+          "name": "frame rate 30 fps",
+          "ok": true,
+          "detail": "30.00"
+        },
+        {
+          "name": "duration 10–15s",
+          "ok": true,
+          "detail": "14.00s"
+        },
+        {
+          "name": "audio stream AAC",
+          "ok": true,
+          "detail": "aac"
+        },
+        {
+          "name": "moov atom at start (faststart)",
+          "ok": true,
+          "detail": "web-optimised"
+        },
+        {
+          "name": "loudness −18…−10 LUFS",
+          "ok": true,
+          "detail": "-12.6 LUFS"
+        },
+        {
+          "name": "true peak ≤ −0.5 dBTP",
+          "ok": true,
+          "detail": "-3.3 dBTP"
+        },
+        {
+          "name": "no black frames",
+          "ok": true,
+          "detail": "0.00s black"
+        },
+        {
+          "name": "no frozen segments > 1.5s",
+          "ok": true,
+          "detail": "motion throughout"
+        },
+        {
+          "name": "title 8–80 chars",
+          "ok": true,
+          "detail": "41 chars"
+        },
+        {
+          "name": "caption ≤ 2200 chars",
+          "ok": true,
+          "detail": "420 chars"
+        },
+        {
+          "name": "3–10 hashtags",
+          "ok": true,
+          "detail": "8"
+        },
+        {
+          "name": "hashtags well-formed",
+          "ok": true,
+          "detail": "#dashboard #dashboarddesign #saasdesign #softui #تصميم #مصمم_مستقل #freelancedesigner #designinspiration"
+        },
+        {
+          "name": "no duplicate hashtags",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "concept disclaimer present",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no client-work claims",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no links or emails",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "idea not used before",
+          "ok": true,
+          "detail": "510bbe433133ce66"
+        },
+        {
+          "name": "video file is unique",
+          "ok": true,
+          "detail": "1aab6afdc300"
+        },
+        {
+          "name": "caption not reused",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "one video per day",
+          "ok": true,
+          "detail": "2026-11-14"
+        }
+      ],
+      "plannedAt": "2026-11-14T16:00:00.000Z",
+      "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/43626888980"
     }
   ]
 }
