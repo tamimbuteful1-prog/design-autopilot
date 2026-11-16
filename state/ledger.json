@@ -7217,6 +7217,252 @@
       ],
       "plannedAt": "2026-11-15T16:00:00.000Z",
       "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/43750594975"
+    },
+    {
+      "id": "2026-11-17-C028",
+      "date": "2026-11-17",
+      "status": "test",
+      "idea": {
+        "category": "uiux",
+        "subjectKey": "design-system",
+        "styleKey": "glass",
+        "paletteKey": "ocean-dark",
+        "fingerprint": "401c0d30f7e48c39",
+        "conceptNo": 28,
+        "code": "C028",
+        "date": "2026-11-17",
+        "brand": "Prism UI",
+        "subject": {
+          "ar": "نظام تصميم ومكونات واجهة",
+          "en": "Design system components"
+        },
+        "categoryMeta": {
+          "ar": "تجربة مستخدم UI/UX",
+          "en": "UI/UX Flow"
+        },
+        "icon": "grid",
+        "shape": null,
+        "palette": {
+          "key": "ocean-dark",
+          "name": "Deep Ocean",
+          "mode": "dark",
+          "bg": "#071A24",
+          "surface": "#0E2733",
+          "surface2": "#143443",
+          "ink": "#E8F6FA",
+          "muted": "#8DB3C1",
+          "line": "#1E4253",
+          "accent": "#3CC3E8",
+          "accent2": "#FFB547",
+          "accentInk": "#071A24"
+        },
+        "style": {
+          "key": "glass",
+          "name": "Glassmorphism",
+          "radius": 32,
+          "border": 1,
+          "shadow": "0 40px 80px -30px rgba(0,0,0,.45)",
+          "heading": "Inter",
+          "weight": 600,
+          "tracking": -1.2,
+          "glass": true
+        },
+        "content": {
+          "flow": [
+            {
+              "title": "Buttons",
+              "body": "Primary, secondary and ghost with clear states.",
+              "cta": "Primary"
+            },
+            {
+              "title": "Form fields",
+              "body": "Labels, helper text and validation.",
+              "cta": "Submit",
+              "options": [
+                "Default",
+                "Focus",
+                "Error",
+                "Disabled"
+              ]
+            },
+            {
+              "title": "Feedback",
+              "body": "Toasts, banners and empty states.",
+              "cta": "Undo"
+            }
+          ],
+          "principle": [
+            "8-point spacing grid",
+            "Tokenised colour",
+            "Accessible contrast"
+          ]
+        },
+        "seed": "2026-11-17:27#0"
+      },
+      "createdAt": "2026-11-16T22:32:14.595Z",
+      "log": [
+        {
+          "at": "2026-11-16T22:32:14.595Z",
+          "msg": "idea chosen: uiux / design-system / glass / ocean-dark"
+        },
+        {
+          "at": "2026-11-16T22:33:16.612Z",
+          "msg": "rendered"
+        },
+        {
+          "at": "2026-11-16T22:33:18.459Z",
+          "msg": "QA 24/24 passed"
+        },
+        {
+          "at": "2026-11-16T22:33:18.463Z",
+          "msg": "TEST mode: QA passed; upload and publishing skipped"
+        }
+      ],
+      "updatedAt": "2026-11-16T22:33:18.463Z",
+      "copy": {
+        "title": "تجربة المستخدم UI/UX باحترافية 🔥",
+        "caption": "تجربة المستخدم UI/UX باحترافية 🔥\n\nوش تحصل معنا:\n✅ دراسة رحلة المستخدم\n✅ نموذج تفاعلي قبل البرمجة\n✅ نظام تصميم متكامل\n\nجاهزين نبدأ مشروعك — تواصل معانا على الخاص 📩\n\nℹ️ التصميم المعروض مفاهيمي (Concept C028) لعلامة خيالية، وليس مشروعًا منفذًا لعميل.\n🤖 أُنتج هذا المحتوى بمساعدة أدوات الذكاء الاصطناعي.\n\n#uiux #uxdesign #designsystem #glassmorphism #تصميم #مصمم_مستقل #freelancedesigner #designinspiration",
+        "hashtags": [
+          "#uiux",
+          "#uxdesign",
+          "#designsystem",
+          "#glassmorphism",
+          "#تصميم",
+          "#مصمم_مستقل",
+          "#freelancedesigner",
+          "#designinspiration"
+        ]
+      },
+      "video": {
+        "file": "out/2026-11-17-C028/2026-11-17-C028.mp4",
+        "sha256": "3c6ec806e9b7eabee245a788a4451209543a8ffb963e15c72055a66b01a0280d",
+        "bytes": 4972782,
+        "thumb": "out/2026-11-17-C028/thumb.jpg"
+      },
+      "qa": [
+        {
+          "name": "file size 0.3–50 MB",
+          "ok": true,
+          "detail": "4.97 MB"
+        },
+        {
+          "name": "video stream H.264",
+          "ok": true,
+          "detail": "h264"
+        },
+        {
+          "name": "resolution 1080×1920",
+          "ok": true,
+          "detail": "1080×1920"
+        },
+        {
+          "name": "pixel format yuv420p",
+          "ok": true,
+          "detail": "yuv420p"
+        },
+        {
+          "name": "frame rate 30 fps",
+          "ok": true,
+          "detail": "30.00"
+        },
+        {
+          "name": "duration 10–15s",
+          "ok": true,
+          "detail": "14.00s"
+        },
+        {
+          "name": "audio stream AAC",
+          "ok": true,
+          "detail": "aac"
+        },
+        {
+          "name": "moov atom at start (faststart)",
+          "ok": true,
+          "detail": "web-optimised"
+        },
+        {
+          "name": "loudness −18…−10 LUFS",
+          "ok": true,
+          "detail": "-12.6 LUFS"
+        },
+        {
+          "name": "true peak ≤ −0.5 dBTP",
+          "ok": true,
+          "detail": "-3.4 dBTP"
+        },
+        {
+          "name": "no black frames",
+          "ok": true,
+          "detail": "0.00s black"
+        },
+        {
+          "name": "no frozen segments > 1.5s",
+          "ok": true,
+          "detail": "motion throughout"
+        },
+        {
+          "name": "title 8–80 chars",
+          "ok": true,
+          "detail": "33 chars"
+        },
+        {
+          "name": "caption ≤ 2200 chars",
+          "ok": true,
+          "detail": "405 chars"
+        },
+        {
+          "name": "3–10 hashtags",
+          "ok": true,
+          "detail": "8"
+        },
+        {
+          "name": "hashtags well-formed",
+          "ok": true,
+          "detail": "#uiux #uxdesign #designsystem #glassmorphism #تصميم #مصمم_مستقل #freelancedesigner #designinspiration"
+        },
+        {
+          "name": "no duplicate hashtags",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "concept disclaimer present",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no client-work claims",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no links or emails",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "idea not used before",
+          "ok": true,
+          "detail": "401c0d30f7e48c39"
+        },
+        {
+          "name": "video file is unique",
+          "ok": true,
+          "detail": "3c6ec806e9b7"
+        },
+        {
+          "name": "caption not reused",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "one video per day",
+          "ok": true,
+          "detail": "2026-11-17"
+        }
+      ],
+      "plannedAt": "2026-11-17T16:00:00.000Z",
+      "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/43970886393"
     }
   ]
 }
