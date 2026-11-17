@@ -7463,6 +7463,246 @@
       ],
       "plannedAt": "2026-11-17T16:00:00.000Z",
       "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/43970886393"
+    },
+    {
+      "id": "2026-11-18-C029",
+      "date": "2026-11-18",
+      "status": "test",
+      "idea": {
+        "category": "product",
+        "subjectKey": "speaker",
+        "styleKey": "soft",
+        "paletteKey": "midnight-violet",
+        "fingerprint": "866b304e564d7def",
+        "conceptNo": 29,
+        "code": "C029",
+        "date": "2026-11-18",
+        "brand": "Echoform",
+        "subject": {
+          "ar": "سماعة ذكية منزلية",
+          "en": "Smart home speaker"
+        },
+        "categoryMeta": {
+          "ar": "تصميم منتج",
+          "en": "Product Design"
+        },
+        "icon": "play",
+        "shape": "speaker",
+        "palette": {
+          "key": "midnight-violet",
+          "name": "Midnight Violet",
+          "mode": "dark",
+          "bg": "#0D0B1A",
+          "surface": "#17142B",
+          "surface2": "#211D3A",
+          "ink": "#F2F0FF",
+          "muted": "#A39FC2",
+          "line": "#2E2950",
+          "accent": "#8B7CFF",
+          "accent2": "#3FE0C5",
+          "accentInk": "#0D0B1A"
+        },
+        "style": {
+          "key": "soft",
+          "name": "Soft UI",
+          "radius": 28,
+          "border": 0,
+          "shadow": "0 30px 60px -20px rgba(0,0,0,.25)",
+          "heading": "Inter",
+          "weight": 700,
+          "tracking": -1.5
+        },
+        "content": {
+          "specs": [
+            [
+              "Drivers",
+              "2 × 40mm"
+            ],
+            [
+              "Battery",
+              "12 h"
+            ],
+            [
+              "Weight",
+              "728 g"
+            ],
+            [
+              "Fabric",
+              "Recycled PET"
+            ]
+          ],
+          "materials": [
+            "Knit fabric",
+            "Anodised aluminium",
+            "Silicone base"
+          ]
+        },
+        "seed": "2026-11-18:28#0"
+      },
+      "createdAt": "2026-11-17T21:21:13.143Z",
+      "log": [
+        {
+          "at": "2026-11-17T21:21:13.143Z",
+          "msg": "idea chosen: product / speaker / soft / midnight-violet"
+        },
+        {
+          "at": "2026-11-17T21:22:10.571Z",
+          "msg": "rendered"
+        },
+        {
+          "at": "2026-11-17T21:22:12.328Z",
+          "msg": "QA 24/24 passed"
+        },
+        {
+          "at": "2026-11-17T21:22:12.332Z",
+          "msg": "TEST mode: QA passed; upload and publishing skipped"
+        }
+      ],
+      "updatedAt": "2026-11-17T21:22:12.332Z",
+      "copy": {
+        "title": "خدمة تصميم المنتجات — وش نقدم لك؟",
+        "caption": "خدمة تصميم المنتجات — وش نقدم لك؟\n\nوش تحصل معنا:\n✅ تصميم شكل المنتج\n✅ مواصفات وخامات مدروسة\n✅ تشكيلة ألوان متكاملة\n\nجاهزين نبدأ مشروعك — تواصل معانا على الخاص 📩\n\nℹ️ التصميم المعروض مفاهيمي (Concept C029) لعلامة خيالية، وليس مشروعًا منفذًا لعميل.\n🤖 أُنتج هذا المحتوى بمساعدة أدوات الذكاء الاصطناعي.\n\n#productdesign #industrialdesign #3ddesign #softui #تصميم #مصمم_مستقل #freelancedesigner #designinspiration",
+        "hashtags": [
+          "#productdesign",
+          "#industrialdesign",
+          "#3ddesign",
+          "#softui",
+          "#تصميم",
+          "#مصمم_مستقل",
+          "#freelancedesigner",
+          "#designinspiration"
+        ]
+      },
+      "video": {
+        "file": "out/2026-11-18-C029/2026-11-18-C029.mp4",
+        "sha256": "602d0172b1d99a7f51bde2a0ad921ab871bd87af8868d6f1fd1065fe9c882638",
+        "bytes": 3729358,
+        "thumb": "out/2026-11-18-C029/thumb.jpg"
+      },
+      "qa": [
+        {
+          "name": "file size 0.3–50 MB",
+          "ok": true,
+          "detail": "3.73 MB"
+        },
+        {
+          "name": "video stream H.264",
+          "ok": true,
+          "detail": "h264"
+        },
+        {
+          "name": "resolution 1080×1920",
+          "ok": true,
+          "detail": "1080×1920"
+        },
+        {
+          "name": "pixel format yuv420p",
+          "ok": true,
+          "detail": "yuv420p"
+        },
+        {
+          "name": "frame rate 30 fps",
+          "ok": true,
+          "detail": "30.00"
+        },
+        {
+          "name": "duration 10–15s",
+          "ok": true,
+          "detail": "14.00s"
+        },
+        {
+          "name": "audio stream AAC",
+          "ok": true,
+          "detail": "aac"
+        },
+        {
+          "name": "moov atom at start (faststart)",
+          "ok": true,
+          "detail": "web-optimised"
+        },
+        {
+          "name": "loudness −18…−10 LUFS",
+          "ok": true,
+          "detail": "-12.7 LUFS"
+        },
+        {
+          "name": "true peak ≤ −0.5 dBTP",
+          "ok": true,
+          "detail": "-3.1 dBTP"
+        },
+        {
+          "name": "no black frames",
+          "ok": true,
+          "detail": "0.00s black"
+        },
+        {
+          "name": "no frozen segments > 1.5s",
+          "ok": true,
+          "detail": "motion throughout"
+        },
+        {
+          "name": "title 8–80 chars",
+          "ok": true,
+          "detail": "33 chars"
+        },
+        {
+          "name": "caption ≤ 2200 chars",
+          "ok": true,
+          "detail": "408 chars"
+        },
+        {
+          "name": "3–10 hashtags",
+          "ok": true,
+          "detail": "8"
+        },
+        {
+          "name": "hashtags well-formed",
+          "ok": true,
+          "detail": "#productdesign #industrialdesign #3ddesign #softui #تصميم #مصمم_مستقل #freelancedesigner #designinspiration"
+        },
+        {
+          "name": "no duplicate hashtags",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "concept disclaimer present",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no client-work claims",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no links or emails",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "idea not used before",
+          "ok": true,
+          "detail": "866b304e564d7def"
+        },
+        {
+          "name": "video file is unique",
+          "ok": true,
+          "detail": "602d0172b1d9"
+        },
+        {
+          "name": "caption not reused",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "one video per day",
+          "ok": true,
+          "detail": "2026-11-18"
+        }
+      ],
+      "plannedAt": "2026-11-18T16:00:00.000Z",
+      "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/44178797890"
     }
   ]
 }
