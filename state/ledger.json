@@ -7703,6 +7703,231 @@
       ],
       "plannedAt": "2026-11-18T16:00:00.000Z",
       "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/44178797890"
+    },
+    {
+      "id": "2026-11-19-C030",
+      "date": "2026-11-19",
+      "status": "test",
+      "idea": {
+        "category": "packaging",
+        "subjectKey": "cosmetic-tube",
+        "styleKey": "brutal",
+        "paletteKey": "emerald-night",
+        "fingerprint": "18c4123c46c5145e",
+        "conceptNo": 30,
+        "code": "C030",
+        "date": "2026-11-19",
+        "brand": "Ward",
+        "subject": {
+          "ar": "تغليف أنبوب كريم للبشرة",
+          "en": "Skincare tube"
+        },
+        "categoryMeta": {
+          "ar": "تصميم تغليف",
+          "en": "Packaging"
+        },
+        "icon": "drop",
+        "shape": "tube",
+        "palette": {
+          "key": "emerald-night",
+          "name": "Emerald Night",
+          "mode": "dark",
+          "bg": "#06140F",
+          "surface": "#0D221A",
+          "surface2": "#133026",
+          "ink": "#E9FBF2",
+          "muted": "#86B3A0",
+          "line": "#1C3F32",
+          "accent": "#2BD98A",
+          "accent2": "#F2C14E",
+          "accentInk": "#06140F"
+        },
+        "style": {
+          "key": "brutal",
+          "name": "Neo-Brutalism",
+          "radius": 6,
+          "border": 3,
+          "shadow": "10px 10px 0 0 var(--ink)",
+          "heading": "Space Grotesk",
+          "weight": 700,
+          "tracking": -1
+        },
+        "content": {
+          "productName": "Sun Fluid SPF50",
+          "descriptor": "For all skin types",
+          "notes": [
+            "Fragrance free",
+            "Dermatologist tested",
+            "Recyclable tube"
+          ],
+          "weight": "50 ml"
+        },
+        "seed": "2026-11-19:29#0"
+      },
+      "createdAt": "2026-11-19T20:59:19.625Z",
+      "log": [
+        {
+          "at": "2026-11-19T20:59:19.625Z",
+          "msg": "idea chosen: packaging / cosmetic-tube / brutal / emerald-night"
+        },
+        {
+          "at": "2026-11-19T21:00:10.783Z",
+          "msg": "rendered"
+        },
+        {
+          "at": "2026-11-19T21:00:12.458Z",
+          "msg": "QA 24/24 passed"
+        },
+        {
+          "at": "2026-11-19T21:00:12.462Z",
+          "msg": "TEST mode: QA passed; upload and publishing skipped"
+        }
+      ],
+      "updatedAt": "2026-11-19T21:00:12.462Z",
+      "copy": {
+        "title": "تصميم التغليف باحترافية 🔥",
+        "caption": "تصميم التغليف باحترافية 🔥\n\nوش تحصل معنا:\n✅ ملصق يخطف العين على الرف\n✅ تشكيلة لكل النكهات\n✅ ملفات جاهزة للطباعة\n\nاحفظ الفيديو، وتواصل معانا على الخاص لمشروعك 📩\n\nℹ️ التصميم المعروض مفاهيمي (Concept C030) لعلامة خيالية، وليس مشروعًا منفذًا لعميل.\n🤖 أُنتج هذا المحتوى بمساعدة أدوات الذكاء الاصطناعي.\n\n#packagingdesign #branding #labeldesign #neobrutalism #تصميم #مصمم_مستقل #freelancedesigner #designinspiration",
+        "hashtags": [
+          "#packagingdesign",
+          "#branding",
+          "#labeldesign",
+          "#neobrutalism",
+          "#تصميم",
+          "#مصمم_مستقل",
+          "#freelancedesigner",
+          "#designinspiration"
+        ]
+      },
+      "video": {
+        "file": "out/2026-11-19-C030/2026-11-19-C030.mp4",
+        "sha256": "e483b57cd074e9d4b6917bdbdf92bd6d874b39f9b9c15c000c7a88b3102e0853",
+        "bytes": 3719001,
+        "thumb": "out/2026-11-19-C030/thumb.jpg"
+      },
+      "qa": [
+        {
+          "name": "file size 0.3–50 MB",
+          "ok": true,
+          "detail": "3.72 MB"
+        },
+        {
+          "name": "video stream H.264",
+          "ok": true,
+          "detail": "h264"
+        },
+        {
+          "name": "resolution 1080×1920",
+          "ok": true,
+          "detail": "1080×1920"
+        },
+        {
+          "name": "pixel format yuv420p",
+          "ok": true,
+          "detail": "yuv420p"
+        },
+        {
+          "name": "frame rate 30 fps",
+          "ok": true,
+          "detail": "30.00"
+        },
+        {
+          "name": "duration 10–15s",
+          "ok": true,
+          "detail": "14.00s"
+        },
+        {
+          "name": "audio stream AAC",
+          "ok": true,
+          "detail": "aac"
+        },
+        {
+          "name": "moov atom at start (faststart)",
+          "ok": true,
+          "detail": "web-optimised"
+        },
+        {
+          "name": "loudness −18…−10 LUFS",
+          "ok": true,
+          "detail": "-12.7 LUFS"
+        },
+        {
+          "name": "true peak ≤ −0.5 dBTP",
+          "ok": true,
+          "detail": "-2.3 dBTP"
+        },
+        {
+          "name": "no black frames",
+          "ok": true,
+          "detail": "0.00s black"
+        },
+        {
+          "name": "no frozen segments > 1.5s",
+          "ok": true,
+          "detail": "motion throughout"
+        },
+        {
+          "name": "title 8–80 chars",
+          "ok": true,
+          "detail": "26 chars"
+        },
+        {
+          "name": "caption ≤ 2200 chars",
+          "ok": true,
+          "detail": "410 chars"
+        },
+        {
+          "name": "3–10 hashtags",
+          "ok": true,
+          "detail": "8"
+        },
+        {
+          "name": "hashtags well-formed",
+          "ok": true,
+          "detail": "#packagingdesign #branding #labeldesign #neobrutalism #تصميم #مصمم_مستقل #freelancedesigner #designinspiration"
+        },
+        {
+          "name": "no duplicate hashtags",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "concept disclaimer present",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no client-work claims",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no links or emails",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "idea not used before",
+          "ok": true,
+          "detail": "18c4123c46c5145e"
+        },
+        {
+          "name": "video file is unique",
+          "ok": true,
+          "detail": "e483b57cd074"
+        },
+        {
+          "name": "caption not reused",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "one video per day",
+          "ok": true,
+          "detail": "2026-11-19"
+        }
+      ],
+      "plannedAt": "2026-11-19T16:00:00.000Z",
+      "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/44614098202"
     }
   ]
 }
