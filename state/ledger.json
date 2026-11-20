@@ -7928,6 +7928,286 @@
       ],
       "plannedAt": "2026-11-19T16:00:00.000Z",
       "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/44614098202"
+    },
+    {
+      "id": "2026-11-20-C031",
+      "date": "2026-11-20",
+      "status": "test",
+      "idea": {
+        "category": "mobile",
+        "subjectKey": "language",
+        "styleKey": "minimal",
+        "paletteKey": "sand-navy",
+        "fingerprint": "93efa6a6aaf7eed1",
+        "conceptNo": 31,
+        "code": "C031",
+        "date": "2026-11-20",
+        "brand": "Parla",
+        "subject": {
+          "ar": "تطبيق لتعلم اللغات",
+          "en": "Language learning"
+        },
+        "categoryMeta": {
+          "ar": "تطبيق جوال",
+          "en": "Mobile App"
+        },
+        "icon": "star",
+        "shape": null,
+        "palette": {
+          "key": "sand-navy",
+          "name": "Sand & Navy",
+          "mode": "light",
+          "bg": "#EFE9DF",
+          "surface": "#FBF8F3",
+          "surface2": "#E8E0D2",
+          "ink": "#14213D",
+          "muted": "#5F6578",
+          "line": "#DDD3C3",
+          "accent": "#14213D",
+          "accent2": "#D98E04",
+          "accentInk": "#FBF8F3"
+        },
+        "style": {
+          "key": "minimal",
+          "name": "Swiss Minimal",
+          "radius": 14,
+          "border": 1,
+          "shadow": "0 1px 0 rgba(0,0,0,.04)",
+          "heading": "Space Grotesk",
+          "weight": 600,
+          "tracking": -1.2
+        },
+        "content": {
+          "greeting": "Keep it up, Yousef",
+          "heroTitle": "Daily goal",
+          "heroValue": "36 XP left",
+          "heroSub": "Streak · 20 days",
+          "chips": [
+            "Spanish",
+            "Japanese",
+            "French"
+          ],
+          "list": [
+            {
+              "title": "At the café",
+              "sub": "Unit 4 · Lesson 2",
+              "meta": "8 min",
+              "icon": "cup"
+            },
+            {
+              "title": "Past tense",
+              "sub": "Grammar drill",
+              "meta": "5 min",
+              "icon": "star"
+            },
+            {
+              "title": "Listening",
+              "sub": "Native speakers",
+              "meta": "6 min",
+              "icon": "play"
+            }
+          ],
+          "detail": {
+            "title": "At the café",
+            "subtitle": "Unit 4 · Spanish",
+            "stats": [
+              [
+                "Words",
+                "24"
+              ],
+              [
+                "Level",
+                "A2"
+              ],
+              [
+                "Time",
+                "8 min"
+              ]
+            ],
+            "progress": 68,
+            "cta": "Continue lesson"
+          },
+          "stats": {
+            "title": "XP this week",
+            "value": "538 XP",
+            "bars": [
+              78,
+              57,
+              31,
+              98,
+              84,
+              100,
+              55
+            ],
+            "label": "Daily XP"
+          }
+        },
+        "seed": "2026-11-20:30#0"
+      },
+      "createdAt": "2026-11-20T20:54:20.867Z",
+      "log": [
+        {
+          "at": "2026-11-20T20:54:20.867Z",
+          "msg": "idea chosen: mobile / language / minimal / sand-navy"
+        },
+        {
+          "at": "2026-11-20T20:55:25.845Z",
+          "msg": "rendered"
+        },
+        {
+          "at": "2026-11-20T20:55:27.696Z",
+          "msg": "QA 24/24 passed"
+        },
+        {
+          "at": "2026-11-20T20:55:27.700Z",
+          "msg": "TEST mode: QA passed; upload and publishing skipped"
+        }
+      ],
+      "updatedAt": "2026-11-20T20:55:27.700Z",
+      "copy": {
+        "title": "تصميم تطبيقات الجوال باحترافية 🔥",
+        "caption": "تصميم تطبيقات الجوال باحترافية 🔥\n\nوش تحصل معنا:\n✅ واجهات iOS و Android\n✅ تجربة استخدام سهلة\n✅ ملفات جاهزة للمبرمج\n\nاحفظ الفيديو، وتواصل معانا على الخاص لمشروعك 📩\n\nℹ️ التصميم المعروض مفاهيمي (Concept C031) لعلامة خيالية، وليس مشروعًا منفذًا لعميل.\n🤖 أُنتج هذا المحتوى بمساعدة أدوات الذكاء الاصطناعي.\n\n#mobileapp #appdesign #uidesign #minimaldesign #تصميم #مصمم_مستقل #freelancedesigner #designinspiration",
+        "hashtags": [
+          "#mobileapp",
+          "#appdesign",
+          "#uidesign",
+          "#minimaldesign",
+          "#تصميم",
+          "#مصمم_مستقل",
+          "#freelancedesigner",
+          "#designinspiration"
+        ]
+      },
+      "video": {
+        "file": "out/2026-11-20-C031/2026-11-20-C031.mp4",
+        "sha256": "482de6eff5f4362184644289aab3c80a01afbf1b701356f25347bc2895822635",
+        "bytes": 4410218,
+        "thumb": "out/2026-11-20-C031/thumb.jpg"
+      },
+      "qa": [
+        {
+          "name": "file size 0.3–50 MB",
+          "ok": true,
+          "detail": "4.41 MB"
+        },
+        {
+          "name": "video stream H.264",
+          "ok": true,
+          "detail": "h264"
+        },
+        {
+          "name": "resolution 1080×1920",
+          "ok": true,
+          "detail": "1080×1920"
+        },
+        {
+          "name": "pixel format yuv420p",
+          "ok": true,
+          "detail": "yuv420p"
+        },
+        {
+          "name": "frame rate 30 fps",
+          "ok": true,
+          "detail": "30.00"
+        },
+        {
+          "name": "duration 10–15s",
+          "ok": true,
+          "detail": "14.00s"
+        },
+        {
+          "name": "audio stream AAC",
+          "ok": true,
+          "detail": "aac"
+        },
+        {
+          "name": "moov atom at start (faststart)",
+          "ok": true,
+          "detail": "web-optimised"
+        },
+        {
+          "name": "loudness −18…−10 LUFS",
+          "ok": true,
+          "detail": "-12.7 LUFS"
+        },
+        {
+          "name": "true peak ≤ −0.5 dBTP",
+          "ok": true,
+          "detail": "-3.4 dBTP"
+        },
+        {
+          "name": "no black frames",
+          "ok": true,
+          "detail": "0.00s black"
+        },
+        {
+          "name": "no frozen segments > 1.5s",
+          "ok": true,
+          "detail": "motion throughout"
+        },
+        {
+          "name": "title 8–80 chars",
+          "ok": true,
+          "detail": "33 chars"
+        },
+        {
+          "name": "caption ≤ 2200 chars",
+          "ok": true,
+          "detail": "406 chars"
+        },
+        {
+          "name": "3–10 hashtags",
+          "ok": true,
+          "detail": "8"
+        },
+        {
+          "name": "hashtags well-formed",
+          "ok": true,
+          "detail": "#mobileapp #appdesign #uidesign #minimaldesign #تصميم #مصمم_مستقل #freelancedesigner #designinspiration"
+        },
+        {
+          "name": "no duplicate hashtags",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "concept disclaimer present",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no client-work claims",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no links or emails",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "idea not used before",
+          "ok": true,
+          "detail": "93efa6a6aaf7eed1"
+        },
+        {
+          "name": "video file is unique",
+          "ok": true,
+          "detail": "482de6eff5f4"
+        },
+        {
+          "name": "caption not reused",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "one video per day",
+          "ok": true,
+          "detail": "2026-11-20"
+        }
+      ],
+      "plannedAt": "2026-11-20T16:00:00.000Z",
+      "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/44813997065"
     }
   ]
 }
