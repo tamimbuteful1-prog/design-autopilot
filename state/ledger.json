@@ -8208,6 +8208,325 @@
       ],
       "plannedAt": "2026-11-20T16:00:00.000Z",
       "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/44813997065"
+    },
+    {
+      "id": "2026-11-21-C032",
+      "date": "2026-11-21",
+      "status": "test",
+      "idea": {
+        "category": "dashboard",
+        "subjectKey": "energy",
+        "styleKey": "editorial",
+        "paletteKey": "citrus",
+        "fingerprint": "7272ae511d7edaad",
+        "conceptNo": 32,
+        "code": "C032",
+        "date": "2026-11-21",
+        "brand": "Gridline",
+        "subject": {
+          "ar": "لوحة تحكم لمراقبة استهلاك الطاقة",
+          "en": "Smart building energy"
+        },
+        "categoryMeta": {
+          "ar": "لوحة تحكم",
+          "en": "Dashboard"
+        },
+        "icon": "bolt",
+        "shape": null,
+        "palette": {
+          "key": "citrus",
+          "name": "Citrus Pop",
+          "mode": "light",
+          "bg": "#FFF8E6",
+          "surface": "#FFFFFF",
+          "surface2": "#FFF1C9",
+          "ink": "#1C1A12",
+          "muted": "#6E6A55",
+          "line": "#F0E3B8",
+          "accent": "#1F3DFF",
+          "accent2": "#FF6B3D",
+          "accentInk": "#FFFFFF"
+        },
+        "style": {
+          "key": "editorial",
+          "name": "Editorial",
+          "radius": 4,
+          "border": 1,
+          "shadow": "none",
+          "heading": "Playfair Display",
+          "weight": 600,
+          "tracking": -0.5
+        },
+        "content": {
+          "title": "Energy monitor",
+          "nav": [
+            "Overview",
+            "Floors",
+            "Devices",
+            "Alerts",
+            "Billing"
+          ],
+          "kpis": [
+            {
+              "label": "Usage today",
+              "value": "1472 kWh",
+              "delta": "-5%"
+            },
+            {
+              "label": "Solar share",
+              "value": "36%",
+              "delta": "+6%"
+            },
+            {
+              "label": "Peak load",
+              "value": "229 kW",
+              "delta": "-4%"
+            },
+            {
+              "label": "CO₂ saved",
+              "value": "2.4 t",
+              "delta": "+12%"
+            }
+          ],
+          "series": [
+            60,
+            56,
+            57,
+            59,
+            55,
+            50,
+            53,
+            52,
+            54,
+            46,
+            45,
+            42
+          ],
+          "series2": [
+            20,
+            22,
+            27,
+            29,
+            31,
+            35,
+            33,
+            35,
+            38,
+            37,
+            35,
+            33
+          ],
+          "bars": [
+            {
+              "label": "HVAC",
+              "value": 92
+            },
+            {
+              "label": "Lighting",
+              "value": 27
+            },
+            {
+              "label": "IT",
+              "value": 49
+            },
+            {
+              "label": "Other",
+              "value": 24
+            }
+          ],
+          "table": [
+            [
+              "Floor 12",
+              "HVAC",
+              "239 kWh",
+              "Normal"
+            ],
+            [
+              "Floor 08",
+              "Lighting",
+              "48 kWh",
+              "Normal"
+            ],
+            [
+              "Server room",
+              "IT",
+              "309 kWh",
+              "High"
+            ],
+            [
+              "Lobby",
+              "HVAC",
+              "86 kWh",
+              "Normal"
+            ]
+          ]
+        },
+        "seed": "2026-11-21:31#0"
+      },
+      "createdAt": "2026-11-21T19:48:03.380Z",
+      "log": [
+        {
+          "at": "2026-11-21T19:48:03.380Z",
+          "msg": "idea chosen: dashboard / energy / editorial / citrus"
+        },
+        {
+          "at": "2026-11-21T19:48:41.645Z",
+          "msg": "rendered"
+        },
+        {
+          "at": "2026-11-21T19:48:43.023Z",
+          "msg": "QA 24/24 passed"
+        },
+        {
+          "at": "2026-11-21T19:48:43.027Z",
+          "msg": "TEST mode: QA passed; upload and publishing skipped"
+        }
+      ],
+      "updatedAt": "2026-11-21T19:48:43.027Z",
+      "copy": {
+        "title": "خدمة تصميم لوحات التحكم — وش نقدم لك؟",
+        "caption": "خدمة تصميم لوحات التحكم — وش نقدم لك؟\n\nوش تحصل معنا:\n✅ مؤشرات واضحة بنظرة\n✅ رسوم بيانية سهلة القراءة\n✅ نظام تصميم قابل للتوسع\n\nتبي تصميم زي كذا لمشروعك؟ تواصل معانا على الخاص 📩\n\nℹ️ التصميم المعروض مفاهيمي (Concept C032) لعلامة خيالية، وليس مشروعًا منفذًا لعميل.\n🤖 أُنتج هذا المحتوى بمساعدة أدوات الذكاء الاصطناعي.\n\n#dashboard #dashboarddesign #saasdesign #editorialdesign #تصميم #مصمم_مستقل #freelancedesigner #designinspiration",
+        "hashtags": [
+          "#dashboard",
+          "#dashboarddesign",
+          "#saasdesign",
+          "#editorialdesign",
+          "#تصميم",
+          "#مصمم_مستقل",
+          "#freelancedesigner",
+          "#designinspiration"
+        ]
+      },
+      "video": {
+        "file": "out/2026-11-21-C032/2026-11-21-C032.mp4",
+        "sha256": "70830c3bbf51cc530aa802c80c345c053e5cafe18a8490568d14c6873cfef2fd",
+        "bytes": 4037468,
+        "thumb": "out/2026-11-21-C032/thumb.jpg"
+      },
+      "qa": [
+        {
+          "name": "file size 0.3–50 MB",
+          "ok": true,
+          "detail": "4.04 MB"
+        },
+        {
+          "name": "video stream H.264",
+          "ok": true,
+          "detail": "h264"
+        },
+        {
+          "name": "resolution 1080×1920",
+          "ok": true,
+          "detail": "1080×1920"
+        },
+        {
+          "name": "pixel format yuv420p",
+          "ok": true,
+          "detail": "yuv420p"
+        },
+        {
+          "name": "frame rate 30 fps",
+          "ok": true,
+          "detail": "30.00"
+        },
+        {
+          "name": "duration 10–15s",
+          "ok": true,
+          "detail": "14.00s"
+        },
+        {
+          "name": "audio stream AAC",
+          "ok": true,
+          "detail": "aac"
+        },
+        {
+          "name": "moov atom at start (faststart)",
+          "ok": true,
+          "detail": "web-optimised"
+        },
+        {
+          "name": "loudness −18…−10 LUFS",
+          "ok": true,
+          "detail": "-12.6 LUFS"
+        },
+        {
+          "name": "true peak ≤ −0.5 dBTP",
+          "ok": true,
+          "detail": "-2.8 dBTP"
+        },
+        {
+          "name": "no black frames",
+          "ok": true,
+          "detail": "0.00s black"
+        },
+        {
+          "name": "no frozen segments > 1.5s",
+          "ok": true,
+          "detail": "motion throughout"
+        },
+        {
+          "name": "title 8–80 chars",
+          "ok": true,
+          "detail": "37 chars"
+        },
+        {
+          "name": "caption ≤ 2200 chars",
+          "ok": true,
+          "detail": "430 chars"
+        },
+        {
+          "name": "3–10 hashtags",
+          "ok": true,
+          "detail": "8"
+        },
+        {
+          "name": "hashtags well-formed",
+          "ok": true,
+          "detail": "#dashboard #dashboarddesign #saasdesign #editorialdesign #تصميم #مصمم_مستقل #freelancedesigner #designinspiration"
+        },
+        {
+          "name": "no duplicate hashtags",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "concept disclaimer present",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no client-work claims",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no links or emails",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "idea not used before",
+          "ok": true,
+          "detail": "7272ae511d7edaad"
+        },
+        {
+          "name": "video file is unique",
+          "ok": true,
+          "detail": "70830c3bbf51"
+        },
+        {
+          "name": "caption not reused",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "one video per day",
+          "ok": true,
+          "detail": "2026-11-21"
+        }
+      ],
+      "plannedAt": "2026-11-21T16:00:00.000Z",
+      "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/44942825032"
     }
   ]
 }
