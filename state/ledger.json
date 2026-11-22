@@ -8527,6 +8527,270 @@
       ],
       "plannedAt": "2026-11-21T16:00:00.000Z",
       "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/44942825032"
+    },
+    {
+      "id": "2026-11-22-C033",
+      "date": "2026-11-22",
+      "status": "test",
+      "idea": {
+        "category": "website",
+        "subjectKey": "architecture",
+        "styleKey": "soft",
+        "paletteKey": "sage-light",
+        "fingerprint": "53ca938c7d0d7532",
+        "conceptNo": 33,
+        "code": "C033",
+        "date": "2026-11-22",
+        "brand": "Atelier Nord",
+        "subject": {
+          "ar": "موقع لاستوديو معماري",
+          "en": "Architecture studio"
+        },
+        "categoryMeta": {
+          "ar": "موقع إلكتروني",
+          "en": "Website"
+        },
+        "icon": "home",
+        "shape": null,
+        "palette": {
+          "key": "sage-light",
+          "name": "Sage",
+          "mode": "light",
+          "bg": "#EEF1EA",
+          "surface": "#FFFFFF",
+          "surface2": "#F5F7F2",
+          "ink": "#18211B",
+          "muted": "#5D6B60",
+          "line": "#DCE3D8",
+          "accent": "#2F6B4F",
+          "accent2": "#E8B04B",
+          "accentInk": "#FFFFFF"
+        },
+        "style": {
+          "key": "soft",
+          "name": "Soft UI",
+          "radius": 28,
+          "border": 0,
+          "shadow": "0 30px 60px -20px rgba(0,0,0,.25)",
+          "heading": "Inter",
+          "weight": 700,
+          "tracking": -1.5
+        },
+        "content": {
+          "nav": [
+            "Work",
+            "Studio",
+            "Process",
+            "Contact"
+          ],
+          "heroTitle": "Spaces shaped by light and silence",
+          "heroSub": "Residential and cultural architecture across the Gulf.",
+          "cta": "View projects",
+          "features": [
+            {
+              "title": "Concept",
+              "body": "Site studies, massing and narrative.",
+              "icon": "star"
+            },
+            {
+              "title": "Design",
+              "body": "Detailed drawings and material palettes.",
+              "icon": "grid"
+            },
+            {
+              "title": "Delivery",
+              "body": "Coordination through handover.",
+              "icon": "check"
+            }
+          ],
+          "stats": [
+            [
+              "14",
+              "Years"
+            ],
+            [
+              "120+",
+              "Spaces"
+            ],
+            [
+              "9",
+              "Awards"
+            ]
+          ],
+          "pricing": null,
+          "steps": [
+            "Brief",
+            "Concept",
+            "Develop",
+            "Build"
+          ]
+        },
+        "seed": "2026-11-22:32#0"
+      },
+      "createdAt": "2026-11-22T19:59:08.437Z",
+      "log": [
+        {
+          "at": "2026-11-22T19:59:08.438Z",
+          "msg": "idea chosen: website / architecture / soft / sage-light"
+        },
+        {
+          "at": "2026-11-22T19:59:52.878Z",
+          "msg": "rendered"
+        },
+        {
+          "at": "2026-11-22T19:59:54.630Z",
+          "msg": "QA 24/24 passed"
+        },
+        {
+          "at": "2026-11-22T19:59:54.634Z",
+          "msg": "TEST mode: QA passed; upload and publishing skipped"
+        }
+      ],
+      "updatedAt": "2026-11-22T19:59:54.634Z",
+      "copy": {
+        "title": "تبي موقع يجيب عملاء؟ نصمم لك موقعك ✨",
+        "caption": "تبي موقع يجيب عملاء؟ نصمم لك موقعك ✨\n\nوش تحصل معنا:\n✅ صفحة رئيسية تقنع الزائر\n✅ تصميم متجاوب مع الجوال\n✅ جاهز للتطوير مباشرة\n\nاحفظ الفيديو، وتواصل معانا على الخاص لمشروعك 📩\n\nℹ️ التصميم المعروض مفاهيمي (Concept C033) لعلامة خيالية، وليس مشروعًا منفذًا لعميل.\n🤖 أُنتج هذا المحتوى بمساعدة أدوات الذكاء الاصطناعي.\n\n#webdesign #landingpage #websitedesign #softui #تصميم #مصمم_مستقل #freelancedesigner #designinspiration",
+        "hashtags": [
+          "#webdesign",
+          "#landingpage",
+          "#websitedesign",
+          "#softui",
+          "#تصميم",
+          "#مصمم_مستقل",
+          "#freelancedesigner",
+          "#designinspiration"
+        ]
+      },
+      "video": {
+        "file": "out/2026-11-22-C033/2026-11-22-C033.mp4",
+        "sha256": "0f3545b0fff37cd2e85a99f319da0949ed1fac1f3939382a34a61da2c9a85f43",
+        "bytes": 4313053,
+        "thumb": "out/2026-11-22-C033/thumb.jpg"
+      },
+      "qa": [
+        {
+          "name": "file size 0.3–50 MB",
+          "ok": true,
+          "detail": "4.31 MB"
+        },
+        {
+          "name": "video stream H.264",
+          "ok": true,
+          "detail": "h264"
+        },
+        {
+          "name": "resolution 1080×1920",
+          "ok": true,
+          "detail": "1080×1920"
+        },
+        {
+          "name": "pixel format yuv420p",
+          "ok": true,
+          "detail": "yuv420p"
+        },
+        {
+          "name": "frame rate 30 fps",
+          "ok": true,
+          "detail": "30.00"
+        },
+        {
+          "name": "duration 10–15s",
+          "ok": true,
+          "detail": "14.00s"
+        },
+        {
+          "name": "audio stream AAC",
+          "ok": true,
+          "detail": "aac"
+        },
+        {
+          "name": "moov atom at start (faststart)",
+          "ok": true,
+          "detail": "web-optimised"
+        },
+        {
+          "name": "loudness −18…−10 LUFS",
+          "ok": true,
+          "detail": "-12.7 LUFS"
+        },
+        {
+          "name": "true peak ≤ −0.5 dBTP",
+          "ok": true,
+          "detail": "-2.3 dBTP"
+        },
+        {
+          "name": "no black frames",
+          "ok": true,
+          "detail": "0.00s black"
+        },
+        {
+          "name": "no frozen segments > 1.5s",
+          "ok": true,
+          "detail": "motion throughout"
+        },
+        {
+          "name": "title 8–80 chars",
+          "ok": true,
+          "detail": "36 chars"
+        },
+        {
+          "name": "caption ≤ 2200 chars",
+          "ok": true,
+          "detail": "416 chars"
+        },
+        {
+          "name": "3–10 hashtags",
+          "ok": true,
+          "detail": "8"
+        },
+        {
+          "name": "hashtags well-formed",
+          "ok": true,
+          "detail": "#webdesign #landingpage #websitedesign #softui #تصميم #مصمم_مستقل #freelancedesigner #designinspiration"
+        },
+        {
+          "name": "no duplicate hashtags",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "concept disclaimer present",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no client-work claims",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no links or emails",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "idea not used before",
+          "ok": true,
+          "detail": "53ca938c7d0d7532"
+        },
+        {
+          "name": "video file is unique",
+          "ok": true,
+          "detail": "0f3545b0fff3"
+        },
+        {
+          "name": "caption not reused",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "one video per day",
+          "ok": true,
+          "detail": "2026-11-22"
+        }
+      ],
+      "plannedAt": "2026-11-22T16:00:00.000Z",
+      "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/45063738029"
     }
   ]
 }
