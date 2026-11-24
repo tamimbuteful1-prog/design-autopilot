@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T13:54:18.492Z",
+  "generatedAt": "2026-11-24T22:48:00.689Z",
   "repo": "tamimbuteful1-prog/design-autopilot",
   "control": {
     "paused": false,
@@ -19,6 +19,86 @@
     "timezone": "Asia/Riyadh"
   },
   "entries": [
+    {
+      "id": "2026-11-25-C036",
+      "date": "2026-11-25",
+      "code": "C036",
+      "category": {
+        "ar": "تصميم تغليف",
+        "en": "Packaging"
+      },
+      "subject": {
+        "ar": "تغليف لوح شوكولاتة",
+        "en": "Chocolate bar wrapper"
+      },
+      "brand": "Tamr & Co",
+      "style": "Neo-Brutalism",
+      "palette": {
+        "name": "Citrus Pop",
+        "colors": [
+          "#FFF8E6",
+          "#1F3DFF",
+          "#FF6B3D",
+          "#1C1A12"
+        ]
+      },
+      "status": "test",
+      "title": "تصميم التغليف باحترافية 🔥",
+      "videoUrl": null,
+      "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/45503945331",
+      "plannedAt": "2026-11-25T16:00:00.000Z",
+      "buffer": null,
+      "issue": null,
+      "qa": {
+        "passed": 24,
+        "total": 24,
+        "failed": []
+      },
+      "error": null,
+      "updatedAt": "2026-11-24T22:48:00.684Z",
+      "thumb": "thumbs/2026-11-25-C036.jpg"
+    },
+    {
+      "id": "2026-11-25-C035",
+      "date": "2026-11-25",
+      "code": "C035",
+      "category": {
+        "ar": "تصميم منتج",
+        "en": "Product Design"
+      },
+      "subject": {
+        "ar": "ساعة ذكية رياضية",
+        "en": "Sport smartwatch"
+      },
+      "brand": "Saa",
+      "style": "Editorial",
+      "palette": {
+        "name": "Terracotta",
+        "colors": [
+          "#F6EEE7",
+          "#B94E28",
+          "#2E5E6E",
+          "#2A1A12"
+        ]
+      },
+      "status": "qa_failed",
+      "title": "خدمة تصميم المنتجات — وش نقدم لك؟",
+      "videoUrl": null,
+      "runUrl": null,
+      "plannedAt": null,
+      "buffer": null,
+      "issue": null,
+      "qa": {
+        "passed": 23,
+        "total": 24,
+        "failed": [
+          "true peak ≤ −0.5 dBTP"
+        ]
+      },
+      "error": null,
+      "updatedAt": "2026-11-24T22:47:26.582Z",
+      "thumb": "thumbs/2026-11-25-C035.jpg"
+    },
     {
       "id": "2026-11-24-C034",
       "date": "2026-11-24",
