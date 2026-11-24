@@ -8791,6 +8791,252 @@
       ],
       "plannedAt": "2026-11-22T16:00:00.000Z",
       "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/45063738029"
+    },
+    {
+      "id": "2026-11-24-C034",
+      "date": "2026-11-24",
+      "status": "test",
+      "idea": {
+        "category": "uiux",
+        "subjectKey": "search",
+        "styleKey": "glass",
+        "paletteKey": "graphite-lime",
+        "fingerprint": "266d29acbe173c43",
+        "conceptNo": 34,
+        "code": "C034",
+        "date": "2026-11-24",
+        "brand": "Findr",
+        "subject": {
+          "ar": "تجربة بحث وتصفية ذكية",
+          "en": "Search & filter experience"
+        },
+        "categoryMeta": {
+          "ar": "تجربة مستخدم UI/UX",
+          "en": "UI/UX Flow"
+        },
+        "icon": "search",
+        "shape": null,
+        "palette": {
+          "key": "graphite-lime",
+          "name": "Graphite Lime",
+          "mode": "dark",
+          "bg": "#111312",
+          "surface": "#1A1D1B",
+          "surface2": "#232725",
+          "ink": "#F1F5EF",
+          "muted": "#9AA39C",
+          "line": "#2D322F",
+          "accent": "#C6F432",
+          "accentInk": "#111312",
+          "accent2": "#7AA7FF"
+        },
+        "style": {
+          "key": "glass",
+          "name": "Glassmorphism",
+          "radius": 32,
+          "border": 1,
+          "shadow": "0 40px 80px -30px rgba(0,0,0,.45)",
+          "heading": "Inter",
+          "weight": 600,
+          "tracking": -1.2,
+          "glass": true
+        },
+        "content": {
+          "flow": [
+            {
+              "title": "Search",
+              "body": "Recent and trending suggestions as you type.",
+              "cta": "Search"
+            },
+            {
+              "title": "Refine results",
+              "body": "128 results · sorted by relevance",
+              "cta": "Show 42 results",
+              "options": [
+                "Under 200 SAR",
+                "Rated 4+",
+                "Nearby",
+                "Open now"
+              ]
+            },
+            {
+              "title": "Saved search",
+              "body": "We'll notify you when new matches appear.",
+              "cta": "Got it"
+            }
+          ],
+          "principle": [
+            "Recognition over recall",
+            "Live result counts",
+            "Reversible filters"
+          ]
+        },
+        "seed": "2026-11-24:33#0"
+      },
+      "createdAt": "2026-11-24T00:24:05.987Z",
+      "log": [
+        {
+          "at": "2026-11-24T00:24:05.987Z",
+          "msg": "idea chosen: uiux / search / glass / graphite-lime"
+        },
+        {
+          "at": "2026-11-24T00:24:58.462Z",
+          "msg": "rendered"
+        },
+        {
+          "at": "2026-11-24T00:25:00.027Z",
+          "msg": "QA 24/24 passed"
+        },
+        {
+          "at": "2026-11-24T00:25:00.031Z",
+          "msg": "TEST mode: QA passed; upload and publishing skipped"
+        }
+      ],
+      "updatedAt": "2026-11-24T00:25:00.031Z",
+      "copy": {
+        "title": "خدمة تجربة المستخدم UI/UX — وش نقدم لك؟",
+        "caption": "خدمة تجربة المستخدم UI/UX — وش نقدم لك؟\n\nوش تحصل معنا:\n✅ دراسة رحلة المستخدم\n✅ نموذج تفاعلي قبل البرمجة\n✅ نظام تصميم متكامل\n\nتبي تصميم زي كذا لمشروعك؟ تواصل معانا على الخاص 📩\n\nℹ️ التصميم المعروض مفاهيمي (Concept C034) لعلامة خيالية، وليس مشروعًا منفذًا لعميل.\n🤖 أُنتج هذا المحتوى بمساعدة أدوات الذكاء الاصطناعي.\n\n#uiux #uxdesign #designsystem #glassmorphism #تصميم #مصمم_مستقل #freelancedesigner #designinspiration",
+        "hashtags": [
+          "#uiux",
+          "#uxdesign",
+          "#designsystem",
+          "#glassmorphism",
+          "#تصميم",
+          "#مصمم_مستقل",
+          "#freelancedesigner",
+          "#designinspiration"
+        ]
+      },
+      "video": {
+        "file": "out/2026-11-24-C034/2026-11-24-C034.mp4",
+        "sha256": "3c9f00fd90f4b5d6b6e2f03b57883920a71173930f6068b2e78ecd412e287924",
+        "bytes": 4992491,
+        "thumb": "out/2026-11-24-C034/thumb.jpg"
+      },
+      "qa": [
+        {
+          "name": "file size 0.3–50 MB",
+          "ok": true,
+          "detail": "4.99 MB"
+        },
+        {
+          "name": "video stream H.264",
+          "ok": true,
+          "detail": "h264"
+        },
+        {
+          "name": "resolution 1080×1920",
+          "ok": true,
+          "detail": "1080×1920"
+        },
+        {
+          "name": "pixel format yuv420p",
+          "ok": true,
+          "detail": "yuv420p"
+        },
+        {
+          "name": "frame rate 30 fps",
+          "ok": true,
+          "detail": "30.00"
+        },
+        {
+          "name": "duration 10–15s",
+          "ok": true,
+          "detail": "14.00s"
+        },
+        {
+          "name": "audio stream AAC",
+          "ok": true,
+          "detail": "aac"
+        },
+        {
+          "name": "moov atom at start (faststart)",
+          "ok": true,
+          "detail": "web-optimised"
+        },
+        {
+          "name": "loudness −18…−10 LUFS",
+          "ok": true,
+          "detail": "-12.6 LUFS"
+        },
+        {
+          "name": "true peak ≤ −0.5 dBTP",
+          "ok": true,
+          "detail": "-3.1 dBTP"
+        },
+        {
+          "name": "no black frames",
+          "ok": true,
+          "detail": "0.00s black"
+        },
+        {
+          "name": "no frozen segments > 1.5s",
+          "ok": true,
+          "detail": "motion throughout"
+        },
+        {
+          "name": "title 8–80 chars",
+          "ok": true,
+          "detail": "39 chars"
+        },
+        {
+          "name": "caption ≤ 2200 chars",
+          "ok": true,
+          "detail": "416 chars"
+        },
+        {
+          "name": "3–10 hashtags",
+          "ok": true,
+          "detail": "8"
+        },
+        {
+          "name": "hashtags well-formed",
+          "ok": true,
+          "detail": "#uiux #uxdesign #designsystem #glassmorphism #تصميم #مصمم_مستقل #freelancedesigner #designinspiration"
+        },
+        {
+          "name": "no duplicate hashtags",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "concept disclaimer present",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no client-work claims",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no links or emails",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "idea not used before",
+          "ok": true,
+          "detail": "266d29acbe173c43"
+        },
+        {
+          "name": "video file is unique",
+          "ok": true,
+          "detail": "3c9f00fd90f4"
+        },
+        {
+          "name": "caption not reused",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "one video per day",
+          "ok": true,
+          "detail": "2026-11-24"
+        }
+      ],
+      "plannedAt": "2026-11-24T16:00:00.000Z",
+      "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/45296744414"
     }
   ]
 }
