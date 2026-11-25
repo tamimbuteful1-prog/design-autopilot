@@ -9500,6 +9500,287 @@
       ],
       "plannedAt": "2026-11-25T16:00:00.000Z",
       "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/45503945331"
+    },
+    {
+      "id": "2026-11-26-C037",
+      "date": "2026-11-26",
+      "status": "test",
+      "idea": {
+        "category": "mobile",
+        "subjectKey": "coffee",
+        "styleKey": "minimal",
+        "paletteKey": "arctic",
+        "fingerprint": "9423b89f91eb439f",
+        "conceptNo": 37,
+        "code": "C037",
+        "date": "2026-11-26",
+        "brand": "Roast & Co",
+        "subject": {
+          "ar": "تطبيق لطلب القهوة المختصة",
+          "en": "Specialty coffee ordering"
+        },
+        "categoryMeta": {
+          "ar": "تطبيق جوال",
+          "en": "Mobile App"
+        },
+        "icon": "cup",
+        "shape": null,
+        "palette": {
+          "key": "arctic",
+          "name": "Arctic",
+          "mode": "light",
+          "bg": "#EAF0F7",
+          "surface": "#FFFFFF",
+          "surface2": "#F2F6FB",
+          "ink": "#0F1B2D",
+          "muted": "#56657A",
+          "line": "#D8E1EC",
+          "accent": "#2563EB",
+          "accent2": "#F97362",
+          "accentInk": "#FFFFFF"
+        },
+        "style": {
+          "key": "minimal",
+          "name": "Swiss Minimal",
+          "radius": 14,
+          "border": 1,
+          "shadow": "0 1px 0 rgba(0,0,0,.04)",
+          "heading": "Space Grotesk",
+          "weight": 600,
+          "tracking": -1.2
+        },
+        "content": {
+          "greeting": "Morning, Lina",
+          "heroTitle": "Your usual",
+          "heroValue": "Flat White",
+          "heroSub": "Ready in 7 min · Olaya branch",
+          "chips": [
+            "Hot",
+            "Iced",
+            "V60",
+            "Desserts"
+          ],
+          "list": [
+            {
+              "title": "Ethiopia Guji",
+              "sub": "Floral · Light roast",
+              "meta": "19 SAR",
+              "icon": "cup"
+            },
+            {
+              "title": "Spanish Latte",
+              "sub": "Iced · Oat milk",
+              "meta": "20 SAR",
+              "icon": "drop"
+            },
+            {
+              "title": "Cardamom Bun",
+              "sub": "Fresh today",
+              "meta": "14 SAR",
+              "icon": "star"
+            }
+          ],
+          "detail": {
+            "title": "Ethiopia Guji",
+            "subtitle": "Single origin · V60",
+            "stats": [
+              [
+                "Acidity",
+                "High"
+              ],
+              [
+                "Body",
+                "Light"
+              ],
+              [
+                "Notes",
+                "Jasmine"
+              ]
+            ],
+            "progress": 76,
+            "cta": "Add to order"
+          },
+          "stats": {
+            "title": "Loyalty",
+            "value": "8/10 cups",
+            "bars": [
+              20,
+              38,
+              27,
+              60,
+              88,
+              98,
+              40
+            ],
+            "label": "Visits this week"
+          }
+        },
+        "seed": "2026-11-26:36#0"
+      },
+      "createdAt": "2026-11-25T21:59:27.268Z",
+      "log": [
+        {
+          "at": "2026-11-25T21:59:27.268Z",
+          "msg": "idea chosen: mobile / coffee / minimal / arctic"
+        },
+        {
+          "at": "2026-11-25T22:00:33.024Z",
+          "msg": "rendered"
+        },
+        {
+          "at": "2026-11-25T22:00:34.961Z",
+          "msg": "QA 24/24 passed"
+        },
+        {
+          "at": "2026-11-25T22:00:34.966Z",
+          "msg": "TEST mode: QA passed; upload and publishing skipped"
+        }
+      ],
+      "updatedAt": "2026-11-25T22:00:34.966Z",
+      "copy": {
+        "title": "عندك فكرة تطبيق؟ نصممه لك باحترافية ✨",
+        "caption": "عندك فكرة تطبيق؟ نصممه لك باحترافية ✨\n\nوش تحصل معنا:\n✅ واجهات iOS و Android\n✅ تجربة استخدام سهلة\n✅ ملفات جاهزة للمبرمج\n\nتبي تصميم زي كذا لمشروعك؟ تواصل معانا على الخاص 📩\n\nℹ️ التصميم المعروض مفاهيمي (Concept C037) لعلامة خيالية، وليس مشروعًا منفذًا لعميل.\n🤖 أُنتج هذا المحتوى بمساعدة أدوات الذكاء الاصطناعي.\n\n#mobileapp #appdesign #uidesign #minimaldesign #تصميم #مصمم_مستقل #freelancedesigner #designinspiration",
+        "hashtags": [
+          "#mobileapp",
+          "#appdesign",
+          "#uidesign",
+          "#minimaldesign",
+          "#تصميم",
+          "#مصمم_مستقل",
+          "#freelancedesigner",
+          "#designinspiration"
+        ]
+      },
+      "video": {
+        "file": "out/2026-11-26-C037/2026-11-26-C037.mp4",
+        "sha256": "ef003c55a68840f53a39c4137f86e53f27dd1f8110714ae0bb2570a0081327f0",
+        "bytes": 4577245,
+        "thumb": "out/2026-11-26-C037/thumb.jpg"
+      },
+      "qa": [
+        {
+          "name": "file size 0.3–50 MB",
+          "ok": true,
+          "detail": "4.58 MB"
+        },
+        {
+          "name": "video stream H.264",
+          "ok": true,
+          "detail": "h264"
+        },
+        {
+          "name": "resolution 1080×1920",
+          "ok": true,
+          "detail": "1080×1920"
+        },
+        {
+          "name": "pixel format yuv420p",
+          "ok": true,
+          "detail": "yuv420p"
+        },
+        {
+          "name": "frame rate 30 fps",
+          "ok": true,
+          "detail": "30.00"
+        },
+        {
+          "name": "duration 10–15s",
+          "ok": true,
+          "detail": "14.00s"
+        },
+        {
+          "name": "audio stream AAC",
+          "ok": true,
+          "detail": "aac"
+        },
+        {
+          "name": "moov atom at start (faststart)",
+          "ok": true,
+          "detail": "web-optimised"
+        },
+        {
+          "name": "loudness −18…−10 LUFS",
+          "ok": true,
+          "detail": "-12.6 LUFS"
+        },
+        {
+          "name": "true peak ≤ −0.5 dBTP",
+          "ok": true,
+          "detail": "-3 dBTP"
+        },
+        {
+          "name": "no black frames",
+          "ok": true,
+          "detail": "0.00s black"
+        },
+        {
+          "name": "no frozen segments > 1.5s",
+          "ok": true,
+          "detail": "motion throughout"
+        },
+        {
+          "name": "title 8–80 chars",
+          "ok": true,
+          "detail": "37 chars"
+        },
+        {
+          "name": "caption ≤ 2200 chars",
+          "ok": true,
+          "detail": "413 chars"
+        },
+        {
+          "name": "3–10 hashtags",
+          "ok": true,
+          "detail": "8"
+        },
+        {
+          "name": "hashtags well-formed",
+          "ok": true,
+          "detail": "#mobileapp #appdesign #uidesign #minimaldesign #تصميم #مصمم_مستقل #freelancedesigner #designinspiration"
+        },
+        {
+          "name": "no duplicate hashtags",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "concept disclaimer present",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no client-work claims",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no links or emails",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "idea not used before",
+          "ok": true,
+          "detail": "9423b89f91eb439f"
+        },
+        {
+          "name": "video file is unique",
+          "ok": true,
+          "detail": "ef003c55a688"
+        },
+        {
+          "name": "caption not reused",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "one video per day",
+          "ok": true,
+          "detail": "2026-11-26"
+        }
+      ],
+      "plannedAt": "2026-11-26T16:00:00.000Z",
+      "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/45709224576"
     }
   ]
 }
