@@ -9781,6 +9781,325 @@
       ],
       "plannedAt": "2026-11-26T16:00:00.000Z",
       "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/45709224576"
+    },
+    {
+      "id": "2026-11-27-C038",
+      "date": "2026-11-27",
+      "status": "test",
+      "idea": {
+        "category": "dashboard",
+        "subjectKey": "saas-revenue",
+        "styleKey": "editorial",
+        "paletteKey": "sage-light",
+        "fingerprint": "25b18616aefab1e5",
+        "conceptNo": 38,
+        "code": "C038",
+        "date": "2026-11-27",
+        "brand": "Northstar",
+        "subject": {
+          "ar": "لوحة تحكم لإيرادات شركة SaaS",
+          "en": "SaaS revenue analytics"
+        },
+        "categoryMeta": {
+          "ar": "لوحة تحكم",
+          "en": "Dashboard"
+        },
+        "icon": "chart",
+        "shape": null,
+        "palette": {
+          "key": "sage-light",
+          "name": "Sage",
+          "mode": "light",
+          "bg": "#EEF1EA",
+          "surface": "#FFFFFF",
+          "surface2": "#F5F7F2",
+          "ink": "#18211B",
+          "muted": "#5D6B60",
+          "line": "#DCE3D8",
+          "accent": "#2F6B4F",
+          "accent2": "#E8B04B",
+          "accentInk": "#FFFFFF"
+        },
+        "style": {
+          "key": "editorial",
+          "name": "Editorial",
+          "radius": 4,
+          "border": 1,
+          "shadow": "none",
+          "heading": "Playfair Display",
+          "weight": 600,
+          "tracking": -0.5
+        },
+        "content": {
+          "title": "Revenue overview",
+          "nav": [
+            "Overview",
+            "Customers",
+            "Billing",
+            "Reports",
+            "Settings"
+          ],
+          "kpis": [
+            {
+              "label": "MRR",
+              "value": "$199k",
+              "delta": "+14%"
+            },
+            {
+              "label": "Active users",
+              "value": "20,799",
+              "delta": "+4%"
+            },
+            {
+              "label": "Churn",
+              "value": "2.2%",
+              "delta": "-0.5%"
+            },
+            {
+              "label": "ARPU",
+              "value": "$88",
+              "delta": "+1%"
+            }
+          ],
+          "series": [
+            44,
+            53,
+            51,
+            58,
+            60,
+            59,
+            66,
+            68,
+            77,
+            81,
+            90,
+            94
+          ],
+          "series2": [
+            26,
+            24,
+            25,
+            27,
+            31,
+            34,
+            38,
+            40,
+            40,
+            41,
+            40,
+            40
+          ],
+          "bars": [
+            {
+              "label": "Starter",
+              "value": 49
+            },
+            {
+              "label": "Pro",
+              "value": 86
+            },
+            {
+              "label": "Team",
+              "value": 67
+            },
+            {
+              "label": "Enterprise",
+              "value": 13
+            }
+          ],
+          "table": [
+            [
+              "Acme Labs",
+              "Enterprise",
+              "$2,623",
+              "Paid"
+            ],
+            [
+              "Nova Studio",
+              "Team",
+              "$530",
+              "Paid"
+            ],
+            [
+              "Brightpath",
+              "Pro",
+              "$290",
+              "Pending"
+            ],
+            [
+              "Kite & Co",
+              "Pro",
+              "$268",
+              "Paid"
+            ]
+          ]
+        },
+        "seed": "2026-11-27:37#0"
+      },
+      "createdAt": "2026-11-26T21:56:58.897Z",
+      "log": [
+        {
+          "at": "2026-11-26T21:56:58.897Z",
+          "msg": "idea chosen: dashboard / saas-revenue / editorial / sage-light"
+        },
+        {
+          "at": "2026-11-26T21:57:41.973Z",
+          "msg": "rendered"
+        },
+        {
+          "at": "2026-11-26T21:57:43.366Z",
+          "msg": "QA 24/24 passed"
+        },
+        {
+          "at": "2026-11-26T21:57:43.370Z",
+          "msg": "TEST mode: QA passed; upload and publishing skipped"
+        }
+      ],
+      "updatedAt": "2026-11-26T21:57:43.370Z",
+      "copy": {
+        "title": "خدمة تصميم لوحات التحكم — وش نقدم لك؟",
+        "caption": "خدمة تصميم لوحات التحكم — وش نقدم لك؟\n\nوش تحصل معنا:\n✅ مؤشرات واضحة بنظرة\n✅ رسوم بيانية سهلة القراءة\n✅ نظام تصميم قابل للتوسع\n\nاحفظ الفيديو، وتواصل معانا على الخاص لمشروعك 📩\n\nℹ️ التصميم المعروض مفاهيمي (Concept C038) لعلامة خيالية، وليس مشروعًا منفذًا لعميل.\n🤖 أُنتج هذا المحتوى بمساعدة أدوات الذكاء الاصطناعي.\n\n#dashboard #dashboarddesign #saasdesign #editorialdesign #تصميم #مصمم_مستقل #freelancedesigner #designinspiration",
+        "hashtags": [
+          "#dashboard",
+          "#dashboarddesign",
+          "#saasdesign",
+          "#editorialdesign",
+          "#تصميم",
+          "#مصمم_مستقل",
+          "#freelancedesigner",
+          "#designinspiration"
+        ]
+      },
+      "video": {
+        "file": "out/2026-11-27-C038/2026-11-27-C038.mp4",
+        "sha256": "4b3fc3954a151da8f04fe1a1c92a965bd6e6a39328c0e2664927cd7a7d13b6a4",
+        "bytes": 3630386,
+        "thumb": "out/2026-11-27-C038/thumb.jpg"
+      },
+      "qa": [
+        {
+          "name": "file size 0.3–50 MB",
+          "ok": true,
+          "detail": "3.63 MB"
+        },
+        {
+          "name": "video stream H.264",
+          "ok": true,
+          "detail": "h264"
+        },
+        {
+          "name": "resolution 1080×1920",
+          "ok": true,
+          "detail": "1080×1920"
+        },
+        {
+          "name": "pixel format yuv420p",
+          "ok": true,
+          "detail": "yuv420p"
+        },
+        {
+          "name": "frame rate 30 fps",
+          "ok": true,
+          "detail": "30.00"
+        },
+        {
+          "name": "duration 10–15s",
+          "ok": true,
+          "detail": "14.00s"
+        },
+        {
+          "name": "audio stream AAC",
+          "ok": true,
+          "detail": "aac"
+        },
+        {
+          "name": "moov atom at start (faststart)",
+          "ok": true,
+          "detail": "web-optimised"
+        },
+        {
+          "name": "loudness −18…−10 LUFS",
+          "ok": true,
+          "detail": "-12.7 LUFS"
+        },
+        {
+          "name": "true peak ≤ −0.5 dBTP",
+          "ok": true,
+          "detail": "-2.6 dBTP"
+        },
+        {
+          "name": "no black frames",
+          "ok": true,
+          "detail": "0.00s black"
+        },
+        {
+          "name": "no frozen segments > 1.5s",
+          "ok": true,
+          "detail": "motion throughout"
+        },
+        {
+          "name": "title 8–80 chars",
+          "ok": true,
+          "detail": "37 chars"
+        },
+        {
+          "name": "caption ≤ 2200 chars",
+          "ok": true,
+          "detail": "427 chars"
+        },
+        {
+          "name": "3–10 hashtags",
+          "ok": true,
+          "detail": "8"
+        },
+        {
+          "name": "hashtags well-formed",
+          "ok": true,
+          "detail": "#dashboard #dashboarddesign #saasdesign #editorialdesign #تصميم #مصمم_مستقل #freelancedesigner #designinspiration"
+        },
+        {
+          "name": "no duplicate hashtags",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "concept disclaimer present",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no client-work claims",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no links or emails",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "idea not used before",
+          "ok": true,
+          "detail": "25b18616aefab1e5"
+        },
+        {
+          "name": "video file is unique",
+          "ok": true,
+          "detail": "4b3fc3954a15"
+        },
+        {
+          "name": "caption not reused",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "one video per day",
+          "ok": true,
+          "detail": "2026-11-27"
+        }
+      ],
+      "plannedAt": "2026-11-27T16:00:00.000Z",
+      "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/45901498536"
     }
   ]
 }

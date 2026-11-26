@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T17:02:09.328Z",
+  "generatedAt": "2026-11-26T21:57:43.375Z",
   "repo": "tamimbuteful1-prog/design-autopilot",
   "control": {
     "paused": false,
@@ -19,6 +19,45 @@
     "timezone": "Asia/Riyadh"
   },
   "entries": [
+    {
+      "id": "2026-11-27-C038",
+      "date": "2026-11-27",
+      "code": "C038",
+      "category": {
+        "ar": "لوحة تحكم",
+        "en": "Dashboard"
+      },
+      "subject": {
+        "ar": "لوحة تحكم لإيرادات شركة SaaS",
+        "en": "SaaS revenue analytics"
+      },
+      "brand": "Northstar",
+      "style": "Editorial",
+      "palette": {
+        "name": "Sage",
+        "colors": [
+          "#EEF1EA",
+          "#2F6B4F",
+          "#E8B04B",
+          "#18211B"
+        ]
+      },
+      "status": "test",
+      "title": "خدمة تصميم لوحات التحكم — وش نقدم لك؟",
+      "videoUrl": null,
+      "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/45901498536",
+      "plannedAt": "2026-11-27T16:00:00.000Z",
+      "buffer": null,
+      "issue": null,
+      "qa": {
+        "passed": 24,
+        "total": 24,
+        "failed": []
+      },
+      "error": null,
+      "updatedAt": "2026-11-26T21:57:43.370Z",
+      "thumb": "thumbs/2026-11-27-C038.jpg"
+    },
     {
       "id": "2026-11-26-C037",
       "date": "2026-11-26",
