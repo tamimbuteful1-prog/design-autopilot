@@ -10100,6 +10100,290 @@
       ],
       "plannedAt": "2026-11-27T16:00:00.000Z",
       "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/45901498536"
+    },
+    {
+      "id": "2026-11-28-C039",
+      "date": "2026-11-28",
+      "status": "test",
+      "idea": {
+        "category": "website",
+        "subjectKey": "ai-notes",
+        "styleKey": "soft",
+        "paletteKey": "blush",
+        "fingerprint": "c91464aca86373e3",
+        "conceptNo": 39,
+        "code": "C039",
+        "date": "2026-11-28",
+        "brand": "Margin",
+        "subject": {
+          "ar": "صفحة هبوط لتطبيق ملاحظات ذكي",
+          "en": "AI notes app landing page"
+        },
+        "categoryMeta": {
+          "ar": "موقع إلكتروني",
+          "en": "Website"
+        },
+        "icon": "star",
+        "shape": null,
+        "palette": {
+          "key": "blush",
+          "name": "Blush & Ink",
+          "mode": "light",
+          "bg": "#F9ECEC",
+          "surface": "#FFFFFF",
+          "surface2": "#F6E1E1",
+          "ink": "#221417",
+          "muted": "#7A5F64",
+          "line": "#EDD6D7",
+          "accent": "#B3264B",
+          "accent2": "#3A3A8C",
+          "accentInk": "#FFFFFF"
+        },
+        "style": {
+          "key": "soft",
+          "name": "Soft UI",
+          "radius": 28,
+          "border": 0,
+          "shadow": "0 30px 60px -20px rgba(0,0,0,.25)",
+          "heading": "Inter",
+          "weight": 700,
+          "tracking": -1.5
+        },
+        "content": {
+          "nav": [
+            "Product",
+            "Pricing",
+            "Docs",
+            "Sign in"
+          ],
+          "heroTitle": "Your notes, finally organised themselves",
+          "heroSub": "Capture anything. Find everything. Summaries in one tap.",
+          "cta": "Start free",
+          "features": [
+            {
+              "title": "Auto-tagging",
+              "body": "Notes sort into projects as you write.",
+              "icon": "grid"
+            },
+            {
+              "title": "Instant recall",
+              "body": "Search by meaning, not keywords.",
+              "icon": "search"
+            },
+            {
+              "title": "Offline first",
+              "body": "Works anywhere, syncs everywhere.",
+              "icon": "bolt"
+            }
+          ],
+          "stats": [
+            [
+              "2 min",
+              "Setup"
+            ],
+            [
+              "∞",
+              "Notes"
+            ],
+            [
+              "E2E",
+              "Encrypted"
+            ]
+          ],
+          "pricing": [
+            {
+              "name": "Free",
+              "price": "$0",
+              "items": [
+                "500 notes",
+                "Basic search"
+              ]
+            },
+            {
+              "name": "Pro",
+              "price": "$8",
+              "items": [
+                "Unlimited notes",
+                "AI summaries"
+              ]
+            },
+            {
+              "name": "Team",
+              "price": "$14",
+              "items": [
+                "Shared spaces",
+                "Admin tools"
+              ]
+            }
+          ],
+          "steps": null
+        },
+        "seed": "2026-11-28:38#0"
+      },
+      "createdAt": "2026-11-27T21:39:34.159Z",
+      "log": [
+        {
+          "at": "2026-11-27T21:39:34.159Z",
+          "msg": "idea chosen: website / ai-notes / soft / blush"
+        },
+        {
+          "at": "2026-11-27T21:40:35.137Z",
+          "msg": "rendered"
+        },
+        {
+          "at": "2026-11-27T21:40:37.202Z",
+          "msg": "QA 24/24 passed"
+        },
+        {
+          "at": "2026-11-27T21:40:37.206Z",
+          "msg": "TEST mode: QA passed; upload and publishing skipped"
+        }
+      ],
+      "updatedAt": "2026-11-27T21:40:37.206Z",
+      "copy": {
+        "title": "خدمة تصميم المواقع وصفحات الهبوط — وش نقدم لك؟",
+        "caption": "خدمة تصميم المواقع وصفحات الهبوط — وش نقدم لك؟\n\nوش تحصل معنا:\n✅ صفحة رئيسية تقنع الزائر\n✅ تصميم متجاوب مع الجوال\n✅ جاهز للتطوير مباشرة\n\nجاهزين نبدأ مشروعك — تواصل معانا على الخاص 📩\n\nℹ️ التصميم المعروض مفاهيمي (Concept C039) لعلامة خيالية، وليس مشروعًا منفذًا لعميل.\n🤖 أُنتج هذا المحتوى بمساعدة أدوات الذكاء الاصطناعي.\n\n#webdesign #landingpage #websitedesign #softui #تصميم #مصمم_مستقل #freelancedesigner #designinspiration",
+        "hashtags": [
+          "#webdesign",
+          "#landingpage",
+          "#websitedesign",
+          "#softui",
+          "#تصميم",
+          "#مصمم_مستقل",
+          "#freelancedesigner",
+          "#designinspiration"
+        ]
+      },
+      "video": {
+        "file": "out/2026-11-28-C039/2026-11-28-C039.mp4",
+        "sha256": "336d042cc0a181ddb45abc69b7d3de0edf20263a5ba31afca084e3a9c7a1375c",
+        "bytes": 5180338,
+        "thumb": "out/2026-11-28-C039/thumb.jpg"
+      },
+      "qa": [
+        {
+          "name": "file size 0.3–50 MB",
+          "ok": true,
+          "detail": "5.18 MB"
+        },
+        {
+          "name": "video stream H.264",
+          "ok": true,
+          "detail": "h264"
+        },
+        {
+          "name": "resolution 1080×1920",
+          "ok": true,
+          "detail": "1080×1920"
+        },
+        {
+          "name": "pixel format yuv420p",
+          "ok": true,
+          "detail": "yuv420p"
+        },
+        {
+          "name": "frame rate 30 fps",
+          "ok": true,
+          "detail": "30.00"
+        },
+        {
+          "name": "duration 10–15s",
+          "ok": true,
+          "detail": "14.00s"
+        },
+        {
+          "name": "audio stream AAC",
+          "ok": true,
+          "detail": "aac"
+        },
+        {
+          "name": "moov atom at start (faststart)",
+          "ok": true,
+          "detail": "web-optimised"
+        },
+        {
+          "name": "loudness −18…−10 LUFS",
+          "ok": true,
+          "detail": "-12.6 LUFS"
+        },
+        {
+          "name": "true peak ≤ −0.5 dBTP",
+          "ok": true,
+          "detail": "-3.4 dBTP"
+        },
+        {
+          "name": "no black frames",
+          "ok": true,
+          "detail": "0.00s black"
+        },
+        {
+          "name": "no frozen segments > 1.5s",
+          "ok": true,
+          "detail": "motion throughout"
+        },
+        {
+          "name": "title 8–80 chars",
+          "ok": true,
+          "detail": "46 chars"
+        },
+        {
+          "name": "caption ≤ 2200 chars",
+          "ok": true,
+          "detail": "424 chars"
+        },
+        {
+          "name": "3–10 hashtags",
+          "ok": true,
+          "detail": "8"
+        },
+        {
+          "name": "hashtags well-formed",
+          "ok": true,
+          "detail": "#webdesign #landingpage #websitedesign #softui #تصميم #مصمم_مستقل #freelancedesigner #designinspiration"
+        },
+        {
+          "name": "no duplicate hashtags",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "concept disclaimer present",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no client-work claims",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no links or emails",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "idea not used before",
+          "ok": true,
+          "detail": "c91464aca86373e3"
+        },
+        {
+          "name": "video file is unique",
+          "ok": true,
+          "detail": "336d042cc0a1"
+        },
+        {
+          "name": "caption not reused",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "one video per day",
+          "ok": true,
+          "detail": "2026-11-28"
+        }
+      ],
+      "plannedAt": "2026-11-28T16:00:00.000Z",
+      "runUrl": "https://github.com/tamimbuteful1-prog/design-autopilot/actions/runs/46071663761"
     }
   ]
 }
